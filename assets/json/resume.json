@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Amirhossein mahmoudi",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "am.mahmoudi@outlook.com",
+    "phone": "(+98) 903 923 2023",
+    "url": "https://ammahmoudi.github.io/",
+    "summary": "Computer science student, with a aerospace background and loves machine learning, deep learning and bioinformatics",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Tehran",
+      "countryCode": "IR",
+      "region": "Tehran"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "Ammahmoodi",
+        "url": "https://twitter.com/ammahmoodi"
       }
     ]
   },
@@ -38,16 +38,33 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "institution": "Sharif University of technology, Tehran, Iran",
+      "url": "https://www.sharif.edu/",
+      "area": " Computer Science",
+      "studyType": "B.Sc",
+      "startDate": "2019-09-15",
+      "endDate": "present",
+      "score": "16.84/20.0",
       "courses": [
-        "Theory of Relativity"
+     "Machine Learning",
+            "Statistical Learning",
+            "Introduction to Bioinformatics",
+            "Big Data Engineering",
+            "Probability and Its Applications",
+            "Advanced Programming",
+            "Numerical Analysis 2"
       ]
+    }
+    ,
+    {
+      "institution": "National Organization for Development of Exceptional Talents, Esfarayen, Iran",
+      "url": "https://sampad.gov.ir/",
+      "area": "Mathematics and Physics",
+      "studyType": "High School Diploma",
+      "startDate": "2016-09-15",
+      "endDate": "2019-09-15",
+      "score": "19.94/20.0"
+      
     }
   ],
   "awards": [

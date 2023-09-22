@@ -5,8 +5,8 @@ date: 2022-06-08 21:00:00
 description: Conceptual design of a Martian Moons Exploration Excursion Vehicle and its mission in order to collect samples from lunar surfaces of Martian Moons to satisfy defined scientific objectives and submit the RFP requirements
 tags: awards honors
 categories: honors
-giscus_comments: true
 thumbnail: assets/img/posts/shadx-hiva/cover.png
+giscus_comments: true
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

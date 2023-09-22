@@ -6,6 +6,7 @@ description: Conceptual design of a modern regional jet family in order to reduc
 tags: awards honors
 categories: honors
 thumbnail: assets/img/posts/shadx-chaka/cover.png
+disqus_comments: true
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

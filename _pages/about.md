@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: B.SC of Computer Science at <a href="http://math.sharif.ir/">Department of Mathematical Sciences, Sharif University of Technology</a>
 

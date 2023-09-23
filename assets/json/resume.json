@@ -55,17 +55,17 @@
   ],
   "research interests": [
     {
-      "icon":"test",
+      "icon":"fa fa-rocket",
       "name":"Machine Learning",
       "keywords":["Deep learning","Statistical Learning","Natural Language Processing"]
     },
     {
-      "icon":"test",
+      "icon":"fa fa-heartbeat",
       "name":"Computation Biology",
       "keywords":["Computer-Aided Medical Procedures","Medical Image Processing"]
     },
     {
-      "icon":"test",
+      "icon":"fa fa-database",
       "name":"Data Science",
       "keywords":["Data Engineering"]
     }
@@ -251,7 +251,7 @@
   ],
   "skills": [
     {
-    "icon":"test",
+    "icon":"fa fa-code",
     "name":"Programming Languages",
     "keywords": [
       "C",
@@ -263,7 +263,7 @@
     ]
   },
   {
-    "icon":"test",
+    "icon":"fa fa-cogs",
     "name":"Tools",
     "keywords": [
       "Git/GitHub",
@@ -275,7 +275,7 @@
     ]
   },
   {
-    "icon":"test",
+    "icon":"fa fa-cubes",
     "name":"Frameworks",
     "keywords": [
       "React",
@@ -285,7 +285,7 @@
     ]
   },
   {
-    "icon":"test",
+    "icon":"fa fa-book",
     "name":"Libraries",
     "keywords": [
       "TensorFlow",
@@ -296,7 +296,7 @@
     ]
   },
   {
-    "icon":"test",
+    "icon":"fa fa-child",
     "name":"Soft Skills",
     "keywords": [
       "Scrum",
@@ -326,22 +326,22 @@
 
   "hobbies and interests": [
     {
-      "icon":"test",
+      "icon":"fa fa-font",
       "name":"Writing poem in Persian",
       "keywords":[]
     },
     {
-      "icon":"test",
+      "icon":"fa fa-paint-brush",
       "name":"Drawing portrait",
       "keywords":[]
     },
     {
-      "icon":"test",
+      "icon":"fa fa-comments",
       "name":"Coordinating English free discussion sessions at the local language institute",
       "keywords":[]
     },
     {
-      "icon":"test",
+      "icon":"fa fa-male",
       "name":"Amatur volleyball player (Member of the volleyball team in the Math Department)",
       "keywords":[]
     }

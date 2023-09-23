@@ -122,8 +122,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: posts of Amirhossein Mahmoudi
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: Daily posts of Amirhossein Mahmoudi
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -145,7 +145,7 @@ giscus:
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  input_position: top        # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
@@ -413,14 +413,16 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
-  - work
   - education
+  - research interests
+  - teaching experience
+  - work experience
+  - research experience and projects
   - publications
-  - projects
   - volunteer
-  - awards
+  - honors and awards
   - certificates
   - skills
   - languages
-  - interests
+  - hobbies and interests
   - references

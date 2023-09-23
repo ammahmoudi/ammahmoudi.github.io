@@ -87,13 +87,15 @@ layout: default
               {% include resume/basics.html %}
             {% when "education" %}
               {% include resume/education.html %}
-            {% when "work" %}
+            {% when "teaching experience" %}
+              {% include resume/teaching.html %}
+            {% when "work experience" %}
               {% include resume/work.html %}
             {% when "volunteer" %}
               {% include resume/volunteer.html %}
-            {% when "projects" %}
+            {% when "research experience and projects" %}
               {% include resume/projects.html %}
-            {% when "awards" %}
+            {% when "honors and awards" %}
               {% include resume/awards.html %}
             {% when "skills" %}
               {% include resume/skills.html %}
@@ -101,8 +103,10 @@ layout: default
               {% include resume/publications.html %}
             {% when "languages" %}
               {% include resume/languages.html %}
-            {% when "interests" %}
+            {% when "research interests" %}
               {% include resume/interests.html %}
+            {% when "hobbies and interests" %}
+              {% include resume/hobbies.html %}
             {% when "certificates" %}
               {% include resume/certificates.html %}
             {% else %}

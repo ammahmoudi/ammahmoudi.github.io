@@ -9,9 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Sharif University of Technology</p>
-    <p>Azadi Ave</p>
-    <p>Tehran, Iran</p>
 
 news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts

@@ -30,9 +30,7 @@ class RepoToPost:
             img_url, alt_text = RepoToPost.get_header_img(contents)
             contents = RepoToPost.add_github_to_image_url(contents,repository.name)
             contents = RepoToPost.image_to_figure(contents)
-
-            
-
+            contents = RepoToPost.add_github_to_url(contents,repository.name)
             file_path = RepoToPost.get_post_path(repository, post_dir_path)
             title = repository.name.replace('-', ' ')
             creation_date = repository.creation_date.strftime('%Y-%m-%d %H:%M:%S %z')
@@ -52,7 +50,7 @@ class RepoToPost:
 
                 f.write(f'img: ')
                 if img_url:
-                    f.write(f'{RepoToPost.add_github_to_url(img_url,repository.name)}\n')
+                    f.write(f'{RepoToPost.add_raw_github_to_url(img_url,repository.name)}\n')
                 else:
                     f.write(f'https://socialify.git.ci/{repository.fullname}/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light\n')
 
@@ -124,6 +122,9 @@ class RepoToPost:
     def is_image(content) -> bool:
         return '![' in content and ']' in content and '(' in content and ')' in content
     @staticmethod
+    def is_static_url(content) -> bool:
+        return  not '![' in content and ']' in content and '(' in content and ')' in content
+    @staticmethod
     def add_github_to_image_url(contents,repo_name):
          for content in contents.split('\n'):
             if RepoToPost.is_image(content):
@@ -132,7 +133,15 @@ class RepoToPost:
                 contents=contents.replace(content,new_content)
          return contents
     @staticmethod
-    def add_github_to_url(url,repo_name):
+    def add_github_to_url(contents,repo_name):
+         for content in contents.split('\n'):
+            if RepoToPost.is_static_url(content):
+                p_index=content.find("](.")
+                new_content= content[:p_index+2]+"https://github.com/"+RepoToPost.username+"/"+repo_name+"/tree/main/"+content[p_index+4:]
+                contents=contents.replace(content,new_content)
+         return contents
+    @staticmethod
+    def add_raw_github_to_url(url,repo_name):
             return "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/main"+url
    
     @staticmethod

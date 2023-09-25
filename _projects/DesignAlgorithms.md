@@ -52,5 +52,5 @@ Book by Christos Papadimitriou, Sanjoy Dasgupta, and Umesh Vazirani
 
 The problems are in Persian but my answers are in English.
 
-[https://github.com/ammahmoudi/DesignAlgorithms/tree/main/eoritical Homeworks]('./TheorticalHomeworks')
+[Theoritical Homeworks](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/TheorticalHomeworks)
 

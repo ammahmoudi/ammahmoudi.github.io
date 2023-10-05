@@ -7,7 +7,7 @@ date: 2023-10-05 22:05:44
 last_modified_at: 2023-10-05 22:17:12 
 url: https://github.com/ammahmoudi/Tasnim-News-Classification
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/mainoutput.png
+img: https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png
 categories: ["Repository", Jupyter Notebook]
 ---
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Tasnim-News-Classification" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
@@ -39,7 +39,7 @@ The core of the code involved training and evaluating text classification models
 
 ## Conclusion
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/mainoutput.png" alt="results" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png" alt="results" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 This code focused on the task of text classification within the context of an Iranian newspaper dataset. The project encompassed data exploration, text preprocessing, feature engineering, and model training. Notably, it provided an opportunity to assess the performance of different machine learning algorithms on the given task.
 

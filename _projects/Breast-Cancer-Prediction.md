@@ -24,7 +24,7 @@ We will use "Breast Cancer Gene Expression Profiles (METABRIC)" data.
 - **Gene Expression Data**: These columns include gene expression values and provide insights into the genetic characteristics of patients.
 - **Gene Mutation Data**: These columns contain information about gene mutations, which can be critical in cancer research. Gene's mutation info columns have been marked with \"\\_mut\" at the end of the names of the columns.
   
-Fhttps://github.com/ammahmoudi/Breast Cancer Prediction/tree/main/ more information please read the [data documentation](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric).
+Fhttps://github.com/ammahmoudi/Breast-Cancer-Prediction/tree/main/ more information please read the [data documentation](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric).
 
 
 ## Code Explanation
@@ -55,7 +55,7 @@ In this project, the following tasks were performed:
 
 The XG_BOOST classifier achieved the best performance.
 This end-to-end implementation serves as a guide for applying core machine learning concepts to classify and predict breast cancer from medical imaging data. There may be some issues and problems in data and models which are skipped.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Breast Cancer Prediction/main/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/main/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 Please refer to the code file for a detailed explanation and code implementation.
 

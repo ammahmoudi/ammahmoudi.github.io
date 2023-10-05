@@ -13,7 +13,7 @@ categories: ["Repository", Jupyter Notebook]
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Tasnim-News-Classification" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 
-Thttps://github.com/ammahmoudi/Tasnim News Classification/tree/main/s project represents a Machine Learning course's midterm exam which I designed as a teacher assistant, focusing on the task of text classification. The project specifically involved a case study related to an Iranian newspaper dataset ([dataset](https://www.kaggle.com/datasets/amirpourmand/tasnimdataset)). The primary objective was to build and evaluate text classification models to categorize newspaper articles into predefined topics accurately.
+Thttps://github.com/ammahmoudi/Tasnim-News-Classification/tree/main/s project represents a Machine Learning course's midterm exam which I designed as a teacher assistant, focusing on the task of text classification. The project specifically involved a case study related to an Iranian newspaper dataset ([dataset](https://www.kaggle.com/datasets/amirpourmand/tasnimdataset)). The primary objective was to build and evaluate text classification models to categorize newspaper articles into predefined topics accurately.
 
 ## Project Steps
 
@@ -39,7 +39,7 @@ The core of the code involved training and evaluating text classification models
 
 ## Conclusion
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Tasnim News Classification/mainoutput.png" alt="results" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/mainoutput.png" alt="results" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 This code focused on the task of text classification within the context of an Iranian newspaper dataset. The project encompassed data exploration, text preprocessing, feature engineering, and model training. Notably, it provided an opportunity to assess the performance of different machine learning algorithms on the given task.
 

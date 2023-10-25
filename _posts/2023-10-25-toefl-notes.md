@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TOEFL Notes
-date: 2021-08-28 21:00:00
+date: 2023-10-25 15:47:00
 description: Resources and templates whcich i've gathered to prepare for TOEFL iBT exam.
 tags: notes toefl english
 categories: notes
@@ -9,6 +9,7 @@ thumbnail: assets/img/posts/toefl-notes/cover.jpg
 giscus_comments: true
 toc:
   sidebar: left
+  
 ---
 
 # TOEFL Speaking and Writing Phrases

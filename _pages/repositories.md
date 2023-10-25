@@ -3,8 +3,8 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: 
-nav: true
-nav_order: 3
+nav: false
+nav_order: 4
 ---
 Here are some of my github repositories.for more iformation visit my github page.
 

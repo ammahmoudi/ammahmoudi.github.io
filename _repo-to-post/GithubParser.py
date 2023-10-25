@@ -37,6 +37,7 @@ class GithubParser:
             topics = repo.get_topics()
             repository = Repository(name, repo.full_name, repo.created_at, repo.updated_at, repo.html_url, topics, repo.language, repo)
             repos.append(repository)
+            print(repo.default_branch)
         print("Finished parsing repositories!")
         return repos
 

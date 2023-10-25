@@ -28,9 +28,9 @@ class RepoToPost:
             contents = RepoToPost.fix_image_links(contents)
             contents = RepoToPost.fix_urls(contents)
             img_url, alt_text = RepoToPost.get_header_img(contents)
-            contents = RepoToPost.add_github_to_image_url(contents,repository.name)
+            contents = RepoToPost.add_github_to_image_url(contents,repository.name.replace(" ","-"),repository.repo.default_branch)
             contents = RepoToPost.image_to_figure(contents)
-            contents = RepoToPost.add_github_to_url(contents,repository.name)
+            contents = RepoToPost.add_github_to_url(contents,repository.name.replace(" ","-"),repository.repo.default_branch)
             file_path = RepoToPost.get_post_path(repository, post_dir_path)
             title = repository.name.replace('-', ' ')
             creation_date = repository.creation_date.strftime('%Y-%m-%d %H:%M:%S %z')
@@ -50,7 +50,7 @@ class RepoToPost:
 
                 f.write(f'img: ')
                 if img_url:
-                    f.write(f'{RepoToPost.add_raw_github_to_url(img_url,repository.name)}\n')
+                    f.write(f'{RepoToPost.add_raw_github_to_url(img_url,repository.name.replace(" ","-"),repository.repo.default_branch)}\n')
                 else:
                     f.write(f'https://socialify.git.ci/{repository.fullname}/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light\n')
 
@@ -73,7 +73,8 @@ class RepoToPost:
     @staticmethod
     def get_post_path(repository, post_dir_path) -> str:
         creation_date = repository.creation_date.strftime("%Y-%m-%d")
-        return f"{post_dir_path}/{repository.name}.md"
+        name=repository.name.replace(" ","-")
+        return f"{post_dir_path}/{name}.md"
         # return f"{post_dir_path}/{creation_date}-{repository.name}.md"
 
     @staticmethod
@@ -123,26 +124,26 @@ class RepoToPost:
         return '![' in content and ']' in content and '(' in content and ')' in content
     @staticmethod
     def is_static_url(content) -> bool:
-        return  not '![' in content and ']' in content and '(' in content and ')' in content
+        return  not '![' in content and "https://github.com/"+RepoToPost.username in content and ']' in content and '(' in content and ')' in content
     @staticmethod
-    def add_github_to_image_url(contents,repo_name):
+    def add_github_to_image_url(contents,repo_name,repo_branch):
          for content in contents.split('\n'):
             if RepoToPost.is_image(content):
                 p_index=content.find("](")
-                new_content= content[:p_index+2]+"https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/main"+content[p_index+2:]
+                new_content= content[:p_index+2]+"https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+content[p_index+2:]
                 contents=contents.replace(content,new_content)
          return contents
     @staticmethod
-    def add_github_to_url(contents,repo_name):
+    def add_github_to_url(contents,repo_name,repo_branch):
          for content in contents.split('\n'):
             if RepoToPost.is_static_url(content):
                 p_index=content.find("](.")
-                new_content= content[:p_index+2]+"https://github.com/"+RepoToPost.username+"/"+repo_name+"/tree/main/"+content[p_index+4:]
+                new_content= content[:p_index+2]+"https://github.com/"+RepoToPost.username+"/"+repo_name+"/tree/"+repo_branch+content[p_index+4:]
                 contents=contents.replace(content,new_content)
          return contents
     @staticmethod
-    def add_raw_github_to_url(url,repo_name):
-            return "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/main"+url
+    def add_raw_github_to_url(url,repo_name,repo_branch):
+            return "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+url
    
     @staticmethod
     def image_to_figure(contents):

@@ -2,18 +2,18 @@
 layout: post
 title: TOEFL Notes
 date: 2023-10-24 10:14:00-0400
-description: Resources and templates whcich i've gathered to prepare for TOEFL iBT exam
+description: Resources and templates which i've gathered to prepare for TOEFL iBT exam.
 tags: notes toefl english
 categories: notes
+thumbnail: assets/img/posts/toefl-notes/cover.jpg
 giscus_comments: true
-related_posts: false
 toc:
   sidebar: left
   
 ---
 
 # TOEFL Speaking Template
-These are the templates I have gathered for TOEFL iBT speaking tasks.some phrases are marked with ✅ which is offered to use.
+These are the templates I have gathered for TOEFL iBT speaking tasks. Some phrases are marked with ✅ which is offered to use.
 ## Task 1
 
 ### Main Point (8 seconds)
@@ -276,7 +276,7 @@ These are the templates I have gathered for TOEFL iBT speaking tasks.some phrase
 
 
 # TOEFL Writing Template
-These are the templates I have gathered for TOEFL iBT writing tasks.some phrases are marked with ✅ which is offered to use.
+These are the templates I have gathered for TOEFL iBT writing tasks. Some phrases are marked with ✅ which is offered to use.
 ## Task 1
 
  *280-300 words*

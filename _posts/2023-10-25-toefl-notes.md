@@ -9,7 +9,6 @@ thumbnail: assets/img/posts/toefl-notes/cover.jpg
 giscus_comments: true
 toc:
   sidebar: left
-  
 ---
 
 # TOEFL Speaking and Writing Phrases

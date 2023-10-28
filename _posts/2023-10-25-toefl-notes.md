@@ -11,10 +11,19 @@ toc:
   sidebar: left
   
 ---
+I have gathered some material to prepare for TOEFL iBT test. There are templates for all tasks of speaking and writing sections along with some general templates for both sections. At the end a catagorized list of phrases are included to be used in speaking and writing. an onenote version of this post is also available here. I would appreciate any comments.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/posts/toefl-notes/cover2.png" class="img-fluid rounded z-depth-1" zoomable=false %}
+    </div>
+    </div>
 
 # TOEFL Speaking Template
 These are the templates I have gathered for TOEFL iBT speaking tasks. Some phrases are marked with ✅ which is offered to use.
 ## Task 1
+
+Try to first simply state your opinion.Then give two reasons to support it.
 
 ### Main Point (8 seconds)
 

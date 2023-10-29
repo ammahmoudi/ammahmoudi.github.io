@@ -21,7 +21,7 @@ With environmental issues and health becoming trending topics, usage of bicycles
 This dataset contains the hourly and daily count of rental bikes between the years 2011 and 2012 in the Capital bike share system with the corresponding weather and seasonal information.
 
 
-* The dataset contains more than 17k samples with 17 attributes
+The dataset contains more than 17k samples with 17 attributes
   * record index
   * date
   * season : season (1:Spring, 2:Summer, 3:Fall, 4:Winter)
@@ -32,14 +32,15 @@ This dataset contains the hourly and daily count of rental bikes between the yea
   * weekday : day of the week (0 to 6)
   * workingday : if day is neither weekend nor holiday is 1 otherwise is 0
   * weather_condition:
-    
-		- 1: Clear, Few clouds, Partly cloudy
-    
-		- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-    
-		- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-    
-		- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+
+    - 1: Clear, Few clouds, Partly cloudy
+
+    - 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+
+    - 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+
+    - 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+
   * temp : Normalized temperature in Celsius. The values are divided to 41 (max)
   * atemp: Normalized feeling temperature in Celsius. The values are divided to 50 (max)
   * humidity: Normalized humidity. The values are divided to 100 (max)
@@ -53,25 +54,26 @@ This dataset contains the hourly and daily count of rental bikes between the yea
 ## Code Explanation
 
 ### **Data Loading and Exploration**
-    - The code reads the **"Data.csv"** file using pandas and displays basic information about the dataset, such as the number of rows and columns.
-    - It checks for missing values and performs some initial exploratory data analysis (EDA) by showing summary statistics.
+- The code reads the **"Data.csv"** file using pandas and displays basic information about the dataset, such as the number of rows and columns.
+- It checks for missing values and performs some initial exploratory data analysis (EDA) by showing summary statistics.
 
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ### **Feature Engineering**
-    - The notebook creates new features from existing ones. For example, it extracts the **hour** from the **timestamp** column to create a new feature called **"hour_of_day"**.
-    - It also creates a **"weekday"** feature to represent the day of the week.
+- The notebook creates new features from existing ones. For example, it extracts the **hour** from the **timestamp** column to create a new feature called **"hour_of_day"**.
+- It also creates a **"weekday"** feature to represent the day of the week.
 
 ### **Data Visualization**
-    - The code generates various plots using libraries like **matplotlib** and **seaborn**. These plots visualize trends in bike-sharing data, such as hourly usage patterns, daily usage, and seasonal variations.
-    - Examples include a bar plot showing average bike rentals by hour, a line plot of daily rentals over time, and a heatmap of correlations between features.
+- The code generates various plots using libraries like **matplotlib** and **seaborn**. These plots visualize trends in bike-sharing data, such as hourly usage patterns, daily usage, and seasonal variations.
+- Examples include a bar plot showing average bike rentals by hour, a line plot of daily rentals over time, and a heatmap of correlations between features.
+
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/hour_dist.png" alt="hour distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Model Building and Evaluation**
-    - The notebook splits the data into training and testing sets.
-    - It trains machine learning models (e.g., linear regression, random forest) to predict bike rentals based on features like temperature, humidity, and wind speed.
-    - Model performance metrics (e.g., RMSE) are calculated to evaluate model accuracy.
+- The notebook splits the data into training and testing sets.
+- It trains machine learning models (e.g., linear regression, random forest) to predict bike rentals based on features like temperature, humidity, and wind speed.
+- Model performance metrics (e.g., RMSE) are calculated to evaluate model accuracy.
 
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_lr.png" alt="residual plot of linear regression" class="img-fluid rounded z-depth-1" zoomable=true %}
 

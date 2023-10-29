@@ -192,25 +192,25 @@ For more information please read the [data documentation](https://archive.ics.uc
 The code aims to analyze credit risk data, visualize relationships, train a classifier, and address class imbalance issues. It uses Python libraries like pandas, numpy, seaborn, and scikit-learn. The goal is to predict credit risk based on various features in the dataset  .
 
 ### **Importing Libraries**
-    - The code begins by importing necessary libraries such as `pandas` and `numpy` for data manipulation, and `matplotlib` and `seaborn` for visualization.
+- The code begins by importing necessary libraries such as `pandas` and `numpy` for data manipulation, and `matplotlib` and `seaborn` for visualization.
 ### **Loading Data**:
-    - The credit risk dataset is read from a file named "Data.asc" using `pd.read_csv()`.
-    - The shape of the loaded dataframe is printed.
+- The credit risk dataset is read from a file named "Data.asc" using `pd.read_csv()`.
+- The shape of the loaded dataframe is printed.
 ### **Data Exploration**
-    - The top few rows of the dataset are displayed using `credit_data.head()`.
-    - A concise summary of the dataframe is printed using `credit_data.info()`, showing non-null counts and data types for each column.
-    - Statistical summary of data is displayed using `credit_data.describe()`.
+- The top few rows of the dataset are displayed using `credit_data.head()`.
+- A concise summary of the dataframe is printed using `credit_data.info()`, showing non-null counts and data types for each column.
+- Statistical summary of data is displayed using `credit_data.describe()`.
 ### **Exploratory Data Analysis (EDA)**
-    - Visualizations are created to explore relationships between features and class labels.
-    - Point plots show relationships between features like duration, amount, and employment duration for each class label.
-    - Count plots display the distribution of credit history for each class label.
+- Visualizations are created to explore relationships between features and class labels.
+- Point plots show relationships between features like duration, amount, and employment duration for each class label.
+- Count plots display the distribution of credit history for each class label.
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png" alt="imbalanced categories" class="img-fluid rounded z-depth-1" zoomable=true %}
 ### **Model Design and Evaluation**
-    - A random forest classifier is trained on the data.
-    - Accuracy scores are computed for both training and test sets.
+- A random forest classifier is trained on the data.
+- Accuracy scores are computed for both training and test sets.
 ### **Handling Imbalanced Data**
-    - Techniques to address class imbalance are applied (oversampling and undersampling).
-    - The performance metrics (precision, recall, F1-score) are evaluated for both class labels.
+- Techniques to address class imbalance are applied (oversampling and undersampling).
+- The performance metrics (precision, recall, F1-score) are evaluated for both class labels.
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/cmatrix.png" alt="imbalanced categories" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 

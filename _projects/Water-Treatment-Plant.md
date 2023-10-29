@@ -20,6 +20,7 @@ The plant is constituted by a primary settler, a biological reactor, and a secon
 ## Data Documentation
 
 This dataset comes from the daily measures of sensors in a urban waste water treatment plant. The objective is to classify the operational state of the plant in order to predict faults through the state variables of the plant at each of the stages of the treatment process. This domain has been stated as an ill-structured domain.
+
 For more information please read the [data documentation](https://data.world/uci/water-treatment-plant).
 
 
@@ -114,27 +115,31 @@ The water treatment plant dataset is read from Google Drive using the `pd.read_c
 ### **Display Samples**
 The top few rows of the dataset are displayed using `water_data.head()`. This shows how the data looks.
 
-### *Data Summary**
+### *Data Summary*
 A concise summary of the dataframe is printed using `water_data.info()`. It provides information about non-null counts and data types for each column.
+
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png" alt="input-sed vs sed-e" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Data Visualization**
 
-    - Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`.
-    - Bar Plots: Bar plots are used to show relationships between features like `PH-E` and class labels.
-    - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers.
-    - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`.
+- Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`.
+- Bar Plots: Bar plots are used to show relationships between features like `PH-E` and class labels.
+- Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers.
+- Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`.
+
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Data Preprocessing**
-    - Missing Value Imputation: The KNNImputer is used to impute missing values in the dataset.
-    - Feature Normalization: Features are normalized to a range between 0 and 1 using MinMaxScaler.
-    - Label Encoding: Class labels are transformed into integer values.
+
+- Missing Value Imputation: The KNNImputer is used to impute missing values in the dataset.
+- Feature Normalization: Features are normalized to a range between 0 and 1 using MinMaxScaler.
+- Label Encoding: Class labels are transformed into integer values.
 
 ### **Model Training and Evaluation**
-    - Linear SVM: A linear SVM model is trained and evaluated on training and test data.
-    - Kernel SVM (RBF): A kernel SVM model with an RBF kernel is fine-tuned using GridSearchCV for hyperparameter optimization.
+
+- Linear SVM: A linear SVM model is trained and evaluated on training and test data.
+- Kernel SVM (RBF): A kernel SVM model with an RBF kernel is fine-tuned using GridSearchCV for hyperparameter optimization.
 
 ### **Results**
-    - Linear SVM achieved a training accuracy of approximately 70% and a test accuracy of around 66%.
-    - Kernel SVM (RBF) with optimized hyperparameters achieved a training accuracy of 98% and a test accuracy of 83%.
+- Linear SVM achieved a training accuracy of approximately 70% and a test accuracy of around 66%.
+- Kernel SVM (RBF) with optimized hyperparameters achieved a training accuracy of 98% and a test accuracy of 83%.

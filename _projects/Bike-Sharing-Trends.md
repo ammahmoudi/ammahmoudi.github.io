@@ -4,10 +4,11 @@ category: repositories
 title: Bike Sharing Trends
 description: Predicting bike sharing trends using classic machine learning methods (linear regression, decision tree)
 date: 2023-10-29 09:32:06 
-last_modified_at: 2023-10-29 09:33:17 
+last_modified_at: 2023-10-29 13:53:11 
 url: https://github.com/ammahmoudi/Bike-Sharing-Trends
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png
+tags: [bike-sharing, decision-trees, eda, linear-regression, machine-learning, ml]
 categories: ["Repository", Jupyter Notebook]
 ---
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Bike-Sharing-Trends" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
@@ -71,11 +72,7 @@ This dataset contains the hourly and daily count of rental bikes between the yea
     - The notebook splits the data into training and testing sets.
     - It trains machine learning models (e.g., linear regression, random forest) to predict bike rentals based on features like temperature, humidity, and wind speed.
     - Model performance metrics (e.g., RMSE) are calculated to evaluate model accuracy.
-
-Results of linear regression:
-
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_lr.png" alt="residual plot of linear regression" class="img-fluid rounded z-depth-1" zoomable=true %}
-Results of decision tree:
 
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_dt.png" alt="residual plot of decision tree" class="img-fluid rounded z-depth-1" zoomable=true %}
 

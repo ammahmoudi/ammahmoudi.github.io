@@ -96,7 +96,6 @@ primary settler)
 
 35. RD-DBO-G (global performance input Biological demand of oxygen)
 
-
 36. RD-DQO-G (global performance input chemical demand of oxygen)
 
 37. RD-SS-G (global performance input suspended solids)
@@ -104,35 +103,38 @@ primary settler)
 38. RD-SED-G (global performance input sediments)
 
 
- ## Code Explanation
+## Code Explanation
 
-1. **Import Libraries**: The code begins by importing the necessary libraries, including `pandas` and `numpy`. These libraries are used for data manipulation and analysis.
+### **Import Libraries**
+The code begins by importing the necessary libraries, including `pandas` and `numpy`. These libraries are used for data manipulation and analysis.
 
-2. **Read Data**: The water treatment plant dataset is read from Google Drive using the `pd.read_csv()` function. The shape of the loaded dataframe is printed.
+### **Read Data**
+The water treatment plant dataset is read from Google Drive using the `pd.read_csv()` function. The shape of the loaded dataframe is printed.
 
-3. **Display Samples**: The top few rows of the dataset are displayed using `water_data.head()`. This shows how the data looks.
+### **Display Samples**
+The top few rows of the dataset are displayed using `water_data.head()`. This shows how the data looks.
 
-4. **Data Summary**: A concise summary of the dataframe is printed using `water_data.info()`. It provides information about non-null counts and data types for each column.
+### *Data Summary**
+A concise summary of the dataframe is printed using `water_data.info()`. It provides information about non-null counts and data types for each column.
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png" alt="input-sed vs sed-e" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-5. **Data Visualization**:
+### **Data Visualization**
+
     - Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`.
     - Bar Plots: Bar plots are used to show relationships between features like `PH-E` and class labels.
     - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers.
     - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`.
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-6. **Data Preprocessing**:
+### **Data Preprocessing**
     - Missing Value Imputation: The KNNImputer is used to impute missing values in the dataset.
     - Feature Normalization: Features are normalized to a range between 0 and 1 using MinMaxScaler.
     - Label Encoding: Class labels are transformed into integer values.
 
-7. **Model Training and Evaluation**:
+### **Model Training and Evaluation**
     - Linear SVM: A linear SVM model is trained and evaluated on training and test data.
     - Kernel SVM (RBF): A kernel SVM model with an RBF kernel is fine-tuned using GridSearchCV for hyperparameter optimization.
 
-8. **Results**:
+### **Results**
     - Linear SVM achieved a training accuracy of approximately 70% and a test accuracy of around 66%.
     - Kernel SVM (RBF) with optimized hyperparameters achieved a training accuracy of 98% and a test accuracy of 83%.
-
-

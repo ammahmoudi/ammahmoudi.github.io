@@ -4,10 +4,11 @@ category: repositories
 title: Water Treatment Plant
 description: Categorizing the plant's operation state using sensor data suing SVMs.
 date: 2023-10-29 13:39:24 
-last_modified_at: 2023-10-29 13:41:01 
+last_modified_at: 2023-10-29 13:54:28 
 url: https://github.com/ammahmoudi/Water-Treatment-Plant
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png
+tags: [eda, knn, ml, svm, water-treatment, machine-learning]
 categories: ["Repository", Jupyter Notebook]
 ---
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Water-Treatment-Plant" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
@@ -24,7 +25,6 @@ For more information please read the [data documentation](https://data.world/uci
 
 ### Attributes
 Water treatment plant dataset has 38 attributes. All atrributes are numeric and continuous:
-
 1. Q-E (input flow to plant)
 
 2. ZN-E (input Zinc to plant)
@@ -103,6 +103,7 @@ primary settler)
 
 38. RD-SED-G (global performance input sediments)
 
+
  ## Code Explanation
 
 1. **Import Libraries**: The code begins by importing the necessary libraries, including `pandas` and `numpy`. These libraries are used for data manipulation and analysis.
@@ -112,15 +113,13 @@ primary settler)
 3. **Display Samples**: The top few rows of the dataset are displayed using `water_data.head()`. This shows how the data looks.
 
 4. **Data Summary**: A concise summary of the dataframe is printed using `water_data.info()`. It provides information about non-null counts and data types for each column.
-
-
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png" alt="input-sed vs sed-e" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 5. **Data Visualization**:
-    - Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`¹[1].
+    - Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`.
     - Bar Plots: Bar plots are used to show relationships between features like `PH-E` and class labels.
-    - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers²[2].
-    - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`³[3].
+    - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers.
+    - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`.
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 6. **Data Preprocessing**:

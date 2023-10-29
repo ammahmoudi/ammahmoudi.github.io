@@ -11,7 +11,7 @@ toc:
   sidebar: left
   
 ---
-I have gathered some material to prepare for TOEFL iBT test. There are templates for all tasks of speaking and writing sections along with some general templates for both sections. At the end a catagorized list of phrases are included to be used in speaking and writing. an onenote version of this post is also available here. I would appreciate any comments.
+I have gathered some material to prepare for TOEFL iBT test. There are templates for all tasks of speaking and writing sections along with some general templates for both sections. At the end a catagorized list of phrases are included to be used in speaking and writing. an onenote version of this post is also available [here](https://1drv.ms/u/s!AhV7J-x4u7MwpiQLrwcqxpY7C0yd). I would appreciate any comments.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -402,7 +402,7 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 
 - For example \[elaborate on your challenge with your own ideas\].
 
-- I would add to \[STUDENT WHICH YOU AGREE WITH\]'s idead. … ✅
+- I would add to \[STUDENT WHICH YOU AGREE WITH\]'s idea. … ✅
 
 ### Challenging 
 
@@ -416,7 +416,28 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 
 - However, it may not fully capture \[CHALLENGE\].
 
-- I understand \[STUDENT YOU DISAFREE WITH\]'s opinion, but \[CHALLENGE STUDENT'S IDEA\] ✅
+- I understand \[STUDENT YOU DISAGREE WITH\]'s opinion, but \[CHALLENGE STUDENT'S IDEA\] ✅
+
+### Sample
+
+<blockquote>
+This is a sample response to task 2, which shows how the structure of a highly scored response could be. I have inspired this from my dear friend, <a href="https://amir-thatoneguy.github.io/">Amir</a> , who helped me to cope with TOEFL iBt ❤️.
+</blockquote>
+
+
+#### Doctor Achebe
+This week, we'll be discussing how technological advances are transforming the job market, making some jobs unnecessary. Let's focus on government actions. Suppose the government had to choose between two ways in which to support people whose jobs are no longer needed. The government could either give them enough money to live on until they find new jobs or offer them free job training without giving them money directly. Which of these two solutions do you think is better? Why?
+
+#### Andrew
+I believe that the government should prioritize providing free job training opportunities. Modern training programs are usually costly, which means that many people will not be able to afford them without the government's funding. By participating in training programs, people will develop new, in-demand skills and become more competitive in the job market.
+
+#### Kelly
+Although I agree that having access to free training programs sounds promising, I think the government's first step should be to give people enough money to live on until they find new jobs. This money will go directly into people's pockets and allow them to make their own choices concerning their future.
+
+#### Response
+**This is a challenging topic, but I would have to agree with** Andrew here. **While I do understand Kelly's concern about** how providing money to unemployed people can help them survive, free job training opportunities allow them to earn skills that will help them get a job. If unemployed people rely on the government's financial aid too much, they might never be able to earn money independently.
+**I would also like to add something to** Andrew **'s comment**. Technology is always advancing, so even if people find a job, they will have to improve their skills constantly. This means that the government will have to keep paying unemployed people, which can be costly. Training programs are beneficial because they can teach people how to learn job skills for themselves. Many people might never have the opportunity to learn these skills.
+
 
 
 # General Phrases

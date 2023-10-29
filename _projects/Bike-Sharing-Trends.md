@@ -71,7 +71,11 @@ This dataset contains the hourly and daily count of rental bikes between the yea
     - The notebook splits the data into training and testing sets.
     - It trains machine learning models (e.g., linear regression, random forest) to predict bike rentals based on features like temperature, humidity, and wind speed.
     - Model performance metrics (e.g., RMSE) are calculated to evaluate model accuracy.
+
+Results of linear regression:
+
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_lr.png" alt="residual plot of linear regression" class="img-fluid rounded z-depth-1" zoomable=true %}
+Results of decision tree:
 
 {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_dt.png" alt="residual plot of decision tree" class="img-fluid rounded z-depth-1" zoomable=true %}
 

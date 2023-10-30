@@ -43,4 +43,3 @@ Here are some of my github repositories.for more iformation visit my github page
 {% endif %}
 {% endif %}
 
-

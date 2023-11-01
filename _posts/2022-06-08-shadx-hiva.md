@@ -3,7 +3,7 @@ layout: post
 title: Participation in The 2022 AIAA Undergraduate Team Space Design Competition
 date: 2022-06-08 21:00:00
 description: Conceptual design of a Martian Moons Exploration Excursion Vehicle and its mission in order to collect samples from lunar surfaces of Martian Moons to satisfy defined scientific objectives and submit the RFP requirements
-tags: awards honors
+tags: awards honors AIAA
 categories: honors
 thumbnail: assets/img/posts/shadx-hiva/cover.png
 giscus_comments: true

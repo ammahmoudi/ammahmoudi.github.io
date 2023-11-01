@@ -3,7 +3,7 @@ layout: post
 title: Silver medal at International Competition of Graduate Aircraft Design 2020-2021 held by AIAA🥈
 date: 2021-08-28 21:00:00
 description: Conceptual design of a modern regional jet family in order to reduce at least  20% of block fuel compared with available aircrafts
-tags: awards honors
+tags: awards honors AIAA
 categories: honors
 thumbnail: assets/img/posts/shadx-chaka/cover.png
 giscus_comments: true

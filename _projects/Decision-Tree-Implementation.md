@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Decision Tree Implementation
 description: Implementing Decision Tree Classifer from scrath and then train it on breast cancer dataset from the University of Wisconsin Hospitals
 date: 2023-10-29 20:38:20 

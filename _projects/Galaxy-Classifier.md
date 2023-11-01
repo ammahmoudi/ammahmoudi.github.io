@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Galaxy Classifier
 description: Classifing galaxy images using a MLP Model with PyTorch
 date: 2023-10-30 12:25:16 

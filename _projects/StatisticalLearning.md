@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: StatisticalLearning
 description: Homework Solutions for Statistical Learning Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
 date: 2023-09-04 21:10:07 

@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Credit Risk Prediction
 description: Predicting credit risk when a person requests for loan using random forest on south German dataset (fixing imbalanced data)
 date: 2023-10-29 14:34:10 

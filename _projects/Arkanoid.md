@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Arkanoid
 description: classic  arkanoid game using java and swing
 date: 2021-11-25 08:45:06 

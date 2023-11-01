@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Handwritten Digit Classification
 description: Handwritten Digit Classification on MNIST dataset using Conventional Neural Network in PyTorch
 date: 2023-10-30 15:35:34 

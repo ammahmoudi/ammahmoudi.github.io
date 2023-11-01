@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: COVID 19 Autoencoder
 description: Using Autoencoder in keras as a nonlinear dimensionality reduction method to encode COVID-19 patients data
 date: 2023-10-30 18:02:07 

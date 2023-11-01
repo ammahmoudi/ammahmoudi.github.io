@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Ants Colony
 description: Ants Coloney multi-processing app
 date: 2022-04-09 15:37:43 

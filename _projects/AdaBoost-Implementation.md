@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: AdaBoost Implementation
 description: implementing AdaBoost from scratch and comparing it with Scikit-Learn's implementation along with exploring concept of early stopping and weighted errors in boosting algorithms.
 date: 2023-10-29 22:23:20 

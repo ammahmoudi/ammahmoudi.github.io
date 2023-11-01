@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: IntroductionToMachineLearning
 description: Introduction to Machine Learning, for B.Sc. Students, Industrial Engineering Department, Sharif University of Technology
 date: 2023-08-31 13:34:39 

@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Water Treatment Plant
 description: Categorizing the plant's operation state using sensor data suing SVMs.
 date: 2023-10-29 13:39:24 

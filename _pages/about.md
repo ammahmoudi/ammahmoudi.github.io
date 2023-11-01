@@ -9,9 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
-    # <p>Your City, State 12345</p>
 news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -35,4 +32,4 @@ Amirhossein is a creative person who enjoys various forms of art and expression.
 
 Amirhossein is looking for graduate positions that will allow him to pursue his passion for machine learning and deep learning, as well as to learn from and collaborate with other researchers and experts in the field. He is eager to apply his knowledge and skills to solve real-world problems and make a positive impact on society.
 
-His [CV page](/CV) includes more information about Amirhossein and His [projects page(/projects)] contains detailed information about what he has done.
+His [CV page](/CV) includes more information about Amirhossein and His [projects page](/projects) contains detailed information about what he has done.

@@ -39,7 +39,7 @@ class RepoToPost:
             with open(file_path, 'w', encoding="utf-8") as f:
                 f.write('---\n')
                 f.write('layout: page\n')
-                f.write('category: repositories\n')
+                f.write('category: Repositories\n')
 
                 f.write(f'title: {title}\n')
                 f.write(f'description: {repository.repo.description}\n')

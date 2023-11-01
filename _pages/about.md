@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 <!-- **Amirhossein Mahmoudi** is a 23-year-old computer science student at Sharif University of Technology, one of the most prestigious universities in Iran. He has a diverse academic background and a strong passion for machine learning and deep learning. Some of his achievements and skills are:
 
-- He started his studies as an aerospace engineering student, where he learned about thermodynamics and fluid mechanics, and participated in the AIAA Design competition ([link](https://mamood.ir/blog/tag/AIAA/)).
+- He started his studies as an aerospace engineering student, where he learned about thermodynamics and fluid mechanics, and participated in the AIAA Design competition ([link](https://mamood.ir/blog/tag/aiaa/)).
 - He switched to computer science, where he developed an interest in machine learning and deep learning applications to biology and bioinformatics. He is working on his bachelor project, which uses physics-informed deep learning to reconstruct fluxomic data ([link](#to_your_project)).
 - He is also exploring natural language processing and large language models, but he is still new to these fields.
 

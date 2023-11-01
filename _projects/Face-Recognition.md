@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Face Recognition
 description: Face recognition using Eigen faces, PCA and support vector machines
 date: 2023-10-29 21:23:54 

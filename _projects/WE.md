@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: WE
 description: A social app for postint and messaging  using java , javafx,hibernate ORM
 date: 2021-11-25 08:46:16 

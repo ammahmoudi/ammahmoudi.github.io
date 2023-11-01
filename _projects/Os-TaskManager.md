@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Os TaskManager
 description: a context switching simulation of operation system supporting every context switching algorithms and deadlock prevention methods
 date: 2022-06-05 11:19:41 

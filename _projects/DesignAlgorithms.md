@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: DesignAlgorithms
 description: Homework Solutions for Design Algorithm Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
 date: 2023-08-31 12:37:17 

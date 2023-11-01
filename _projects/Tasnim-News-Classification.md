@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Tasnim News Classification
 description: Text classification for news articles sourced from an Iranian newspaper including data exploration, text preprocessing, vectorization, train-test data splitting, and machine learning model training.
 date: 2023-10-05 22:05:44 

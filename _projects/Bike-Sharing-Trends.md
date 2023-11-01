@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Bike Sharing Trends
 description: Predicting bike sharing trends using classic machine learning methods (linear regression, decision tree)
 date: 2023-10-29 09:32:06 

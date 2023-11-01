@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: NumericalAnalysis
 description: Homework Solutions for Numerical Analysis Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
 date: 2023-09-04 13:05:01 

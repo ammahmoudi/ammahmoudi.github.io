@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: IntroductionToBioinformatics
 description: Homework Solutions for Introduction to Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology
 date: 2023-09-04 21:54:33 

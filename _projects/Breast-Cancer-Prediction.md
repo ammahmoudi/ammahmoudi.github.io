@@ -1,6 +1,6 @@
 ---
 layout: page
-category: repositories
+category: Repositories
 title: Breast Cancer Prediction
 description: Breast Cancer survival analysis using Machine Learning
 date: 2023-02-01 14:51:10 

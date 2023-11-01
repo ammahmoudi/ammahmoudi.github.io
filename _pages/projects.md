@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my projects
 nav: true
 nav_order: 2
-display_categories: [[repositories,"auto-generated repositoires with readme.md file"], [fun]]
+display_categories: [[Repositories,"extracted from my github repostiries"], [Graphics,""], [Poems,""],["Drawings",""]]
 horizontal: false
 ---
 

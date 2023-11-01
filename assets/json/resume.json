@@ -1,7 +1,6 @@
 {
   "basics": {
     "name": "Amirhossein mahmoudi",
-    "label": "Scientist",
     "image": "/assets/img/profile_pic.jpg",
     "email": "am.mahmoudi@outlook.com",
     "phone": "(+98) 903 923 2023",
@@ -27,7 +26,7 @@
       "institution": "Sharif University of technology, Tehran, Iran",
       "url": "https://www.sharif.edu/",
       "area": " Computer Science",
-      "studyType": "B.Sc",
+      "studyType": "B.Sc.",
       "startDate": "2019-09-15",
       "endDate": "present",
       "score": "16.84/20.0",
@@ -299,11 +298,21 @@
     "icon":"fa fa-child",
     "name":"Soft Skills",
     "keywords": [
-      "Scrum",
-      "Agile Project Management",
       "Team Leadership",
       "Project Planning",
       "Presentation"
+    ]
+  },
+  {
+    "icon":"fa fa-paint-brush",
+    "name":"Graphic Skills",
+    "keywords": [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe Aftereffects",
+      "Adobe Primiere",
+      "Adobe InDesign"
+      
     ]
   }
 

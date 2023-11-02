@@ -197,7 +197,12 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-
+defaults:
+  -
+    scope:
+      path: "photography"
+    values:
+      permalink: /:path/:basename:output_ext
 # Includes & excludes
 include: ['_pages']
 exclude:

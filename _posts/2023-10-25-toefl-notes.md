@@ -20,6 +20,13 @@ I have gathered some material to prepare for TOEFL iBT test. There are templates
     </div>
 
 # TOEFL Speaking Template
+Once a friend said:
+<blockquote>
+Talking is not word by word but chunk by chunk.
+
+-Nima Kelidari
+</blockquote>
+
 These are the templates I have gathered for TOEFL iBT speaking tasks. Some phrases are marked with ✅ which is offered to use.
 ## Task 1
 

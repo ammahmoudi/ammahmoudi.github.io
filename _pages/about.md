@@ -32,4 +32,4 @@ Amirhossein is a creative person who enjoys various forms of art and expression.
 
 Amirhossein is looking for graduate positions that will allow him to pursue his passion for machine learning and deep learning, as well as to learn from and collaborate with other researchers and experts in the field. He is eager to apply his knowledge and skills to solve real-world problems and make a positive impact on society.
 
-His [CV page](/CV) includes more information about Amirhossein and His [projects page](/projects) contains detailed information about what he has done.
+His [CV page](/cv) includes more information about Amirhossein and His [projects page](/projects) contains detailed information about what he has done.

@@ -1070,7 +1070,12 @@ nav[data-toggle="toc"] {
 
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
-  z-index: 999;
+  z-index: 9999;
+  // margin-top: 4%;
+  // margin-bottom: 4%;
+  // max-height: 92%;
+  scale: 0.9;
+
 }
 
 #toc-sidebar {

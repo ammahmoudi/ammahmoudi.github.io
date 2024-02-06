@@ -67,3 +67,11 @@ categories: ["Gamein", "Visual Content", "Graphics"]
     </div>
 
 </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/projects/gamein_2022/videos/keep_staring.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Gamein 2022 Teasing Video
+</div>

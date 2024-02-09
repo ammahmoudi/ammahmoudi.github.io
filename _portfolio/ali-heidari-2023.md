@@ -7,7 +7,7 @@ date: 2023-05-06 00:35:40
 last_modified_at: 2023-05-05 00:35:40 
 url: https://aliheidari.me
 importance: 1
-img:     assets/projects/ali_heidari_2023/images/ah (1) (Medium).png
+img:     assets/projects/ali_heidari_2023/images/ah (0) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, logo, id-card]
 categories: ["logo", "Visual Content", "Graphics"]
 giscus_comments: true

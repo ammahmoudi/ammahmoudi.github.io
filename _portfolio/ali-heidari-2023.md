@@ -10,6 +10,8 @@ importance: 1
 img:     assets/projects/ali_heidari_2023/images/ah (1) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, logo, id-card]
 categories: ["logo", "Visual Content", "Graphics"]
+giscus_comments: true
+
 ---
 
 <div class="row mt-3 align-items-center">

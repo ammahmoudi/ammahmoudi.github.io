@@ -10,6 +10,8 @@ importance: 1
 img:     assets/projects/gamein_2022/images/gamein (0) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Posters]
 categories: ["Gamein", "Visual Content", "Graphics"]
+giscus_comments: true
+
 ---
 
 <div class="row mt-3 align-items-center">

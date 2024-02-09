@@ -38,7 +38,7 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.portfolio | sort: "importance" -%}
+  {%- assign sorted_projects = site.portfolio | sort: "date" | reverse -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">

@@ -20,7 +20,7 @@ giscus_comments: true
     </div>
 </div>
 
-Ali Heidari is a marketing manager who wanted a personal logo that reflects his identity and profession. I designed a logo for him that combines the letters A and H in both Persian and English. The logo also uses colors that match his personality and style.
+[Ali Heidari](https://www.linkedin.com/in/aliheidarime/ "Ali Heidari Linkedin Page") is a Performance Marketing Specialist who wanted a personal logo that reflects his identity and profession. I designed a logo for him that combines the letters A and H in both Persian and English. The logo also uses colors that match his personality and style.
 
 The logo has a simple and elegant shape that can be easily recognized and remembered. The letters A and H are intertwined to create a harmonious and balanced design.
 

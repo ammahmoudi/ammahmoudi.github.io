@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Zanco 2022
+title: Zanco 2020
 description: Logo Designed for Zanco Konkor Consulting Group
 date: 2020-02-06 00:35:40 
 last_modified_at: 2020-02-05 00:35:40 

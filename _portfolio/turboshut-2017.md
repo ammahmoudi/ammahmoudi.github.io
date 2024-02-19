@@ -2,14 +2,14 @@
 layout: page
 
 title: TurboSHUT
-description: Logo and Headletter Designed for TurboSHUT Renewable Energy Company
+description: Logo and Letterhead Designed for TurboSHUT Renewable Energy Company
 date: 2017-02-06 00:35:40 
 last_modified_at: 2017-02-05 00:35:40 
 url: 
 importance: 1
 img:     assets/projects/turboshut_2017/images/turboshut (1) (Medium).png
-tags: [Illustrator, Photoshop, Graphics, logo,Headletter]
-categories: ["logo", "Visual Content", "Graphics","Headletter"]
+tags: [Illustrator, Photoshop, Graphics, logo,letterhead]
+categories: ["logo", "Visual Content", "Graphics","letterhead"]
 giscus_comments: true
 ---
 

@@ -33,4 +33,4 @@ One of my recent projects was designing covers for Deraye, a magazine published 
         <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/projects/deraye_2023/images/deraye (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
-<\div>
+</div>

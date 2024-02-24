@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my projects
 nav: true
 nav_order: 2
-display_categories: [[Repositories,"extracted from my github repostiries"], [Graphics,""], [Poems,""],["Drawings",""]]
+display_categories: [[Repositories,"extracted from my github repostiries"]]
 horizontal: false
 ---
 

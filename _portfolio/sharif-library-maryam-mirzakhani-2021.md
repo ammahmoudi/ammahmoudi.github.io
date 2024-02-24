@@ -7,7 +7,7 @@ date: 2021-10-23 00:35:40
 last_modified_at: 2021-10-23 00:35:40 
 url: http://library.sharif.ir/
 importance: 1
-img:     assets/projects/sharif_library/sharif_library (2) (Medium).png
+img:     assets/projects/sharif_library/maryam_mirzakhani_2021/sharif_library_mirzakhani (2) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Poster, Wallpaper]
 categories: [ "Visual Content", "Graphics", "Poster", "Wallpaper"]
 giscus_comments: true

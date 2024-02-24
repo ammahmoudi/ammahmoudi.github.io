@@ -7,7 +7,7 @@ date: 2023-01-29 00:35:40
 last_modified_at: 2023-01-29 00:35:40 
 url: http://library.sharif.ir/
 importance: 1
-img:     assets/projects/sharif_library/sharif_library (5) (Medium).png
+img:     assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (5) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Poster, Wallpaper]
 categories: [ "Visual Content", "Graphics", "Poster", "Wallpaper"]
 giscus_comments: true

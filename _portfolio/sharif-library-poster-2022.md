@@ -17,6 +17,8 @@ giscus_comments: true
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/projects/sharif_library/sharif_library_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+</div>
+
 This poster template is designed for events in the library of Sharif University of Technology, one of the most prestigious and influential universities in Iran and the Middle East. The template is inspired by the paintings in some versions of the old famous Persian poetry legendary book [Shahnameh(https://en.wikipedia.org/wiki/Shahnameh)], or the Book of Kings, written by the poet [Ferdowsi](https://en.wikipedia.org/wiki/Ferdowsi) in the 10th and 11th centuries. The Shahnameh is considered to be one of the greatest literary works in the world, and a source of pride and identity for the Iranian people and culture.
 
 <div class="row mt-3">

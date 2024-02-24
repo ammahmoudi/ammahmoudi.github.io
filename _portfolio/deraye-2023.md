@@ -2,7 +2,7 @@
 layout: page
 
 title: Deraye 2023
-description: Covers Designed for Deraye, An Aerospace-Based Trade magazine
+description: Covers Designed for Deraye, An Cultural-Scientific Magazine of The Sharif university Math Department
 date: 2023-07-06 00:35:40 
 last_modified_at: 2023-07-05 00:35:40
 url: https://hamband.math.sharif.edu/wiki/%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C/%D8%AF%D8%B1%D8%A7%DB%8C%D9%87/%D8%AF%D8%A7%D9%86%D8%B4%D9%86%D8%A7%D9%85%D9%87

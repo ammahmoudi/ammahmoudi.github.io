@@ -7,7 +7,7 @@ date: 2022-05-29 00:35:40
 last_modified_at: 2022-05-29 00:35:40 
 url: http://library.sharif.ir/
 importance: 1
-img:     assets/projects/sharif_library/sharif_library (9) (Medium).png
+img:     assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (9) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Poster, Wallpaper]
 categories: [ "Visual Content", "Graphics", "Poster", "Wallpaper"]
 giscus_comments: true

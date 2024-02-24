@@ -36,11 +36,9 @@ The template features the line art pictures of three famous and distinguished fi
 
 - [Dr. Mohammad Ali Mojtahedi](https://en.wikipedia.org/wiki/Mohammad_Ali_Mojtahedi), a visionary engineer and educator, and the founder and first president of the Sharif University of Technology. He was instrumental in transforming the former Aryamehr University of Technology into a world-class institution of higher education and research. He died in 1998 after a car accident, leaving behind a legacy of innovation and excellence.
 
-
 - [Ferdowsi](https://en.wikipedia.org/wiki/Ferdowsi), the epic poet and the author of the Shahnameh. He is regarded as one of the greatest poets in the history of Persian literature and culture. He spent over three decades composing the Shahnameh, which consists of over 50,000 verses and covers the mythical and historical stories of the ancient Iranian kings and heroes. He is credited with preserving and revitalizing the Persian language and culture in the face of the Arab invasion and influence. He died in 1020, leaving behind a legacy of poetry and patriotism.
 The vector line arts of Maryam Mirzakhani and Ferdowsi are based on paintings from my dear friend Alimohammad Parvaresh, a talented artist and a dear friend of mine. The paintings capture the essence and the spirit of these remarkable individuals and their achievements.
     
- 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -51,8 +49,6 @@ The vector line arts of Maryam Mirzakhani and Ferdowsi are based on paintings fr
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
-
 </div>
 
 

@@ -7,7 +7,7 @@ date: 2024-01-26 14:45:27
 last_modified_at: 2024-03-02 11:01:21 
 url: https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/mainsmallest_real_diff.svg
+img: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg
 tags: [arnoldi-algorithm, davidson-eigensolver, eigenvalue-solvers, eigenvalueproblems, iterative-methods, lanczos, power-method, jacobi-davidson]
 categories: ["Repository", Jupyter Notebook]
 ---
@@ -62,8 +62,8 @@ The performance and accuracy of the implementation are tested, and the results a
 
 ## Results
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/mainsmallest_real_diff.svg" alt="Smallest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/mainsmallest_residuals.svg" alt="Smallest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/mainbiggest_real_diff.svg" alt="Biggest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/mainbiggest_residuals.svg" alt="Biggest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg" alt="Smallest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_residuals.svg" alt="Smallest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_real_diff.svg" alt="Biggest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_residuals.svg" alt="Biggest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
 

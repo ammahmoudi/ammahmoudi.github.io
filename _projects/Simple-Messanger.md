@@ -2,12 +2,13 @@
 layout: page
 category: Repositories
 title: Simple Messanger
-description: None
+description: simple chat application implemented in Python using a server-client architecture with groups and channels
 date: 2024-03-03 15:12:00 
-last_modified_at: 2024-03-03 23:49:52 
+last_modified_at: 2024-03-04 07:23:59 
 url: https://github.com/ammahmoudi/Simple-Messanger
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/images/sc
+img: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png
+tags: [chat-application, end-to-end-encryption, messanger, server-client]
 categories: ["Repository", Python]
 ---
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Simple-Messanger" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
@@ -27,9 +28,9 @@ This is a simple chat application implemented in Python using a server-client ar
 
 ## Screenshots
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/images/sc" alt="sc1" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png" alt="sc1" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/images/sc" alt="sc2" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_2.png" alt="sc2" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ## Usage

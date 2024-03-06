@@ -32,12 +32,13 @@ class GithubParser:
         repo_count = repo_names.totalCount
         print(f"Found {repo_count} repositories for user {username}. Parsing...")
         for repo_name in tqdm(repo_names, total=repo_count):
+            print(f'\n{repo_name}:')
             repo = self.g.get_repo(repo_name.full_name)
             name = repo_name.name.replace('-', ' ')
             topics = repo.get_topics()
             repository = Repository(name, repo.full_name, repo.created_at, repo.updated_at, repo.html_url, topics, repo.language, repo)
             repos.append(repository)
-            print(repo.default_branch)
+            
         print("Finished parsing repositories!")
         return repos
 
@@ -48,7 +49,7 @@ class GithubParser:
 if __name__ == '__main__':
     # TODO.md: Edit your token and username
     access_token = None
-    username = 'ibaiGorordo'
+    username = 'ammahmoudi'
 
     parser = GithubParser(access_token)
     repositories = parser(username)

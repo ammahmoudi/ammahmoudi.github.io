@@ -167,6 +167,7 @@ class RepoToPost:
                     new_content= "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+url
                     print("new_url: ",new_content)
                     address=f"![{alt}]({url})"
+                    
                     contents=contents.replace(url,new_content)
          return contents
     

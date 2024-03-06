@@ -4,7 +4,7 @@ category: Repositories
 title: Data Visualization
 description: A curated collection of innovative data visualization projects
 date: 2024-03-05 12:18:29 
-last_modified_at: 2024-03-05 12:22:26 
+last_modified_at: 2024-03-06 18:14:10 
 url: https://github.com/ammahmoudi/Data-Visualization
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg
@@ -16,14 +16,29 @@ categories: ["Repository", Jupyter Notebook]
 
 Welcome to the Data Visualization repository! This collection features projects that showcase different techniques and approaches to visualizing data.
 
-## Table of Projects
+## [Nested-Tree-Map](https://github.com/ammahmoudi/Data-Visualization/tree/main/Nested-Tree-Map)
+**Description:** An interactive visualization representing hierarchical data with nested rectangles.  
+**Result:**
 
-| Project Name | Description | Result |
-| ------------ | ----------- | ----------- |
-| [Nested-Tree-Map](https://github.com/ammahmoudi/Data-Visualization/tree/main/Nested-Tree-Map) | An interactive visualization representing hierarchical data with nested rectangles. | {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg" alt="result_1" class="img-fluid rounded z-depth-1" zoomable=true %} |
-| [Packed-Circle-Chart](https://github.com/ammahmoudi/Data-Visualization/tree/main/Packed-Circle-Chart) | A circular layout method for displaying grouped or clustered data. | {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Packed-Circle-Chart/result.svg" alt="result_2" class="img-fluid rounded z-depth-1" zoomable=true %} |
-| [Radial-Plot](https://github.com/ammahmoudi/Data-Visualization/tree/main/Radial-Plot) | A graphical technique for displaying multivariate data in the form of a two-dimensional chart. | {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Radial-Plot/output.png" alt="result_3" class="img-fluid rounded z-depth-1" zoomable=true %} |
-| [Sunburst-Plot](https://github.com/ammahmoudi/Data-Visualization/tree/main/Sunburst-Plot) | A radial space-filling visualization to illustrate hierarchical relationships. | {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Sunburst-Plot/output.png" alt="result_4" class="img-fluid rounded z-depth-1" zoomable=true %} |
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg" alt="Nested Tree Map Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+## [Packed-Circle-Chart](https://github.com/ammahmoudi/Data-Visualization/tree/main/Packed-Circle-Chart)
+**Description:** A circular layout method for displaying grouped or clustered data.  
+**Result:** 
+
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Packed-Circle-Chart/result.svg" alt="Packed Circle Chart Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+## [Radial-Plot](https://github.com/ammahmoudi/Data-Visualization/tree/main/Radial-Plot)
+**Description:** A graphical technique for displaying multivariate data in the form of a two-dimensional chart.  
+**Result:**
+
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Radial-Plot/output.png" alt="Radial Plot Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+## [Sunburst-Plot](https://github.com/ammahmoudi/Data-Visualization/tree/main/Sunburst-Plot)
+**Description:** A radial space-filling visualization to illustrate hierarchical relationships.  
+**Result:**
+
+{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Sunburst-Plot/output.png" alt="Sunburst Plot Result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 For more details on each project, please refer to the README file located within the respective project folder.
 

@@ -8,6 +8,7 @@ last_modified_at: 2023-10-30 18:11:54
 url: https://github.com/ammahmoudi/COVID-19-Autoencoder
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png
 tags: [autoencoder, covid-19, deep-learning, deep-neural-networks, dimension-reduction, machine-learning, ml, keras-tensorflow]
 categories: ["Repository", Jupyter Notebook]
 ---

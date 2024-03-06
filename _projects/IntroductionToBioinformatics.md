@@ -8,6 +8,7 @@ last_modified_at: 2023-09-15 21:31:50
 url: https://github.com/ammahmoudi/IntroductionToBioinformatics
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/IntroductionToBioinformatics/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
+og_image: https://socialify.git.ci/ammahmoudi/IntroductionToBioinformatics/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 tags: [alignments, bioinformatics, rosalind-exercises]
 categories: ["Repository", Python]
 ---

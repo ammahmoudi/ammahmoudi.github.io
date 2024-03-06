@@ -8,6 +8,7 @@ last_modified_at: 2023-11-03 12:30:21
 url: https://github.com/ammahmoudi/Sea-Battle
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Sea-Battle/main/images/main.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Sea-Battle/main/images/main.png
 tags: [hibernate-orm, java, java-game, javafx, sea-battle, socket]
 categories: ["Repository", Java]
 ---

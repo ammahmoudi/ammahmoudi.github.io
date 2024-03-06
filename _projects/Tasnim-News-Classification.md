@@ -8,6 +8,7 @@ last_modified_at: 2023-10-29 13:54:05
 url: https://github.com/ammahmoudi/Tasnim-News-Classification
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png
 tags: [knn, machine-learning, ml, mlp, neural-network, nlp, persian-nlp, random-forest, svm]
 categories: ["Repository", Jupyter Notebook]
 ---

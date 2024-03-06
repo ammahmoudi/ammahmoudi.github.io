@@ -8,6 +8,7 @@ last_modified_at: 2023-10-29 21:10:47
 url: https://github.com/ammahmoudi/Decision-Tree-Implementation
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg
+og_image: https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg
 tags: [breast-cancer-wisconsin, decision-tree-algorithms, decision-trees, machine-learning, ml]
 categories: ["Repository", Jupyter Notebook]
 ---

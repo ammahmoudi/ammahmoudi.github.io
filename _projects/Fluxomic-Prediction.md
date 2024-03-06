@@ -8,6 +8,7 @@ last_modified_at: 2024-03-02 11:01:20
 url: https://github.com/ammahmoudi/Fluxomic-Prediction
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/Fluxomic-Prediction/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
+og_image: https://socialify.git.ci/ammahmoudi/Fluxomic-Prediction/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 tags: [bioinformatics, deep-neural-networks, fluxomics, ml, optimization, transcriptomics]
 categories: ["Repository", Jupyter Notebook]
 ---

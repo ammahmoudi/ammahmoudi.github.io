@@ -8,6 +8,7 @@ last_modified_at: 2023-09-15 21:32:49
 url: https://github.com/ammahmoudi/IntroductionToMachineLearning
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/IntroductionToMachineLearning/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
+og_image: https://socialify.git.ci/ammahmoudi/IntroductionToMachineLearning/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 tags: [deep-neural-networks, ensemble-learning, logistic-regression, machine-learning, ml, supervised-learning, unsupervised-learning]
 categories: ["Repository", Jupyter Notebook]
 ---

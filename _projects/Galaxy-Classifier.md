@@ -8,6 +8,7 @@ last_modified_at: 2023-10-30 13:01:53
 url: https://github.com/ammahmoudi/Galaxy-Classifier
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png
 tags: [cnn, deep-learning, machine-learning, ml, mlp, neural-network, pytorch]
 categories: ["Repository", Jupyter Notebook]
 ---

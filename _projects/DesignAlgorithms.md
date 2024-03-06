@@ -8,6 +8,7 @@ last_modified_at: 2024-02-09 19:35:12
 url: https://github.com/ammahmoudi/DesignAlgorithms
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/DesignAlgorithms/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
+og_image: https://socialify.git.ci/ammahmoudi/DesignAlgorithms/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 tags: [algorithms, data-structures, dynamic-programming, graph-algorithms, greedy-algorithms, linear-programming, recursive-backtracking-algorithm]
 categories: ["Repository", Jupyter Notebook]
 ---
@@ -29,17 +30,17 @@ Algorithms are supposed to be fast and efficient to accept the original problem 
 
 | Problem | Description |
 | --- | --- |
-| [BalancedParanthesisMinimumSwapsCounter](./BalancedParanthesisMinimumSwapsCounter) | Finding minimum swaps needed to balance an input string of parentheses |
-| [ClosestPointsFinder](./ClosestPointsFinder) |Finding closest points on a 2d plane with different data structures in O(n log n) |
-| [DiversityCoefficientFinding](./DiversityCoefficientFinding) | Calculating Diversity Coefficient among a group of singers in a singing competition |
-| [FarthestNodeFinder](./FarthestNodeFinder) | Finding the farthest node from the given starting node using Dijkstra |
-| [LongestCommonIncreasingSubsequence](./LongestCommonIncreasingSubsequence) | Finding Longest Common Increasing Subsequence between two strings using Dynamic Programming |
-| [MaximumVerticalMarginClassifier](./MaximumVerticalMarginClassifier) | a simple sudo SVM Classifier which only considers vertical distance (solved by LP) |
-| [RookPlacingwithinAllowedArea](./RookPlacingwithinAllowedArea) | Placing Rooks in an N*N chess board in which each rook is allowed to place only in a specified area without threatening other rooks |
-| [SafeMST](./SafeMST) | indicates that a list of edges are all part of the MST of the given graph using some sudo-kruskal algorithm |
-| [SafePathFinder](./SafePathFinder) | indicates that there is a safe path between the start and end point in a graph which has some unsafe edges |
-| [ShortestPathesToGraphBuilder](./ShortestPathesToGraphBuilder) | Given a list of shortest path lengths between vertices and trying to make the smallest graph with these properties  |
-| [TreeSplittingCounter](./TreeSplittingCounter) | Given a tree, trying to count all combinations of splitting this tree with some restrictions  |
+| [BalancedParanthesisMinimumSwapsCounter](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/BalancedParanthesisMinimumSwapsCounter) | Finding minimum swaps needed to balance an input string of parentheses |
+| [ClosestPointsFinder](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/ClosestPointsFinder) |Finding closest points on a 2d plane with different data structures in O(n log n) |
+| [DiversityCoefficientFinding](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/DiversityCoefficientFinding) | Calculating Diversity Coefficient among a group of singers in a singing competition |
+| [FarthestNodeFinder](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/FarthestNodeFinder) | Finding the farthest node from the given starting node using Dijkstra |
+| [LongestCommonIncreasingSubsequence](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/LongestCommonIncreasingSubsequence) | Finding Longest Common Increasing Subsequence between two strings using Dynamic Programming |
+| [MaximumVerticalMarginClassifier](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/MaximumVerticalMarginClassifier) | a simple sudo SVM Classifier which only considers vertical distance (solved by LP) |
+| [RookPlacingwithinAllowedArea](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/RookPlacingwithinAllowedArea) | Placing Rooks in an N*N chess board in which each rook is allowed to place only in a specified area without threatening other rooks |
+| [SafeMST](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/SafeMST) | indicates that a list of edges are all part of the MST of the given graph using some sudo-kruskal algorithm |
+| [SafePathFinder](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/SafePathFinder) | indicates that there is a safe path between the start and end point in a graph which has some unsafe edges |
+| [ShortestPathesToGraphBuilder](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/ShortestPathesToGraphBuilder) | Given a list of shortest path lengths between vertices and trying to make the smallest graph with these properties  |
+| [TreeSplittingCounter](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/TreeSplittingCounter) | Given a tree, trying to count all combinations of splitting this tree with some restrictions  |
 
 ## Theoretical Problems
 There is some theoretical homework along with my solutions around the algorithm topics. (my answers may be incorrect!)
@@ -52,5 +53,5 @@ Book by Christos Papadimitriou, Sanjoy Dasgupta, and Umesh Vazirani
 
 The problems are in Persian but my answers are in English.
 
-[Theoritical Homeworks](./TheorticalHomeworks)
+[Theoritical Homeworks](https://github.com/ammahmoudi/DesignAlgorithms/tree/main/TheorticalHomeworks)
 

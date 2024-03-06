@@ -8,6 +8,7 @@ last_modified_at: 2023-02-03 03:37:57
 url: https://github.com/ammahmoudi/Breast-Cancer-Prediction
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png
 tags: [machine-learning, ml, mlp, nuralnetwork]
 categories: ["Repository", Jupyter Notebook]
 ---

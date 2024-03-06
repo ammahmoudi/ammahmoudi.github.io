@@ -8,6 +8,7 @@ last_modified_at: 2023-11-03 21:25:47
 url: https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png
 tags: [calculator, java, javafx, jfoenix, server-client, socket, tcp]
 categories: ["Repository", Java]
 ---

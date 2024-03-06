@@ -8,6 +8,7 @@ last_modified_at: 2023-11-03 22:13:09
 url: https://github.com/ammahmoudi/Dinning-Philosophers
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/cover.jpg
+og_image: https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/cover.jpg
 tags: [dining-philosophers-problem, dinning-philosophers, java, javafx]
 categories: ["Repository", Java]
 ---

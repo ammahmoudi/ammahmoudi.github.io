@@ -8,6 +8,7 @@ last_modified_at: 2023-10-30 18:11:44
 url: https://github.com/ammahmoudi/Handwritten-Digit-Classification
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png
 tags: [cnn, deep-learning, machine-learning, ml, mnist, pytorch]
 categories: ["Repository", Jupyter Notebook]
 ---

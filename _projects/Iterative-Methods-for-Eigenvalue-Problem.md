@@ -8,6 +8,7 @@ last_modified_at: 2024-03-02 11:01:21
 url: https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg
+og_image: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg
 tags: [arnoldi-algorithm, davidson-eigensolver, eigenvalue-solvers, eigenvalueproblems, iterative-methods, lanczos, power-method, jacobi-davidson]
 categories: ["Repository", Jupyter Notebook]
 ---

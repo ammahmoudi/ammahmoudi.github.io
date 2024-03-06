@@ -8,6 +8,7 @@ last_modified_at: 2023-09-15 21:28:17
 url: https://github.com/ammahmoudi/Arkanoid
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/cover.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/cover.png
 tags: [arkanoid, java, swing]
 categories: ["Repository", Java]
 ---

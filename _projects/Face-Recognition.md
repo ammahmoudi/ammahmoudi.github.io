@@ -8,6 +8,7 @@ last_modified_at: 2023-10-29 21:35:07
 url: https://github.com/ammahmoudi/Face-Recognition
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png
 tags: [eigenfaces, face-recognition, machine-learning, ml, pca, svm]
 categories: ["Repository", Jupyter Notebook]
 ---

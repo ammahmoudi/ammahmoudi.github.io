@@ -8,6 +8,7 @@ last_modified_at: 2023-10-29 14:42:59
 url: https://github.com/ammahmoudi/Credit-Risk-Prediction
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png
 tags: [credit-risk, imbalanced-data, machine-learning, ml, random-forest]
 categories: ["Repository", Jupyter Notebook]
 ---

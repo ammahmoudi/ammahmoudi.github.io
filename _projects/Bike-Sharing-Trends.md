@@ -8,6 +8,7 @@ last_modified_at: 2023-10-29 13:53:11
 url: https://github.com/ammahmoudi/Bike-Sharing-Trends
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png
 tags: [bike-sharing, decision-trees, eda, linear-regression, machine-learning, ml]
 categories: ["Repository", Jupyter Notebook]
 ---

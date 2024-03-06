@@ -8,6 +8,7 @@ last_modified_at: 2023-09-15 15:35:40
 url: https://github.com/ammahmoudi/WE
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png
 tags: [hibernate-orm, javafx, javafx-application, social-network, socket]
 categories: ["Repository", Java]
 ---

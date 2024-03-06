@@ -8,6 +8,7 @@ last_modified_at: 2023-10-30 18:32:18
 url: https://github.com/ammahmoudi/Image-Captioning-RNN
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main/output.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main/output.png
 tags: [bert-embeddings, deep-learning, image-captioning, lstm, machine-learning, ml, resnet50, rnn]
 categories: ["Repository", Jupyter Notebook]
 ---

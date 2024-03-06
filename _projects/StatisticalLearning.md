@@ -8,6 +8,7 @@ last_modified_at: 2023-09-15 21:30:45
 url: https://github.com/ammahmoudi/StatisticalLearning
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/StatisticalLearning/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
+og_image: https://socialify.git.ci/ammahmoudi/StatisticalLearning/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 tags: [data-visualization, feature-selection, logistic-regression, random-forest]
 categories: ["Repository", HTML]
 ---
@@ -27,5 +28,5 @@ This repository includes my homework around Statistical Learning.
 
 | Subject | Description |
 | --- | --- |
-| [Iran Provinces COVID-19 Extra Moratility Effect](./Iran_COVID19_Mortalities) | trying to extract death caused by COVID19 in Iran Provinces during last decade years |
-| [US Diabetes Health Prediction](./US_Diabet_Prediction) | trying to extract best features to predict US Diabetes Health status |
+| [Iran Provinces COVID-19 Extra Moratility Effect](https://github.com/ammahmoudi/StatisticalLearning/tree/main/Iran_COVID19_Mortalities) | trying to extract death caused by COVID19 in Iran Provinces during last decade years |
+| [US Diabetes Health Prediction](https://github.com/ammahmoudi/StatisticalLearning/tree/main/US_Diabet_Prediction) | trying to extract best features to predict US Diabetes Health status |

@@ -8,6 +8,7 @@ last_modified_at: 2023-11-03 11:57:20
 url: https://github.com/ammahmoudi/UDP-Pinger
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/UDP-Pinger/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
+og_image: https://socialify.git.ci/ammahmoudi/UDP-Pinger/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 tags: [udp, udp-pinger]
 categories: ["Repository", Python]
 ---

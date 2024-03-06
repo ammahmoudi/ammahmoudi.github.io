@@ -8,6 +8,7 @@ last_modified_at: 2024-03-04 07:23:59
 url: https://github.com/ammahmoudi/Simple-Messanger
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png
 tags: [chat-application, end-to-end-encryption, messanger, server-client]
 categories: ["Repository", Python]
 ---

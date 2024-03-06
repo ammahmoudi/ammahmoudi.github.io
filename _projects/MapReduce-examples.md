@@ -8,6 +8,7 @@ last_modified_at: 2023-11-03 08:47:39
 url: https://github.com/ammahmoudi/MapReduce-examples
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master/cover.jpg
+og_image: https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master/cover.jpg
 tags: [mapreduce, map-reduce, scala, spark, spark-mapreduce]
 categories: ["Repository", Scala]
 ---

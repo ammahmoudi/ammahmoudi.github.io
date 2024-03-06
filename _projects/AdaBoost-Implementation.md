@@ -8,6 +8,7 @@ last_modified_at: 2023-10-30 13:02:51
 url: https://github.com/ammahmoudi/AdaBoost-Implementation
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/es.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/es.png
 tags: [adaboost, early-stopping, machine-learning, ml, scratch-implementation]
 categories: ["Repository", Jupyter Notebook]
 ---

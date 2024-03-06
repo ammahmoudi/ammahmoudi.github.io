@@ -91,10 +91,13 @@ class RepoToPost:
     @staticmethod
     def fix_image_links(contents) -> str:
         for content in contents.split('\n'):
-            if RepoToPost.is_image(content):
-                fixed_content = content.replace('blob', 'raw')
-                
-                contents = contents.replace(content, fixed_content)
+            images=RepoToPost.get_image_content(content)
+            if len(images)!=0:
+                for alt,url in images:
+            
+                    fixed_content = url.replace('blob', 'raw')
+                    
+                    contents = contents.replace(f'[{alt}]({url})', f'[{alt}]({fixed_content})')
         return contents
 
     @staticmethod
@@ -112,8 +115,15 @@ class RepoToPost:
     @staticmethod
     def get_header_img(contents) -> tuple:
         for content in contents.split('\n'):
-            if RepoToPost.is_image(content):
-                return RepoToPost.get_image_data(content)
+            images=RepoToPost.get_image_content(content)
+            if len(images)!=0:
+                for t,url in images:
+                    print("header ",t,url)
+                    return url,t
+
+
+            
+                s
         return None, None
 
     @staticmethod
@@ -127,37 +137,56 @@ class RepoToPost:
     @staticmethod
     def is_image(content) -> bool:
         return '![' in content and ']' in content and '(' in content and ')' in content
+    
+    @staticmethod
+    def get_image_content(content) -> list:
+        pattern = r'!\[([^\]]+)\]\(([^)]+)\)'
+
+        # Find all matches in the string
+        matches = re.findall(pattern, content)
+
+
+        return matches
+    
     @staticmethod
     def is_static_url(content) -> bool:
         return  not '![' in content and "https://github.com/"+RepoToPost.username in content and ']' in content and '(' in content and ')' in content
+    
     @staticmethod
     def is_relative_url(content) -> bool:
         return  not '![' in content and ("](/" in content or "](./" in content ) and '[' in content and '(' in content and ')' in content
+    
     @staticmethod
     def add_github_to_image_url(contents,repo_name,repo_branch):
          for content in contents.split('\n'):
-            if RepoToPost.is_image(content):
-                p_index=content.find("](")
-                new_content= content[:p_index+2]+"https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+content[p_index+2:]
-                contents=contents.replace(content,new_content)
+            images=RepoToPost.get_image_content(content)
+            if len(images)!=0:
+                for alt,url in images:
+
+                # p_index=content.find("](")
+                    new_content= "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+url
+                    print("new_url: ",new_content)
+                    address=f"![{alt}]({url})"
+                    contents=contents.replace(url,new_content)
          return contents
+    
     @staticmethod
     def add_github_to_url(contents,repo_name,repo_branch):
          for content in contents.split('\n'):
             if RepoToPost.is_relative_url(content):
-                print(content)
+                # print(content)
                 p_index=content.find("](")
                 if(content[p_index+2]=='.'):
                     
                     temp_content=content[:p_index+2]+content[p_index+3:]
                     contents=contents.replace(content,temp_content)
                     content=temp_content
-                    print(temp_content)
+                    # print(temp_content)
                 p_index=content.find("](")
 
                     
                 new_content= content[:p_index+2]+"https://github.com/"+RepoToPost.username+"/"+repo_name+"/tree/"+repo_branch+"/"+content[p_index+3:]
-                print(new_content)
+                # print(new_content)
                 contents=contents.replace(content,new_content)
          return contents
     @staticmethod
@@ -167,10 +196,23 @@ class RepoToPost:
     @staticmethod
     def image_to_figure(contents):
          for content in contents.split('\n'):
-            if RepoToPost.is_image(content):
-                url,alt=RepoToPost.get_image_data(content)
-                new_content='{% include figure.html path="'+url+'" alt="'+alt+'" class="img-fluid rounded z-depth-1" zoomable=true %}'
-                contents=contents.replace(content,new_content)
+            images=RepoToPost.get_image_content(content)
+            if len(images)!=0:
+                for alt,url in images:
+   
+                    new_content='{% include figure.html path="'+url+'" alt="'+alt+'" class="img-fluid rounded z-depth-1" zoomable=true %}'
+                    address=f"![{alt}]({url})"
+                    contents=contents.replace(address,new_content)
+                    print("image: ",address)
+                
+
+                # e_content=RepoToPost.get_image_content(content)
+                # print(e_content)
+                # for match in e_content:
+                     
+                
+                
+                # contents=contents.replace(e_content,new_content)
          return contents
 
     @staticmethod

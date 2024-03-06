@@ -37,7 +37,7 @@ We are going to build a classifier (Face recognition using Eigen faces, PCA and 
 - Eigenfaces are the top eigenvectors from PCA.
 - The first 30 eigenfaces are plotted, showing facial features.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/eigen.png" alt="samples of data" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/eigen.png" alt="samples of data" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Transforming Data with PCA**:
 - Train and test features are transformed using PCA.

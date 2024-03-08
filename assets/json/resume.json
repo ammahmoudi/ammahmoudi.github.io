@@ -1,362 +1,199 @@
 {
   "basics": {
-    "name": "Amirhossein mahmoudi",
-    "image": "/assets/img/profile_pic.jpg",
-    "email": "am.mahmoudi@outlook.com",
-    "phone": "(+98) 903 923 2023",
-    "url": "https://mamood.ir",
-    "summary": "Computer science student, with a aerospace background. loves machine learning, deep learning and bioinformatics",
+    "name": "Albert Einstein",
+    "label": "Scientist",
+    "image": "",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "Tehran",
-      "countryCode": "IR",
-      "region": "Tehran"
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "Ammahmoodi",
-        "url": "https://twitter.com/ammahmoodi"
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
+  "work": [
+    {
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ],
   "education": [
     {
-      "institution": "Sharif University of technology, Tehran, Iran",
-      "url": "https://www.sharif.edu/",
-      "area": " Computer Science",
-      "studyType": "B.Sc.",
-      "startDate": "2019-09-15",
-      "endDate": "present",
-      "score": "16.84/20.0",
-      "courses": [
-     "Machine Learning",
-            "Statistical Learning",
-            "Introduction to Bioinformatics",
-            "Big Data Engineering",
-            "Probability and Its Applications",
-            "Advanced Programming",
-            "Numerical Analysis 2"
-      ]
-    }
-    ,
-    {
-      "institution": "National Organization for Development of Exceptional Talents, Esfarayen, Iran",
-      "url": "https://sampad.gov.ir/",
-      "area": "Mathematics and Physics",
-      "studyType": "High School Diploma",
-      "startDate": "2016-09-15",
-      "endDate": "2019-09-15",
-      "score": "19.94/20.0"
-      
+      "institution": "University of Zurich, Zurich, Switzerland",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.uzh.ch/",
+      "area": "Software Development",
+      "studyType": "PhD",
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
-  "research interests": [
+  "awards": [
     {
-      "icon":"fa fa-rocket",
-      "name":"Machine Learning",
-      "keywords":["Deep learning","Statistical Learning","Natural Language Processing"]
-    },
-    {
-      "icon":"fa fa-heartbeat",
-      "name":"Computation Biology",
-      "keywords":["Computer-Aided Medical Procedures","Medical Image Processing"]
-    },
-    {
-      "icon":"fa fa-database",
-      "name":"Data Science",
-      "keywords":["Data Engineering"]
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
-
   ],
-  "teaching experience": [
+  "certificates": [
     {
       "name": "Machine Learning",
-      "position": "Teaching Assistant  and Co-Instructor",
-      "url": "https://github.com/ammahmoudi/IntroductionToMachineLearning",
-      "startDate": "2023-01-01",
-      "endDate": "2023-08-01",
-      "summary": "Lecturing and designing homework",
-      "highlights": ["Supervised by Dr. Mahdi Sharifzadeh"
-      ]
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Advanced Programming with Java",
-      "position": "Teaching Assistant",
-      "url": "https://github.com/APWinter2023",
-      "startDate": "2023-01-01",
-      "endDate": "2023-08-01",
-      "summary": "Designing course project",
-      "highlights": ["Supervised by Dr. Hossein Boomari"
-      ]
+      "name": "Quantum Computing",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Basics for Programming with C",
-      "position": "Teaching Assistant",
-      "url": "https://github.com/APWinter2023",
-      "startDate": "2021-01-01",
-      "endDate": "2021-08-01",
-      "summary": "Designing course homework",
-      "highlights": ["Supervised by Dr. Marjan Nikbin"
-      ]
+      "name": "Quantum Information",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Quantum Cryptography",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Quantum Communication",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Quantum Teleportation",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "work experience": [
-    {
-      "name": "Gamein",
-      "position": "Graphic Design Manager",
-      "url": "https://www.linkedin.com/company/gameinsharif",
-      "startDate": "2022-05-01",
-      "endDate": "2023-04-01",
-      "summary": "Biggest student event in Iran around supply chain simulation",
-      "highlights": [
-        "Team Lead","Project Planning","Visual Content Design"
-      ]
-    },
-    {
-      "name": "Winter Seminar Series",
-      "position": "Graphic Designer",
-      "url": "https://wss.ce.sharif.edu",
-      "startDate": "2023-02-01",
-      "endDate": "2023-03-01",
-      "summary": "Annual events including seminars about advanced topics of computer science with the presence of prominent professors",
-      "highlights": [
-        "Graphic Design"
-      ]
-    },
-    {
-      "name": "Sharif Visual Arts Club",
-      "position": "Advertising Manager, Website Manager, Member",
-      "url": "https://vac.farhangi.sharif.edu/",
-      "startDate": "2020-10-01",
-      "endDate": "2023-09-25",
-      "summary": "Cool university club centered around visual arts",
-      "highlights": [
-        "Graphic Design","Wordpress"
-      ]
-    },
-    {
-      "name": "Sharif Poetry and Literature Club",
-      "position": "Graphic Designer, Member",
-      "url": "https://t.me/ksasharif",
-      "startDate": "2020-11-01",
-      "endDate": "2023-09-25",
-      "summary": "University club to share and develop Persian poetry skills",
-      "highlights": [
-        "Graphic Design","Persian poetry"
-      ]
-    },
-    {
-      "name": "Hamband Scientific Society",
-      "position": "Graphic Designer",
-      "url": "https://hamband.math.sharif.edu/",
-      "startDate": "2022-08-01",
-      "endDate": "2023-09-25",
-      "summary": "Scientific Society of Math Department at Sharif University of Technology",
-      "highlights": [
-        "Graphic Design"
-      ]
-    },
-    {
-      "name": "Owj Magazine",
-      "position": "Graphic Designer",
-      "url": "https://www.linkedin.com/company/owj/",
-      "startDate": "2019-01-01",
-      "endDate": "2022-01-21",
-      "summary": "Scientific magazine of Student Society of Aerospace Engineering Department at Sharif University of Technology",
-      "highlights": [
-        "Graphic Design"
-      ]
-    }
-  ],
-  "research experience and projects": [
-    {
-      "name": "Transcriptome-Based Fluxomics Reconstruction with a Novel Deep Learning Approach",
-      "url": "",
-      "startDate": "2023-08-01",
-      "endDate": "present",
-      "highlights": ["Supervised by Dr. Mojtaba Tefagh","Currently in progress as bachelor project"],
-      "summary":"Applying implicit deep learning and convex optimization layers to infer metabolic fluxes from gene expression data"
-      
-    },
-    {
-      "name": "Chaka: A High-performance, Cost-efficient, Semi-conventional Regional Jet Family",
-      "url": "https://mamood.ir/blog/2021/shadx-chaka/",
-      "startDate": "2020-09-01",
-      "endDate": "2021-7-01",
-      "highlights": ["Supervised by Dr. Mohammad H Sadraey","2nd place in the 2021 AIAA graduate team aircraft design competition"],
-      "summary":"Designing a modern regional jet family with a 20% reduction in fuel consumption compared to existing rivals"
-      
-    },
-    {
-      "name": "MIS-PADX: Manned Intelligent Scientific Phobos and Deimos Exploration",
-      "url": "https://mamood.ir/blog/2022/shadx-hiva/",
-      "startDate": "2021-09-01",
-      "endDate": "2022-07-01",
-      "highlights": ["Supervised by Dr. Maryam Kiani","Participation in the 2022 AIAA undergraduate team space design competition"],
-      "summary":"Developed a conceptual design for a Martian Moon Exploration Excursion Vehicle to collect lunar samples"
-      
-    },
-    {
-      "name": "WE",
-      "url": "https://github.com/ammahmoudi/WE",
-      "startDate": "2021-04-01",
-      "endDate": "2021-08-01",
-      "highlights": ["Supervised by Mojtaba Ostovari","The final project for advanced programming course"],
-      "summary":"Developed a Java-based social app with JavaFX and Hibernate ORM, featuring messaging and posting"
-      
-    },    
-    {
-      "name": "Breast Cancer Prediction",
-      "url": "https://github.com/ammahmoudi/Breast-Cancer-Prediction",
-      "startDate": "2022-11-25",
-      "endDate": "2022-12-25",
-      "highlights": ["Supervised by Dr. Ali Sharifi Zarchi","Homework for Machine Learning Course"],
-      "summary":"Applying machine learning models to estimate survival outcomes of breast cancer patients"
-      
-    }
-
-  ],
-  "volunteer": [],
- 
-  "honors and awards": [
-    {
-      "title": "2nd Place in The 2021 AIAA Graduate Team Aircraft Design Competition",
-      "url": "https://mamood.ir/blog/2021/shadx-chaka/",
-      "date": "2021-08-28",
-      "awarder": "American Institute of Aeronautics and Astronautics",
-      "summary": "AIAA design competitions allow students to perform theoretical work and gain real-world insight into the design process."
-    },
-    {
-      "title": "Participation in The 2022 AIAA Undergraduate Team Space Design Competition",
-      "url": "https://mamood.ir/blog/2022/shadx-hiva/",
-      "date": "2022-08-28",
-      "awarder": "American Institute of Aeronautics and Astronautics",
-      "summary": "AIAA design competitions allow students to perform theoretical work and gain real-world insight into the design process."
-    }
-  ],
-  "certificates": [],
   "publications": [
-    
     {
-      "name":"Chaka: A high-performance, cost-efficient, semi-conventional regional jet family",
-      "releaseDate":"2021-08-28",
-      "url": "http://dx.doi.org/10.13140/RG.2.2.20347.64802",
-      "publisher":"American Institute of Aeronautics and Astronautics",
-      "summary":"In response to the 2021 American Institute of Aeronautics and Astronautics (AIAA) graduate team aircraft design Request for Proposal (RFP), we at ShadX have the honor of introducing Chaka Modern Regional Jet (MRJ) family, a novel approach to regional jet (RJ) design and resolving the need for new regional jet aircraft satisfying primarily the 50-seat portion of the market and secondarily the 76-seat portion of the market predicated upon the U.S. domestic “Scope Clause”. "
+      "name": "Zur Elektrody/namik bewegter Körper",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-06-30",
+      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+    },
+    {
+      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-03-18",
+      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+    },
+    {
+      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1916-03-20",
+      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
-
   ],
   "skills": [
     {
-    "icon":"fa fa-code",
-    "name":"Programming Languages",
-    "keywords": [
-      "C",
-      "Java",
-      "Python",
-      "R",
-      "Scala",
-      "HTML/CSS"
-    ]
-  },
-  {
-    "icon":"fa fa-cogs",
-    "name":"Tools",
-    "keywords": [
-      "Git/GitHub",
-      "Docker",
-      "Unix Shell",
-      "SQL",
-      "Spark",
-      "MongoDB"
-    ]
-  },
-  {
-    "icon":"fa fa-cubes",
-    "name":"Frameworks",
-    "keywords": [
-      "React",
-      "WordPress",
-      "Spring",
-      "Hibernate ORM"
-    ]
-  },
-  {
-    "icon":"fa fa-book",
-    "name":"Libraries",
-    "keywords": [
-      "TensorFlow",
-      "PyTorch",
-      "Scikit-Learn",
-      "Keras",
-      "Pandas"
-    ]
-  },
-  {
-    "icon":"fa fa-child",
-    "name":"Soft Skills",
-    "keywords": [
-      "Team Leadership",
-      "Project Planning",
-      "Presentation"
-    ]
-  },
-  {
-    "icon":"fa fa-paint-brush",
-    "name":"Graphic Skills",
-    "keywords": [
-      "Adobe Illustrator",
-      "Adobe Photoshop",
-      "Adobe Aftereffects",
-      "Adobe Primiere",
-      "Adobe InDesign"
-      
-    ]
-  }
-
-
+      "name": "Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
   ],
   "languages": [
     {
-      "language": "Perisan",
-      "fluency": "Native/Bilingual"
-    },
-    {
-      "language": "Kurmanji (Northern Kurdish)",
-      "fluency": "Native/Bilingual"
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Professional working proficiency"
+      "fluency": "Fluent",
+      "icon": ""
     }
   ],
-
-  "hobbies and interests": [
+  "interests": [
     {
-      "icon":"fa fa-font",
-      "name":"Writing poem in Persian",
-      "keywords":[]
-    },
-    {
-      "icon":"fa fa-paint-brush",
-      "name":"Drawing portrait",
-      "keywords":[]
-    },
-    {
-      "icon":"fa fa-comments",
-      "name":"Coordinating English free discussion sessions at the local language institute",
-      "keywords":[]
-    },
-    {
-      "icon":"fa fa-male",
-      "name":"Amatur volleyball player (Member of the volleyball team in the Math Department)",
-      "keywords":[]
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
     }
-
   ],
   "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
   ]
-
 }

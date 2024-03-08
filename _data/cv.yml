@@ -2,37 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Amirhossein Mahmoudi
+      value: Albert Einstein
     - name: Date of Birth
-      value: 15th July 2001
+      value: 14th March 1879
     - name: Languages
-      value: English, Persian
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science in Computer Science
-      institution: Sharif University of technology, Tehran, Iran
-      year: 2023
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - 'Current GPA: 3.5/4.0'
+        - Description 1.
         - Description 2.
-        - title: Selected Courses
+        - title: Description 3.
           contents:
-            - Machine Learning
-            - Statistical Learning
-            - Introduction to Bioinformatics
-            - Big Data Engineering
-            - Probability and Its Applications
-            - Advanced Programming
-            - Numerical Analysis 2
-            
-    - title: High School Diploma, mathematics and physics
-      institution: National Organization for Development of Exceptional Talents, Esfarayen, Iran
-      year: 2019
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - 'Grade: 19.94/20.0'
-        
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
@@ -78,18 +72,18 @@
   type: time_table
   contents:
     - year: 1921
-      items: 
-        - Nobel Prize in Physics 
+      items:
+        - Nobel Prize in Physics
         - Matteucci Medal
     - year: 2029
-      items: 
+      items:
         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.

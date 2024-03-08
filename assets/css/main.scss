@@ -18,13 +18,3 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
-
-.medium-zoom-overlay,
-.medium-zoom-image--opened {
-  z-index: 9999;
-  // margin-top: 4%;
-  // margin-bottom: 4%;
-  // max-height: 92%;
-  scale: 0.9;
-
-}

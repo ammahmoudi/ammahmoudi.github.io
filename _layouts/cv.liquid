@@ -80,34 +80,36 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
             <div>
-              {% case data[0] %}
-                {% when 'basics' %}
-                  {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'languages' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
-                {% else %}
+ {% case data[0] %}
+            {% when "basics" %}
+              {% include resume/basics.liquid %}
+            {% when "education" %}
+              {% include resume/education.liquid %}
+            {% when "teaching experience" %}
+              {% include resume/teaching.liquid %}
+            {% when "work experience" %}
+              {% include resume/work.liquid %}
+            {% when "volunteer" %}
+              {% include resume/volunteer.liquid %}
+            {% when "research experience and projects" %}
+              {% include resume/projects.liquid %}
+            {% when "honors and awards" %}
+              {% include resume/awards.liquid %}
+            {% when "skills" %}
+              {% include resume/skills.liquid %}
+            {% when "publications" %}
+              {% include resume/publications.liquid %}
+            {% when "languages" %}
+              {% include resume/languages.liquid %}
+            {% when "research interests" %}
+              {% include resume/interests.liquid %}
+            {% when "hobbies and interests" %}
+              {% include resume/hobbies.liquid %}
+            {% when "certificates" %}
+              {% include resume/certificates.liquid %}
+            {% else %}
 
-              {% endcase %}
+          {% endcase %}
             </div>
           </div>
         {% endfor %}

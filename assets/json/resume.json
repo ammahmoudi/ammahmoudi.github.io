@@ -5,7 +5,7 @@
     "email": "am.mahmoudi@outlook.com",
     "phone": "(+98) 903 923 2023",
     "url": "https://mamood.ir",
-    "summary": "Computer Science Student, With an Aerospace Background, Looking Forward to Diving into System Engineering. Loves Machine Learning, Deep Learning, Bioinformatics, System Engineering, Design and Product Managing",
+    "summary": "Computer Science Student Looking Forward to Diving into System Engineering. Loves Machine Learning, Deep Learning, Bioinformatics, System Engineering, Design and Product Managing",
     "location": {
       "address": "XXXXX",
       "postalCode": "XXXX",
@@ -40,17 +40,7 @@
             "Numerical Analysis 2"
       ]
     }
-    ,
-    {
-      "institution": "National Organization for Development of Exceptional Talents, Esfarayen, Iran",
-      "url": "https://sampad.gov.ir/",
-      "area": "Mathematics and Physics",
-      "studyType": "High School Diploma",
-      "startDate": "2016-09-15",
-      "endDate": "2019-09-15",
-      "score": "19.94/20.0"
-      
-    }
+
   ],
   "research interests": [
     {
@@ -157,17 +147,6 @@
       "highlights": [
         "Graphic Design"
       ]
-    },
-    {
-      "name": "Owj Magazine",
-      "position": "Graphic Designer",
-      "url": "https://www.linkedin.com/company/owj/",
-      "startDate": "2019-01-01",
-      "endDate": "2022-01-21",
-      "summary": "Scientific magazine of Student Society of Aerospace Engineering Department at Sharif University of Technology",
-      "highlights": [
-        "Graphic Design"
-      ]
     }
   ],
   "research experience and projects": [
@@ -178,24 +157,6 @@
       "endDate": "present",
       "highlights": ["Supervised by Dr. Mojtaba Tefagh","Currently in progress as bachelor project"],
       "summary":"Applying implicit deep learning and convex optimization layers to infer metabolic fluxes from gene expression data"
-      
-    },
-    {
-      "name": "Chaka: A High-performance, Cost-efficient, Semi-conventional Regional Jet Family",
-      "url": "https://mamood.ir/blog/2021/shadx-chaka/",
-      "startDate": "2020-09-01",
-      "endDate": "2021-7-01",
-      "highlights": ["Supervised by Dr. Mohammad H Sadraey","2nd place in the 2021 AIAA graduate team aircraft design competition"],
-      "summary":"Designing a modern regional jet family with a 20% reduction in fuel consumption compared to existing rivals"
-      
-    },
-    {
-      "name": "MIS-PADX: Manned Intelligent Scientific Phobos and Deimos Exploration",
-      "url": "https://mamood.ir/blog/2022/shadx-hiva/",
-      "startDate": "2021-09-01",
-      "endDate": "2022-07-01",
-      "highlights": ["Supervised by Dr. Maryam Kiani","Participation in the 2022 AIAA undergraduate team space design competition"],
-      "summary":"Developed a conceptual design for a Martian Moon Exploration Excursion Vehicle to collect lunar samples"
       
     },
     {
@@ -221,31 +182,12 @@
   "volunteer": [],
  
   "honors and awards": [
-    {
-      "title": "2nd Place in The 2021 AIAA Graduate Team Aircraft Design Competition",
-      "url": "https://mamood.ir/blog/2021/shadx-chaka/",
-      "date": "2021-08-28",
-      "awarder": "American Institute of Aeronautics and Astronautics",
-      "summary": "AIAA design competitions allow students to perform theoretical work and gain real-world insight into the design process."
-    },
-    {
-      "title": "Participation in The 2022 AIAA Undergraduate Team Space Design Competition",
-      "url": "https://mamood.ir/blog/2022/shadx-hiva/",
-      "date": "2022-08-28",
-      "awarder": "American Institute of Aeronautics and Astronautics",
-      "summary": "AIAA design competitions allow students to perform theoretical work and gain real-world insight into the design process."
-    }
+  
   ],
   "certificates": [],
   "publications": [
     
-    {
-      "name":"Chaka: A high-performance, cost-efficient, semi-conventional regional jet family",
-      "releaseDate":"2021-08-28",
-      "url": "http://dx.doi.org/10.13140/RG.2.2.20347.64802",
-      "publisher":"American Institute of Aeronautics and Astronautics",
-      "summary":"In response to the 2021 American Institute of Aeronautics and Astronautics (AIAA) graduate team aircraft design Request for Proposal (RFP), we at ShadX have the honor of introducing Chaka Modern Regional Jet (MRJ) family, a novel approach to regional jet (RJ) design and resolving the need for new regional jet aircraft satisfying primarily the 50-seat portion of the market and secondarily the 76-seat portion of the market predicated upon the U.S. domestic “Scope Clause”. "
-    }
+ 
 
   ],
   "skills": [

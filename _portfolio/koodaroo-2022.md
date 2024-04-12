@@ -15,7 +15,7 @@ giscus_comments: true
 
 <div class="row mt-3 align-items-center">
     <div class="col-sm-12 offset-md-12 align-self-center  mt-12 mt-md-12">
-         {% include figure.html path="assets/projects/koodaroo_2022/images/koodaroo_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+         {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -23,20 +23,20 @@ I have created various graphic designs for Koodaroo, an online pharmacy that off
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/koodaroo_2022/images/koodaroo (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/koodaroo_2022/images/koodaroo (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/koodaroo_2022/images/koodaroo (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/koodaroo_2022/images/koodaroo (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 

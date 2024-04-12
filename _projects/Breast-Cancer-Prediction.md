@@ -56,7 +56,7 @@ In this project, the following tasks were performed:
 
 The XG_BOOST classifier achieved the best performance.
 This end-to-end implementation serves as a guide for applying core machine learning concepts to classify and predict breast cancer from medical imaging data. There may be some issues and problems in data and models which are skipped.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 Please refer to the code file for a detailed explanation and code implementation.
 

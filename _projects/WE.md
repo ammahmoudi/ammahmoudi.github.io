@@ -42,10 +42,10 @@ Final Project for Advanced programming course.Supervised by Mojtaba Ostovari.
 - Explorer section with top posts and search
 - Forward posts to chat environments
 ## Screenshots
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png" alt="login" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/main.png" alt="main" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/chat.png" alt="chat" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/menu.png" alt="side menu" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/profile.png" alt="profile" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/settings.png" alt="settings" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png" alt="login" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/main.png" alt="main" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/chat.png" alt="chat" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/menu.png" alt="side menu" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/profile.png" alt="profile" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/settings.png" alt="settings" class="img-fluid rounded z-depth-1" zoomable=true %}
 

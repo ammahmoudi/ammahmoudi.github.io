@@ -16,7 +16,7 @@ giscus_comments: true
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/yarigaran_2021/images/yarigaran_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/yarigaran_2021/images/yarigaran_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
     
@@ -28,10 +28,10 @@ The club publishes a magazine called Kishe Mehr, which means “a bunch of kindn
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/yarigaran_2021/images/yarigaran (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/yarigaran_2021/images/yarigaran (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/yarigaran_2021/images/yarigaran (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/yarigaran_2021/images/yarigaran (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
 
     

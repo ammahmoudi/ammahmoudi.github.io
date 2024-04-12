@@ -63,8 +63,8 @@ The performance and accuracy of the implementation are tested, and the results a
 
 ## Results
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg" alt="Smallest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_residuals.svg" alt="Smallest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_real_diff.svg" alt="Biggest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_residuals.svg" alt="Biggest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg" alt="Smallest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_residuals.svg" alt="Smallest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_real_diff.svg" alt="Biggest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_residuals.svg" alt="Biggest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
 

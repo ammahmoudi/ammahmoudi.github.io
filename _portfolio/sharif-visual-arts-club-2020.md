@@ -16,7 +16,7 @@ giscus_comments: true
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_visual_arts_club_2020/images/vac_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 
@@ -30,13 +30,13 @@ I enjoyed working on these posters because they allowed me to express my creativ
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_visual_arts_club_2020/images/vac (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_visual_arts_club_2020/images/vac (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_visual_arts_club_2020/images/vac (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     
 
@@ -44,9 +44,9 @@ I enjoyed working on these posters because they allowed me to express my creativ
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_visual_arts_club_2020/images/vac (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_visual_arts_club_2020/images/vac (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>

@@ -29,9 +29,9 @@ This is a simple chat application implemented in Python using a server-client ar
 
 ## Screenshots
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png" alt="sc1" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png" alt="sc1" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_2.png" alt="sc2" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_2.png" alt="sc2" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ## Usage

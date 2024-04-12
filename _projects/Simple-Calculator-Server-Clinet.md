@@ -16,7 +16,7 @@ categories: ["Repository", Java]
 ---
 
 This project is a simple calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The project consists of two parts: a client and a server. The client is a graphical user interface (GUI) that allows the user to enter numbers and operators and see the result. The server is a program that receives the calculation request from the client, performs the calculation, and sends back the result. The client and the server communicate using socket programming.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 ## Technologies
 
 The project is written in Java and uses the following technologies:

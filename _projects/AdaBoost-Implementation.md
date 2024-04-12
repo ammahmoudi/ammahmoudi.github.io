@@ -51,11 +51,11 @@ For more information please read the [data documentation](https://www.kaggle.com
 - Calculate validation error for different numbers of estimators.
 - Plot validation error versus number of estimators.
 - Determine the best number of estimators based on minimum mean squared error.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/es.png" alt="early stopping" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/es.png" alt="early stopping" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Weighted Error**:
 - Plot weighted training error versus number of estimators using training_errors attribute in AdaBoost class.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/we.png" alt="wighted errors" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/we.png" alt="wighted errors" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## Adaboost
 

@@ -35,6 +35,6 @@ classic  arkanoid game using java and swing
 - Score Borad
 - Save and Load Game
 ## Screenshots
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/cover.png" alt="main screen" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/game.png" alt="game play" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/scores.png" alt="score borad" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/cover.png" alt="main screen" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/game.png" alt="game play" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/scores.png" alt="score borad" class="img-fluid rounded z-depth-1" zoomable=true %}

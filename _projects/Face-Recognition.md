@@ -17,7 +17,7 @@ categories: ["Repository", Jupyter Notebook]
 
 We are going to build a classifier (Face recognition using Eigen faces, PCA and support vector machines) to distinguish the faces of 40 people on a toy dataset. The dataset includes 400 pictures of 40 people faces, each by a 64*64 pixel picture.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png" alt="samples of data" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png" alt="samples of data" class="img-fluid rounded z-depth-1" zoomable=true %}
 ## Code Explanation
 
 ### **Dataset and Visualization**:
@@ -37,7 +37,7 @@ We are going to build a classifier (Face recognition using Eigen faces, PCA and 
 - Eigenfaces are the top eigenvectors from PCA.
 - The first 30 eigenfaces are plotted, showing facial features.
 
-    {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/eigen.png" alt="samples of data" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/eigen.png" alt="samples of data" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Transforming Data with PCA**:
 - Train and test features are transformed using PCA.

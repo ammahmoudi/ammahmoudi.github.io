@@ -20,25 +20,25 @@ Welcome to the Data Visualization repository! This collection features projects 
 **Description:** An interactive visualization representing hierarchical data with nested rectangles.  
 **Result:**
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg" alt="Nested Tree Map Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg" alt="Nested Tree Map Result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## [Packed-Circle-Chart](https://github.com/ammahmoudi/Data-Visualization/tree/main/Packed-Circle-Chart)
 **Description:** A circular layout method for displaying grouped or clustered data.  
 **Result:** 
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Packed-Circle-Chart/result.svg" alt="Packed Circle Chart Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Packed-Circle-Chart/result.svg" alt="Packed Circle Chart Result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## [Radial-Plot](https://github.com/ammahmoudi/Data-Visualization/tree/main/Radial-Plot)
 **Description:** A graphical technique for displaying multivariate data in the form of a two-dimensional chart.  
 **Result:**
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Radial-Plot/output.png" alt="Radial Plot Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Radial-Plot/output.png" alt="Radial Plot Result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## [Sunburst-Plot](https://github.com/ammahmoudi/Data-Visualization/tree/main/Sunburst-Plot)
 **Description:** A radial space-filling visualization to illustrate hierarchical relationships.  
 **Result:**
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Sunburst-Plot/output.png" alt="Sunburst Plot Result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Sunburst-Plot/output.png" alt="Sunburst Plot Result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 For more details on each project, please refer to the README file located within the respective project folder.
 

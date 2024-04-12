@@ -25,7 +25,7 @@ Four files are available:
 - t10k-images-idx3-ubyte.gz: test set images (1648877 bytes)
 - t10k-labels-idx1-ubyte.gz: test set labels (4542 bytes)
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png" alt="samples of MNIST" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png" alt="samples of MNIST" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 For more information please read the [data documentation](https://www.kaggle.com/datasets/hojjatk/mnist-dataset).
 ## Code Explanation
@@ -35,11 +35,11 @@ For more information please read the [data documentation](https://www.kaggle.com
 - **Prepare The Data**: A code block that defines a transformation to convert the images to tensors and normalize them. It also reads the MNIST dataset, splits it into train and validation sets, and creates dataloaders for them. It also plots some images from the train set.
 - **Define Model**: A code block that defines a custom model class called ResidualClassifier. It inherits from nn.Module and implements a forward method. The model has several convolutional layers, max pooling layers, residual connections, an adaptive average pooling layer, a linear layer, and ReLU activations. It follows the architecture shown in the schematic diagram.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/Architecture.png" alt="arthitecture" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/Architecture.png" alt="arthitecture" class="img-fluid rounded z-depth-1" zoomable=true %}
 - **Train Model**: A code block that instantiates the model, defines the hyperparameters, optimizer, loss function, and other variables. It also defines a function to calculate the accuracy of the model. It then trains the model for several epochs, evaluates it on the validation set, and plots the loss and accuracy curves.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/cmatrix.png" alt="cmatrix" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/cmatrix.png" alt="cmatrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/train_acc.png" alt="train_acc" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/train_acc.png" alt="train_acc" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/val_acc.png" alt="val_acc" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/val_acc.png" alt="val_acc" class="img-fluid rounded z-depth-1" zoomable=true %}

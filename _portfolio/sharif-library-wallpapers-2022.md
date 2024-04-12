@@ -16,38 +16,38 @@ giscus_comments: true
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (9) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (9) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 This project showcases four wallpapers that I designed for the Sharif University Library walls, inspired by the works of some old Iranian scientists and poets. The first three wallpapers are based on the manuscripts of Kitāb suwar al-kawākib ("The Book of Fixed Stars") by [Abd al-Rahman al-Sufi](https://en.wikipedia.org/wiki/Abd_al-Rahman_al-Sufi), a famous Iranian astronomer from the 3rd and 4th centuries AH, and Ajāʾib al-makhlūqāt wa-gharāʾib al-mawjūdāt ("The Wonders of Creation and the Oddities of Existence") by [Zakariya al-Qazwini](https://en.wikipedia.org/wiki/Zakariya_al-Qazwini), another renowned Iranian astronomer from the 7th century AH. The manuscripts are from different centuries and are preserved in various libraries and museums around the world, such as the Metropolitan Museum of Art and the Library of Congress. The wallpapers depict the illustrations and writings of these manuscripts, highlighting the scientific and artistic achievements of the Iranian civilization. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
         <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>  
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (6) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (6) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (7) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (7) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
         <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (8) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/walls_2022/sharif_library_wallpapers (8) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 </div>

@@ -24,4 +24,4 @@ For more information please read the [data documentation](https://www.kaggle.com
 - **0. Preparation**: A section that loads the dataset using pandas, encodes the categorical features using LabelEncoder, and splits the data into train and test sets.
 - **1. DNN as nonlinear dimensionality reduction method**: A section that defines and trains an autoencoder using Keras, which compresses the data from 20 dimensions to 2 dimensions and then reconstructs the original data. The section also plots the encoded data using matplotlib.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}

@@ -58,7 +58,7 @@ The dataset contains more than 17k samples with 17 attributes
 - The code reads the **"Data.csv"** file using pandas and displays basic information about the dataset, such as the number of rows and columns.
 - It checks for missing values and performs some initial exploratory data analysis (EDA) by showing summary statistics.
 
-    {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ### **Feature Engineering**
@@ -69,14 +69,14 @@ The dataset contains more than 17k samples with 17 attributes
 - The code generates various plots using libraries like **matplotlib** and **seaborn**. These plots visualize trends in bike-sharing data, such as hourly usage patterns, daily usage, and seasonal variations.
 - Examples include a bar plot showing average bike rentals by hour, a line plot of daily rentals over time, and a heatmap of correlations between features.
 
-    {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/hour_dist.png" alt="hour distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/hour_dist.png" alt="hour distribution" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Model Building and Evaluation**
 - The notebook splits the data into training and testing sets.
 - It trains machine learning models (e.g., linear regression, random forest) to predict bike rentals based on features like temperature, humidity, and wind speed.
 - Model performance metrics (e.g., RMSE) are calculated to evaluate model accuracy.
 
-    {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_lr.png" alt="residual plot of linear regression" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_lr.png" alt="residual plot of linear regression" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-    {% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_dt.png" alt="residual plot of decision tree" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/output_dt.png" alt="residual plot of decision tree" class="img-fluid rounded z-depth-1" zoomable=true %}
 

@@ -16,7 +16,7 @@ giscus_comments: true
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -24,19 +24,19 @@ This wallpaper is a tribute to [Dr. Mohammad Ali Mojtahedi](https://en.wikipedia
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/dr_mojtahedi_wall_2023/sharif_library_mojtahedi (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

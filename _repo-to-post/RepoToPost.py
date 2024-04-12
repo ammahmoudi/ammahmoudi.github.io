@@ -201,7 +201,7 @@ class RepoToPost:
             if len(images)!=0:
                 for alt,url in images:
    
-                    new_content='{% include figure.html path="'+url+'" alt="'+alt+'" class="img-fluid rounded z-depth-1" zoomable=true %}'
+                    new_content='{% include figure.liquid path="'+url+'" alt="'+alt+'" class="img-fluid rounded z-depth-1" zoomable=true %}'
                     address=f"![{alt}]({url})"
                     contents=contents.replace(address,new_content)
                     print("image: ",address)

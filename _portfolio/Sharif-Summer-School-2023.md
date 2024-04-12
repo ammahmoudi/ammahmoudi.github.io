@@ -16,17 +16,17 @@ giscus_comments: true
 
 <div class="row mt-3 align-items-center">
     <div class="col-sm-12 offset-md-12 align-self-center  mt-12 mt-md-12">
-         {% include figure.html path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+         {% include figure.liquid path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     
 
@@ -34,10 +34,10 @@ giscus_comments: true
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     
 

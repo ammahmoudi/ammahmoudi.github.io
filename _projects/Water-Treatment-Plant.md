@@ -119,7 +119,7 @@ The top few rows of the dataset are displayed using `water_data.head()`. This sh
 ### *Data Summary*
 A concise summary of the dataframe is printed using `water_data.info()`. It provides information about non-null counts and data types for each column.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png" alt="input-sed vs sed-e" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png" alt="input-sed vs sed-e" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Data Visualization**
 
@@ -128,7 +128,7 @@ A concise summary of the dataframe is printed using `water_data.info()`. It prov
 - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers.
 - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/cmatrix.png" alt="corelation matrix" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### **Data Preprocessing**
 

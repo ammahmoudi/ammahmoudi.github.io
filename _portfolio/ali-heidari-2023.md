@@ -16,7 +16,7 @@ giscus_comments: true
 
 <div class="row mt-3 align-items-center">
     <div class="col-sm-12 offset-md-12 align-self-center  mt-12 mt-md-12">
-         {% include figure.html path="assets/projects/ali_heidari_2023/images/ah_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+         {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -29,7 +29,7 @@ The color palette was also inspired by the Peach Tree of Heavenly Wisdom from th
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/ali_heidari_2023/images/peach_tree.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/ali_heidari_2023/images/peach_tree.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
        </div>
@@ -37,10 +37,10 @@ The color palette was also inspired by the Peach Tree of Heavenly Wisdom from th
 The logo is suitable for various applications, such as business cards, websites, social media, and presentations. It represents Ali Heidari’s personal brand and showcases his professional skills and values.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/ali_heidari_2023/images/ah (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/ali_heidari_2023/images/ah (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     
 
@@ -48,10 +48,10 @@ The logo is suitable for various applications, such as business cards, websites,
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/ali_heidari_2023/images/ah (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/ali_heidari_2023/images/ah (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     
 

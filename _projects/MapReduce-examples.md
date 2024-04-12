@@ -16,7 +16,7 @@ categories: ["Repository", Scala]
 ---
 MapReduce Examples using pure Scala and Then using Spark.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master/cover.jpg" alt="spark scala" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master/cover.jpg" alt="spark scala" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 The repository has two folders: scala and spark. The scala folder contains pure Scala implementations of some common MapReduce algorithms, such as word count, inverted index, and matrix multiplication. The spark folder contains Spark implementations of the same algorithms, using Spark's built-in APIs, such as RDDs, DataFrames, and Datasets.
 

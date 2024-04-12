@@ -15,7 +15,7 @@ giscus_comments: true
 
 <div class="row mt-3 align-items-center">
     <div class="col-sm-12 offset-md-12 align-self-center  mt-12 mt-md-12">
-         {% include figure.html path="assets/projects/turboshut_2017/images/turboshut_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+         {% include figure.liquid path="assets/projects/turboshut_2017/images/turboshut_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 This logo was designed for Turboshut, a company that provides renewable energy solutions using wind turbines. The client wanted a logo that would convey their vision of creating infinite and sustainable power for the future, as well as their goal of shutting down the dependence on fossil fuels.
@@ -27,10 +27,10 @@ The client was very satisfied with the final result, and praised the logo for be
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/turboshut_2017/images/turboshut (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/turboshut_2017/images/turboshut (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/turboshut_2017/images/turboshut (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/turboshut_2017/images/turboshut (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 
@@ -38,10 +38,10 @@ The client was very satisfied with the final result, and praised the logo for be
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/turboshut_2017/images/turboshut (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/turboshut_2017/images/turboshut (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/turboshut_2017/images/turboshut (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/turboshut_2017/images/turboshut (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 

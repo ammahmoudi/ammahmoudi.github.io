@@ -16,7 +16,7 @@ giscus_comments: true
 
 <div class="row mt-3 align-items-center">
     <div class="col-sm-12 offset-md-12 align-self-center  mt-12 mt-md-12">
-         {% include figure.html path="assets/projects/lightening_day_poster_2023/images/lightening_day_poster (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+         {% include figure.liquid path="assets/projects/lightening_day_poster_2023/images/lightening_day_poster (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

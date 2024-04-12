@@ -15,7 +15,7 @@ giscus_comments: true
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/sharif_library_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/sharif_library_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -23,10 +23,10 @@ This poster template is designed for events in the library of Sharif University 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/poster_2022/sharif_library_poster (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/poster_2022/sharif_library_poster (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
 </div> 
 
@@ -41,13 +41,13 @@ The vector line arts of Maryam Mirzakhani and Ferdowsi are based on paintings fr
     
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/poster_2022/sharif_library_poster (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/poster_2022/sharif_library_poster (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div> 
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/sharif_library/poster_2022/sharif_library_poster (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/projects/sharif_library/poster_2022/sharif_library_poster (5) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

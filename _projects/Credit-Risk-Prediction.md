@@ -205,14 +205,14 @@ The code aims to analyze credit risk data, visualize relationships, train a clas
 - Visualizations are created to explore relationships between features and class labels.
 - Point plots show relationships between features like duration, amount, and employment duration for each class label.
 - Count plots display the distribution of credit history for each class label.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png" alt="imbalanced categories" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png" alt="imbalanced categories" class="img-fluid rounded z-depth-1" zoomable=true %}
 ### **Model Design and Evaluation**
 - A random forest classifier is trained on the data.
 - Accuracy scores are computed for both training and test sets.
 ### **Handling Imbalanced Data**
 - Techniques to address class imbalance are applied (oversampling and undersampling).
 - The performance metrics (precision, recall, F1-score) are evaluated for both class labels.
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/cmatrix.png" alt="imbalanced categories" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/cmatrix.png" alt="imbalanced categories" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 

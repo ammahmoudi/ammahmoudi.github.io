@@ -19,7 +19,7 @@ This code uses PyTorch to build and implement a MLP model with PyTorch for solvi
 ## Data Documentation
 We will use [EFIGI](https://www.astromatic.net/projects/efigi/) dataset which contains 4458 images.
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png" alt="sample galaxies" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png" alt="sample galaxies" class="img-fluid rounded z-depth-1" zoomable=true %}
 ## Code Explanation
 
 - **Importing libraries**: The first cell imports the necessary libraries for the project, such as PyTorch, NumPy, Matplotlib, and scikit-learn. These libraries provide tools for data manipulation, visualization, and machine learning.

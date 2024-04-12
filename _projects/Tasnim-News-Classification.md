@@ -41,7 +41,7 @@ The core of the code involved training and evaluating text classification models
 
 ## Conclusion
 
-{% include figure.html path="https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png" alt="results" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png" alt="results" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 This code focused on the task of text classification within the context of an Iranian newspaper dataset. The project encompassed data exploration, text preprocessing, feature engineering, and model training. Notably, it provided an opportunity to assess the performance of different machine learning algorithms on the given task.
 

@@ -30,7 +30,7 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include projects.fluid %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -51,7 +51,7 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include projects.fluid %}
     {%- endfor %}
   </div>
   {%- endif -%}

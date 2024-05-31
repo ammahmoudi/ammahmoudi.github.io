@@ -1,10 +1,10 @@
 ---
 layout: page
 category: Repositories
-title: AdaBoost Implementation
+title: Ada Boost Implementation
 description: implementing AdaBoost from scratch and comparing it with Scikit-Learn's implementation along with exploring concept of early stopping and weighted errors in boosting algorithms.
-date: 2023-10-29 22:23:20 
-last_modified_at: 2023-10-30 13:02:51 
+date: 2023-10-29 22:23:20 +0000
+last_modified_at: 2023-10-30 13:02:51 +0000
 url: https://github.com/ammahmoudi/AdaBoost-Implementation
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/main/es.png

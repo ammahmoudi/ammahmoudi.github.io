@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Bike Sharing Trends
 description: Predicting bike sharing trends using classic machine learning methods (linear regression, decision tree)
-date: 2023-10-29 09:32:06 
-last_modified_at: 2023-10-29 13:53:11 
+date: 2023-10-29 09:32:06 +0000
+last_modified_at: 2023-10-29 13:53:11 +0000
 url: https://github.com/ammahmoudi/Bike-Sharing-Trends
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png

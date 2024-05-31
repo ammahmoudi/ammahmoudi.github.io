@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Face Recognition
 description: Face recognition using Eigen faces, PCA and support vector machines
-date: 2023-10-29 21:23:54 
-last_modified_at: 2023-10-29 21:35:07 
+date: 2023-10-29 21:23:54 +0000
+last_modified_at: 2023-10-29 21:35:07 +0000
 url: https://github.com/ammahmoudi/Face-Recognition
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png

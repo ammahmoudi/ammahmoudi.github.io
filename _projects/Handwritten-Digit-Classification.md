@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Handwritten Digit Classification
 description: Handwritten Digit Classification on MNIST dataset using Conventional Neural Network in PyTorch
-date: 2023-10-30 15:35:34 
-last_modified_at: 2023-10-30 18:11:44 
+date: 2023-10-30 15:35:34 +0000
+last_modified_at: 2023-10-30 18:11:44 +0000
 url: https://github.com/ammahmoudi/Handwritten-Digit-Classification
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png

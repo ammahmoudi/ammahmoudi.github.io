@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Iterative Methods for Eigenvalue Problem
 description: Applying Diffrenet iterative methods to find some specific (smallest or largest) eigen values
-date: 2024-01-26 14:45:27 
-last_modified_at: 2024-03-02 11:01:21 
+date: 2024-01-26 14:45:27 +0000
+last_modified_at: 2024-03-02 11:01:21 +0000
 url: https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg

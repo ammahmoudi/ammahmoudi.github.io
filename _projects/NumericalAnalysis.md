@@ -1,10 +1,10 @@
 ---
 layout: page
 category: Repositories
-title: NumericalAnalysis
+title: Numerical Analysis
 description: Homework Solutions for Numerical Analysis Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
-date: 2023-09-04 13:05:01 
-last_modified_at: 2023-09-15 21:33:39 
+date: 2023-09-04 13:05:01 +0000
+last_modified_at: 2023-09-15 21:33:39 +0000
 url: https://github.com/ammahmoudi/NumericalAnalysis
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/NumericalAnalysis/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light

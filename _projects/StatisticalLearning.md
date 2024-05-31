@@ -1,10 +1,10 @@
 ---
 layout: page
 category: Repositories
-title: StatisticalLearning
+title: Statistical Learning
 description: Homework Solutions for Statistical Learning Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
-date: 2023-09-04 21:10:07 
-last_modified_at: 2023-09-15 21:30:45 
+date: 2023-09-04 21:10:07 +0000
+last_modified_at: 2023-09-15 21:30:45 +0000
 url: https://github.com/ammahmoudi/StatisticalLearning
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/StatisticalLearning/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light

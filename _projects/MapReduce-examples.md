@@ -1,10 +1,10 @@
 ---
 layout: page
 category: Repositories
-title: MapReduce examples
+title: Map Reduce examples
 description: Map Rduce Examples  using pure Scala and Then using Spark
-date: 2022-07-04 16:59:16 
-last_modified_at: 2023-11-03 08:47:39 
+date: 2022-07-04 16:59:16 +0000
+last_modified_at: 2023-11-03 08:47:39 +0000
 url: https://github.com/ammahmoudi/MapReduce-examples
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master/cover.jpg

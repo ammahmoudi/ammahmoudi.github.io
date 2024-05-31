@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Arkanoid
 description: classic  arkanoid game using java and swing
-date: 2021-11-25 08:45:06 
-last_modified_at: 2023-09-15 21:28:17 
+date: 2021-11-25 08:45:06 +0000
+last_modified_at: 2023-09-15 21:28:17 +0000
 url: https://github.com/ammahmoudi/Arkanoid
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/cover.png

@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Credit Risk Prediction
 description: Predicting credit risk when a person requests for loan using random forest on south German dataset (fixing imbalanced data)
-date: 2023-10-29 14:34:10 
-last_modified_at: 2023-10-29 14:42:59 
+date: 2023-10-29 14:34:10 +0000
+last_modified_at: 2023-10-29 14:42:59 +0000
 url: https://github.com/ammahmoudi/Credit-Risk-Prediction
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png

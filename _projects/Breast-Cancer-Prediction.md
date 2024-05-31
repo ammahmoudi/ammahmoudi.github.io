@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Breast Cancer Prediction
 description: Breast Cancer survival analysis using Machine Learning
-date: 2023-02-01 14:51:10 
-last_modified_at: 2023-02-03 03:37:57 
+date: 2023-02-01 14:51:10 +0000
+last_modified_at: 2023-02-03 03:37:57 +0000
 url: https://github.com/ammahmoudi/Breast-Cancer-Prediction
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png

@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Dinning Philosophers
 description: Implenting Dinning Philosophers problem in a client-server style with nice GUI using java and javafx
-date: 2022-02-26 20:07:39 
-last_modified_at: 2023-11-03 22:13:09 
+date: 2022-02-26 20:07:39 +0000
+last_modified_at: 2023-11-03 22:13:09 +0000
 url: https://github.com/ammahmoudi/Dinning-Philosophers
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/cover.jpg

@@ -15,7 +15,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category-name">{{ category[0] }}</h2>
-  <h2 class="category-description">{{ category[1] }}</h2>
+  <h3 class="category-description">{{ category[1] }}</h3>
   {%- assign categorized_projects = site.projects | where: "category", category[0] -%}
   {%- assign sorted_projects = categorized_projects | sort: "date" | reverse %}
   <!-- Generate cards for each project -->

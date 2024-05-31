@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: WE
 description: A social app for postint and messaging  using java , javafx,hibernate ORM
-date: 2021-11-25 08:46:16 
-last_modified_at: 2023-09-15 15:35:40 
+date: 2021-11-25 08:46:16 +0000
+last_modified_at: 2023-09-15 15:35:40 +0000
 url: https://github.com/ammahmoudi/WE
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png

@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Simple Messanger
 description: simple chat application implemented in Python using a server-client architecture with groups and channels
-date: 2024-03-03 15:12:00 
-last_modified_at: 2024-03-04 07:23:59 
+date: 2024-03-03 15:12:00 +0000
+last_modified_at: 2024-03-08 16:35:31 +0000
 url: https://github.com/ammahmoudi/Simple-Messanger
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png

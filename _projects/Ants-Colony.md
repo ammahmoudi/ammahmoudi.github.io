@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Ants Colony
 description: Ants Coloney multi-processing app
-date: 2022-04-09 15:37:43 
-last_modified_at: 2023-09-15 21:29:44 
+date: 2022-04-09 15:37:43 +0000
+last_modified_at: 2023-09-15 21:29:44 +0000
 url: https://github.com/ammahmoudi/Ants-Colony
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/Ants-Colony/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light

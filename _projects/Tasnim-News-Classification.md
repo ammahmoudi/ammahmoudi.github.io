@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Tasnim News Classification
 description: Text classification for news articles sourced from an Iranian newspaper including data exploration, text preprocessing, vectorization, train-test data splitting, and machine learning model training.
-date: 2023-10-05 22:05:44 
-last_modified_at: 2023-10-29 13:54:05 
+date: 2023-10-05 22:05:44 +0000
+last_modified_at: 2023-10-29 13:54:05 +0000
 url: https://github.com/ammahmoudi/Tasnim-News-Classification
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Tasnim-News-Classification/main/output.png

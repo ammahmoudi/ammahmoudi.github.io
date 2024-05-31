@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Image Captioning RNN
 description: Image Captioning using Recurrent Neural Networks on Flickr images with pretrained ResNet50 model features.
-date: 2023-10-30 18:16:15 
-last_modified_at: 2023-10-30 18:32:18 
+date: 2023-10-30 18:16:15 +0000
+last_modified_at: 2023-10-30 18:32:18 +0000
 url: https://github.com/ammahmoudi/Image-Captioning-RNN
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main/output.png

@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: COVID 19 Autoencoder
 description: Using Autoencoder in keras as a nonlinear dimensionality reduction method to encode COVID-19 patients data
-date: 2023-10-30 18:02:07 
-last_modified_at: 2023-10-30 18:11:54 
+date: 2023-10-30 18:02:07 +0000
+last_modified_at: 2023-10-30 18:11:54 +0000
 url: https://github.com/ammahmoudi/COVID-19-Autoencoder
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png

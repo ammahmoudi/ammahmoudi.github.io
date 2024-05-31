@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Data Visualization
 description: A curated collection of innovative data visualization projects
-date: 2024-03-05 12:18:29 
-last_modified_at: 2024-03-06 18:14:10 
+date: 2024-03-05 12:18:29 +0000
+last_modified_at: 2024-05-12 14:56:31 +0000
 url: https://github.com/ammahmoudi/Data-Visualization
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg

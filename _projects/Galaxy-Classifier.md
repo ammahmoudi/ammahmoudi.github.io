@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Galaxy Classifier
 description: Classifing galaxy images using a MLP Model with PyTorch
-date: 2023-10-30 12:25:16 
-last_modified_at: 2023-10-30 13:01:53 
+date: 2023-10-30 12:25:16 +0000
+last_modified_at: 2023-10-30 13:01:53 +0000
 url: https://github.com/ammahmoudi/Galaxy-Classifier
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png

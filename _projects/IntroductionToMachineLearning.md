@@ -1,10 +1,10 @@
 ---
 layout: page
 category: Repositories
-title: IntroductionToMachineLearning
+title: Introduction To Machine Learning
 description: Introduction to Machine Learning, for B.Sc. Students, Industrial Engineering Department, Sharif University of Technology
-date: 2023-08-31 13:34:39 
-last_modified_at: 2023-09-15 21:32:49 
+date: 2023-08-31 13:34:39 +0000
+last_modified_at: 2024-05-12 14:59:39 +0000
 url: https://github.com/ammahmoudi/IntroductionToMachineLearning
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/IntroductionToMachineLearning/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light

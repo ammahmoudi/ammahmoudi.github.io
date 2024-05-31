@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Simple Calculator Server Clinet
 description: A simple calculator with clinet and server using socket and javafx gui with jfoenix beautiful design
-date: 2022-04-12 12:23:13 
-last_modified_at: 2023-11-03 21:25:47 
+date: 2022-04-12 12:23:13 +0000
+last_modified_at: 2023-11-03 21:25:47 +0000
 url: https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png

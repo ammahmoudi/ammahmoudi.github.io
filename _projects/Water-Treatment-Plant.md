@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Water Treatment Plant
 description: Categorizing the plant's operation state using sensor data suing SVMs.
-date: 2023-10-29 13:39:24 
-last_modified_at: 2023-10-29 13:54:28 
+date: 2023-10-29 13:39:24 +0000
+last_modified_at: 2023-10-29 13:54:28 +0000
 url: https://github.com/ammahmoudi/Water-Treatment-Plant
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png

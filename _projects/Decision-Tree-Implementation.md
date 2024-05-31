@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Decision Tree Implementation
 description: Implementing Decision Tree Classifer from scrath and then train it on breast cancer dataset from the University of Wisconsin Hospitals
-date: 2023-10-29 20:38:20 
-last_modified_at: 2023-10-29 21:10:47 
+date: 2023-10-29 20:38:20 +0000
+last_modified_at: 2023-10-29 21:10:47 +0000
 url: https://github.com/ammahmoudi/Decision-Tree-Implementation
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg

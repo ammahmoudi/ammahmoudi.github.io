@@ -3,8 +3,8 @@ layout: page
 category: Repositories
 title: Sea Battle
 description: classic Sea battle game implemented using Java socket, Javafx, Hibernate ORM
-date: 2021-11-25 08:46:52 
-last_modified_at: 2023-11-03 12:30:21 
+date: 2021-11-25 08:46:52 +0000
+last_modified_at: 2023-11-03 12:30:21 +0000
 url: https://github.com/ammahmoudi/Sea-Battle
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Sea-Battle/main/images/main.png

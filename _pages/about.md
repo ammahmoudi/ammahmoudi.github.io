@@ -43,7 +43,7 @@ His [CV page](/cv) includes more information about Amirhossein and His [projects
   var differenceInYears = Math.floor(differenceInTime / (1000 * 3600 * 24 * 365));
   var pastMonth = pastDate.getMonth();
   var currentMonth = currentDate.getMonth();
-  var monthDiff = (currentDate.getFullYear() - pastDate.getFullYear()) * 12 + currentMonth - pastMonth;
+  var monthDiff = (currentMonth - pastMonth)%12;
   document.getElementById("yearsDiff").innerHTML = differenceInYears;
   document.getElementById("monthsDiff").innerHTML = monthDiff;
   });

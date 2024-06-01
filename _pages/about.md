@@ -40,15 +40,10 @@ His [CV page](/cv) includes more information about Amirhossein and His [projects
   var pastDate = new Date('2001-07-15');
   var currentDate = new Date();
   var differenceInTime = currentDate.getTime() - pastDate.getTime();
-
-  // Calculate the difference in years
   var differenceInYears = Math.floor(differenceInTime / (1000 * 3600 * 24 * 365));
-
-  // Calculate the difference in months
   var pastMonth = pastDate.getMonth();
   var currentMonth = currentDate.getMonth();
   var monthDiff = (currentDate.getFullYear() - pastDate.getFullYear()) * 12 + currentMonth - pastMonth;
-
   document.getElementById("yearsDiff").innerHTML = differenceInYears;
   document.getElementById("monthsDiff").innerHTML = monthDiff;
   });

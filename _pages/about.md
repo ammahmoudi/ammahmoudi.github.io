@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**Amirhossein Mahmoudi** is a <span id="yearsDiff"></span> years and <span id="monthsDiff"></span> months old computer science student at Sharif University of Technology, one of the most prestigious universities in Iran. He has a diverse academic background and a strong passion for machine learning and deep learning.
+**Amirhossein Mahmoudi** is a <span id="ag"></span> computer science student at Sharif University of Technology, one of the most prestigious universities in Iran. He has a diverse academic background and a strong passion for machine learning and deep learning.
 
 <!-- - He started his studies as an aerospace engineering student, where he learned about thermodynamics and fluid mechanics, and participated in the AIAA Design competition ([link](https://mamood.ir/blog/tag/aiaa/)).
 - He switched to computer science, where he developed an interest in machine learning and deep learning applications to biology and bioinformatics. He is working on his bachelor project, which uses physics-informed deep learning to reconstruct fluxomic data ([link](#to_your_project)).
@@ -36,15 +36,23 @@ Amirhossein is looking for graduate positions that will allow him to pursue his 
 
 His [CV page](/cv) includes more information about Amirhossein and His [projects page](/projects) contains detailed information about what he has done. Also, a list of his visual works can be seen on His [Portfolio](/portfolio).
 <script>
+  function calculateAge(birthDate) {
+  var today = new Date();
+  var birthDate = new Date(birthDate);
+  var age = today.getFullYear() - birthDate.getFullYear();
+  var m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+    m = (m + 12) % 12;
+  }
+  if (m === 0) {
+    return age + ' years old';
+  } else {
+    return age + ' years and ' + m + ' months old';
+  }
+}
   document.addEventListener('DOMContentLoaded', function() {
-  var pastDate = new Date('2001-07-15');
-  var currentDate = new Date();
-  var differenceInTime = currentDate.getTime() - pastDate.getTime();
-  var differenceInYears = Math.floor(differenceInTime / (1000 * 3600 * 24 * 365));
-  var pastMonth = pastDate.getMonth();
-  var currentMonth = currentDate.getMonth();
-  var monthDiff = (currentMonth - pastMonth)%12;
-  document.getElementById("yearsDiff").innerHTML = differenceInYears;
-  document.getElementById("monthsDiff").innerHTML = monthDiff;
+
+document.getElementById("age").innerHTML = calculateAge('2001-07-15');
   });
 </script>

@@ -35,22 +35,26 @@ Amirhossein is a creative person who enjoys various forms of art and expression.
 Amirhossein is looking for graduate positions that will allow him to pursue his passion for machine learning and deep learning, as well as to learn from and collaborate with other researchers and experts in the field. He is eager to apply his knowledge and skills to solve real-world problems and make a positive impact on society.
 
 His [CV page](/cv) includes more information about Amirhossein and His [projects page](/projects) contains detailed information about what he has done. Also, a list of his visual works can be seen on His [Portfolio](/portfolio).
+
 <script>
-  function calculateAge(birthDate) {
+function calculateAge(birthDate) {
   var today = new Date();
   var birthDate = new Date(birthDate);
   var age = today.getFullYear() - birthDate.getFullYear();
   var m = today.getMonth() - birthDate.getMonth();
+
   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
     age--;
     m = (m + 12) % 12;
   }
+
   if (m === 0) {
     return age + ' years old';
   } else {
     return age + ' years and ' + m + ' months old';
   }
 }
+
   document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementById("age").innerHTML = calculateAge('2001-07-15');

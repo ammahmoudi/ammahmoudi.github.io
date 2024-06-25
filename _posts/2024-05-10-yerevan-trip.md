@@ -6,6 +6,8 @@ description: Experiences of a 4-day trip to Yerevan, Armenia
 tags: experiences travel
 categories: notes
 thumbnail: assets/img/posts/yerevan-trip/republic_square.JPG
+og_image: assets/img/posts/yerevan-trip/republic_square.JPG
+
 giscus_comments: true
 toc:
   sidebar: left

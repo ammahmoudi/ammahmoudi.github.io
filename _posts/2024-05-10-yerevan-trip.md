@@ -5,7 +5,7 @@ date: 2024-05-10 10:14:00-0400
 description: Experiences of a 4-day trip to Yerevan, Armenia
 tags: experiences travel
 categories: notes
-thumbnail: assets/img/posts/yerevan-trip/republic_square.jpg
+thumbnail: assets/img/posts/yerevan-trip/republic_square.JPG
 giscus_comments: true
 toc:
   sidebar: left
@@ -31,7 +31,7 @@ In May 2024, I traveled to Yerevan, Armenia, primarily for a US embassy appointm
 
 </div>
 ## Arrival and Local Setup
-- **SIM Cards and Currency Exchange**: Upon arrival at Yerevan airport, we bought SIM cards from [Team](https://www.telecomarmenia.am/en/) and exchanged some dollars for Armenian Drams (AMD). 
+- **SIM Cards and Currency Exchange**: Upon arrival at Yerevan airport, we bought SIM cards from [Team](https://www.telecomarmenia.am/en/) and exchanged some dollars for Armenian Drams (AMD). after getting simcard you can see your number by using the code `*525#`.
 
 - **Transportation**: We installed the [Yandex Go app](https://go.yandex/) for rides to our guest house and for local transportation. While Yandex rides were convenient, they were expensive, so we often used public buses and the metro. Public transport cost 100 AMD per ride, payable in cash to the driver.
 
@@ -68,53 +68,35 @@ During our stay, we explored several notable places:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/yerevan-trip/vernissage_market.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
     </div>
-    <div class="row mt-3">
-        <div class="col-sm mt-3 mt-md-0">
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/yerevan-trip/karen demirchyan_complex.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-            <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/yerevan-trip/armenian_genocide_memorial.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
-
 </div>
 
 ## Costs and Budgeting
-Here is a summary of our travel expenses for three people, converted to USD:
+Here is a summary of some of  our travel expenses for three people, converted to USD:
 
 | **Item**                                | **Cost (USD)** |
 |-----------------------------------------|----------------|
 | Handmade Earring (Vernissage Market)    | 10.42          |
-| Handmade Backpack 1 (Vernissage Market) | 10.42          |
-| Handmade Backpack 2 (Vernissage Market) | 13.02          |
+| Handmade Backpack  (Vernissage Market) | 13.02          |
 | Burger with Soda and Fries (Angus Burgery)| 9.90         |
 | Yandex Ride (Airport to Guest House)    | 3.91           |
 | 1 Liter Coca Cola                       | 1.46           |
 | Guest House per Night                   | 34.00          |
 | SIM Card Plan (Unlimited Internet)      | 10.42          |
 | SIM Card Plan (Limited Internet)        | 7.81           |
-| Lavash Bread                            | 0.29           |
+| 1 Lavash Bread                            | 0.29           |
 | Two Kilikia Beer and a KitKat           | 1.28           |
 | Special Ice Cream (Angus Burgery)       | 1.82           |
 | Photo Printing for Embassy              | 2.60           |
 
-## General Cost Analysis
-- **Handmade Earring (Vernissage Market)**: $10.42
-- **Handmade Backpack (Vernissage Market)**: $10.42 - $13.02
-- **Burger with Soda and Fries (Angus Burgery)**: $9.90
-- **Yandex Ride (Airport to Guest House)**: $3.91
-- **1 Liter Coca Cola**: $1.46
-- **Guest House per Night**: $34.00
-- **SIM Card Plan (Unlimited Internet)**: $10.42
-- **SIM Card Plan (Limited Internet)**: $7.81
-- **Lavash Bread**: $0.29
-- **Two Kilikia Beer and a KitKat**: $1.28
-- **Special Ice Cream (Angus Burgery)**: $1.82
-- **Photo Printing for Embassy**: $2.60
-
-## Total Trip Cost
 - **Total Cost for One Person**: Approximately 200 million IRR (about $340 USD)
 
 

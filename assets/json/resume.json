@@ -198,6 +198,7 @@
       "C",
       "Java",
       "Python",
+      "Javascript",
       "R",
       "Scala",
       "HTML/CSS"
@@ -220,6 +221,8 @@
     "name":"Frameworks",
     "keywords": [
       "React",
+      "Django",
+      "Nextjs",
       "WordPress",
       "Spring",
       "Hibernate ORM"

@@ -8,7 +8,12 @@ nav_order: 4
 ---
 <!-- _pages/publications.md -->
 
+<!-- Bibsearch Feature -->
 As I am a bachelor's student I have not lots of publications. I hope I will add more items to this page.
+
+{% include bib_search.liquid %}
+
+
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}

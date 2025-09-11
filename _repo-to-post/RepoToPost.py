@@ -123,7 +123,7 @@ class RepoToPost:
 
 
             
-                s
+                
         return None, None
 
     @staticmethod

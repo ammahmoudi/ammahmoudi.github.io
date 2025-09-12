@@ -12,8 +12,9 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/m
 tags: [bitcoin, blockchain, cryptography, p2pkh]
 categories: ["Repository", Python]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/P2PKH-Address-Generator" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/P2PKH-Address-Generator" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/P2PKH-Address-Generator" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 ---
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}

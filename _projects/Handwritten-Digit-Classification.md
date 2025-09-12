@@ -12,11 +12,15 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classif
 tags: [cnn, deep-learning, machine-learning, ml, mnist, pytorch]
 categories: ["Repository", Jupyter Notebook]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Handwritten-Digit-Classification" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Handwritten-Digit-Classification" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Handwritten-Digit-Classification" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 ---
- A code that uses PyTorch to build and implement a residual CNN for solving a classification problem. The goal is to classify handwritten digits from 0 to 9 on the MNIST dataset.
+
+A code that uses PyTorch to build and implement a residual CNN for solving a classification problem. The goal is to classify handwritten digits from 0 to 9 on the MNIST dataset.
+
 ## Data Documentation
+
 The MNIST database of handwritten digits has a training set of 60,000 examples, and a test set of 10,000 examples.
 
 Four files are available:
@@ -29,6 +33,7 @@ Four files are available:
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png" alt="samples of MNIST" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 For more information please read the [data documentation](https://www.kaggle.com/datasets/hojjatk/mnist-dataset).
+
 ## Code Explanation
 
 - **Setup**: A code block that imports the necessary libraries and modules, such as torch, torchvision, numpy, pandas, etc. It also sets the device to cuda if available, and defines the style for plotting.
@@ -37,6 +42,7 @@ For more information please read the [data documentation](https://www.kaggle.com
 - **Define Model**: A code block that defines a custom model class called ResidualClassifier. It inherits from nn.Module and implements a forward method. The model has several convolutional layers, max pooling layers, residual connections, an adaptive average pooling layer, a linear layer, and ReLU activations. It follows the architecture shown in the schematic diagram.
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/Architecture.png" alt="arthitecture" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 - **Train Model**: A code block that instantiates the model, defines the hyperparameters, optimizer, loss function, and other variables. It also defines a function to calculate the accuracy of the model. It then trains the model for several epochs, evaluates it on the validation set, and plots the loss and accuracy curves.
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/cmatrix.png" alt="cmatrix" class="img-fluid rounded z-depth-1" zoomable=true %}

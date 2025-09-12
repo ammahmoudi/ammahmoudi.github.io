@@ -12,8 +12,9 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainhttp
 tags: [ocr, structured-output, text-extraction, vlm]
 categories: ["Repository", Python]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/StructuredVision" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/StructuredVision" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/StructuredVision" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 ---
 
 [{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainhttps://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+" class="img-fluid rounded z-depth-1" zoomable=true %}](https://www.python.org/downloads/)
@@ -36,23 +37,27 @@ Perfect for automating data extraction from screenshots, documents, forms, and g
 ## ✨ Features
 
 ### 🎯 **Multi-Method Extraction**
+
 - **Gemini AI**: Schema-based structured data extraction with validation
 - **OCR**: Traditional text extraction with preprocessing options
 - **VLM**: Vision-language models for context-aware extraction
 - **Auto-Selection**: Intelligent method selection based on input
 
 ### 🎮 **Gaming Specialization**
+
 - **Rainbow Six Siege**: Extract lobby data, team compositions, match details
 - **Custom Gaming Schemas**: Extensible for other games
 - **Real-time Analysis**: Process game screenshots for data analysis
 
 ### 📄 **Document Processing**
+
 - **Receipts**: Extract merchant, items, totals, dates
 - **Invoices**: Parse billing information, line items, amounts
 - **Business Cards**: Extract contact information
 - **Forms**: Process filled form data
 
 ### 🔧 **Advanced Features**
+
 - **JSON Schema Validation**: Ensure data structure consistency
 - **Batch Processing**: Handle multiple images efficiently
 - **Method Comparison**: Compare different extraction approaches
@@ -142,6 +147,7 @@ python -c "from structured_vision import StructuredVision; print('Installation s
 ## 🎯 Quick Start
 
 ### Basic Text Extraction
+
 ```python
 from structured_vision import StructuredVision
 
@@ -154,6 +160,7 @@ print(result["extracted_text"])
 ```
 
 ### Structured Data with Schema
+
 ```python
 # Extract receipt data
 result = sv.extract_document_data("receipt.jpg", "receipt")
@@ -167,6 +174,7 @@ print(f"Teams: {result['teams']}")
 ```
 
 ### Custom Schema
+
 ```python
 # Define custom schema
 schema = {
@@ -212,65 +220,68 @@ sv-extract image.png --extractor gemini --output results/ --verbose
 ## 📊 Output Examples
 
 ### Text Extraction
+
 ```json
 {
-    "extractor": "ocr",
-    "image_path": "sample.png",
-    "extracted_text": "PLAY OPERATORS SHOP...",
-    "total_words": 15,
-    "extracted_words": [
-        {
-            "text": "PLAY",
-            "confidence": 96,
-            "position": {"left": 380, "top": 55, "width": 61, "height": 42}
-        }
-    ]
+  "extractor": "ocr",
+  "image_path": "sample.png",
+  "extracted_text": "PLAY OPERATORS SHOP...",
+  "total_words": 15,
+  "extracted_words": [
+    {
+      "text": "PLAY",
+      "confidence": 96,
+      "position": { "left": 380, "top": 55, "width": 61, "height": 42 }
+    }
+  ]
 }
 ```
 
 <!-- Add sample images for EasyOCR regions and structured data examples -->
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainsample_easyocr_text_regions.jpg" alt="EasyOCR text regions example" class="img-fluid rounded z-depth-1" zoomable=true %}
-*Figure: Detected text regions using EasyOCR — useful for debugging region detection and OCR preprocessing.*
-
+_Figure: Detected text regions using EasyOCR — useful for debugging region detection and OCR preprocessing._
 
 ### Gaming Data (R6 Lobby)
+
 ```json
 {
-    "match_details": {
-        "lobby_header": "CUSTOM GAME",
-        "time_remaining": "4:00",
-        "game_type": "BOMB",
-        "map_name": "OREGON",
-        "map_time_of_day": "DAY"
-    },
-    "teams": {
-        "blue_team": ["Player1", "Player2", "Player3"],
-        "orange_team": ["Player4", "Player5"]
-    },
-    "spectators": ["Spectator1"]
+  "match_details": {
+    "lobby_header": "CUSTOM GAME",
+    "time_remaining": "4:00",
+    "game_type": "BOMB",
+    "map_name": "OREGON",
+    "map_time_of_day": "DAY"
+  },
+  "teams": {
+    "blue_team": ["Player1", "Player2", "Player3"],
+    "orange_team": ["Player4", "Player5"]
+  },
+  "spectators": ["Spectator1"]
 }
 ```
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainsample_structured_data.jpg" alt="Structured data extraction example" class="img-fluid rounded z-depth-1" zoomable=true %}
-*Figure: Example of the structured JSON output visualized alongside the original image — helpful for verifying schema fields and values.*
-
+_Figure: Example of the structured JSON output visualized alongside the original image — helpful for verifying schema fields and values._
 
 ### Receipt Data
+
 ```json
 {
-    "merchant_name": "SuperMarket",
-    "date": "2024-01-15",
-    "total_amount": "$45.67",
-    "items": [
-        {"name": "Bread", "price": "$2.99"},
-        {"name": "Milk", "price": "$3.49"}
-    ]
+  "merchant_name": "SuperMarket",
+  "date": "2024-01-15",
+  "total_amount": "$45.67",
+  "items": [
+    { "name": "Bread", "price": "$2.99" },
+    { "name": "Milk", "price": "$3.49" }
+  ]
 }
 ```
+
 ## 🔧 Configuration
 
 ### Configuration File
+
 ```python
 from structured_vision.utils import create_default_config
 
@@ -282,6 +293,7 @@ sv = StructuredVision(config="config.json")
 ```
 
 ### Environment Variables
+
 ```bash
 # Extraction settings
 export SV_EXTRACTOR_TYPE=gemini
@@ -295,6 +307,7 @@ export GOOGLE_API_KEY=your_key
 ## 🎮 Gaming Examples
 
 ### Rainbow Six Siege Lobby
+
 ```python
 # Specialized R6 extraction
 result = sv.extract_gaming_data("r6_lobby.png", "r6")
@@ -306,6 +319,7 @@ print(f"Playing {match_info['game_type']} on {match_info['map_name']}")
 ```
 
 ### Custom Gaming Schema
+
 ```python
 # Define custom game schema
 valorant_schema = {
@@ -323,6 +337,7 @@ result = sv.extract("valorant.png", schema=valorant_schema)
 ## 📄 Document Processing
 
 ### Receipts
+
 ```python
 # Extract receipt data
 result = sv.extract_document_data("receipt.jpg", "receipt")
@@ -332,6 +347,7 @@ for item in result["items"]:
 ```
 
 ### Invoices
+
 ```python
 # Extract invoice data
 result = sv.extract_document_data("invoice.pdf", "invoice")
@@ -355,6 +371,7 @@ for method, result in comparison["methods"].items():
 ## 📚 Advanced Usage
 
 ### Batch Processing
+
 ```python
 # Process multiple images
 results = sv.batch_extract(
@@ -367,6 +384,7 @@ print(f"Processed {results['successful']} images successfully")
 ```
 
 ### Custom Preprocessing
+
 ```python
 from structured_vision.utils import preprocess_image
 
@@ -413,15 +431,18 @@ StructuredVision/
 ### Optional Dependencies
 
 #### OCR Support
+
 - **pytesseract ≥0.3.0** - Traditional OCR (requires system Tesseract)
 - **easyocr ≥1.7.0** - Multi-language OCR
 
 #### AI/ML Support
+
 - **torch ≥2.8.0** - PyTorch for VLM models
 - **transformers ≥4.56.1** - Hugging Face transformers
 - **sentencepiece ≥0.2.1** - Text tokenization
 
 #### Development Tools
+
 - **pytest ≥7.0.0** - Testing framework
 - **pytest-cov ≥4.0.0** - Coverage reporting
 - **black ≥23.0.0** - Code formatting

@@ -12,8 +12,9 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Sea-Battle/main/images/ma
 tags: [hibernate-orm, java, java-game, javafx, sea-battle, socket]
 categories: ["Repository", Java]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Sea-Battle" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Sea-Battle" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Sea-Battle" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 ---
 
 Sea Battle is a two-player strategy game where each player tries to sink the enemy's ships by bombing their grid. The game is implemented in Java, JavaFX, and Hibernate ORM, using sockets for network communication. It was a project for the Advanced Programming course with Java at Sharif University of Technology. the code may have bugs and some features may have not been implemented completely.
@@ -29,7 +30,6 @@ The game is played on two 10x10 grids, one for each player. Each player has a fl
 The game is turn-based. Each player has 25 seconds to bomb a cell on the enemy's grid that has not been bombed before. If the bomb hits a ship, the player gets another turn. A ship is sunk when all its cells are bombed. In that case, all the adjacent cells are also bombed. The player who sinks all the enemy's ships first wins the game.
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Sea-Battle/main/images/ending.png" alt="main gameplay" class="img-fluid rounded z-depth-1" zoomable=true %}
-
 
 ## Game Structure
 
@@ -54,4 +54,5 @@ The server saves the information of each account in a database using Hibernate O
 The game handles errors in different situations. If a player disconnects during a game, the server gives them one minute to reconnect and resume the game. The other player is informed of the disconnection and the waiting time. If the disconnected player does not reconnect within one minute, the other player is declared the winner. The client also shows an appropriate message when disconnected from the server and tries to reconnect. If the client is closed completely, the user has to log in again to resume the game. The game also handles errors related to creating or logging into an account, such as duplicate usernames or wrong passwords, and shows an appropriate error message.
 
 ## Assets
- Most of the graphical assets of this game are borrowed from the original game, [SeaBattle2](https://play.google.com/store/apps/details?id=com.byril.seabattle2&hl=en&gl=US) and All rights reserved to [Byril](https://byril.com).
+
+Most of the graphical assets of this game are borrowed from the original game, [SeaBattle2](https://play.google.com/store/apps/details?id=com.byril.seabattle2&hl=en&gl=US) and All rights reserved to [Byril](https://byril.com).

@@ -12,8 +12,9 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eig
 tags: [arnoldi-algorithm, davidson-eigensolver, eigenvalue-solvers, eigenvalueproblems, iterative-methods, lanczos, power-method, jacobi-davidson]
 categories: ["Repository", Jupyter Notebook]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 ---
 
 Supervisior: Dr. Mohammadreza Razvan
@@ -42,23 +43,23 @@ Some of the most common iterative methods for eigenvalue problems are:
 - Power method: This is the simplest iterative method. It computes the largest eigenvalue in absolute value and its corresponding eigenvector by repeatedly multiplying a random vector by the matrix and normalizing it. The power method is easy to implement and only requires matrix-vector multiplication, but it converges slowly and may fail if there are multiple eigenvalues of the same magnitude.
 - Inverse iteration method: This is a variant of the power method, which computes the eigenvalue closest to a given value and its corresponding eigenvector by repeatedly solving a linear system with the matrix shifted by the given value and normalizing the solution. The inverse iteration method can be used to find any eigenvalue, but it requires solving a linear system at each step, which can be costly and unstable.
 - Rayleigh quotient iteration method: This is another variant of the power method, which computes the eigenvalue and eigenvector of a symmetric matrix by using the Rayleigh quotient, which is the ratio of $x^T A x$ and $x^T x$, as the shift value for the inverse iteration method. The Rayleigh quotient iteration method can converge faster than the inverse iteration method, but it is not guaranteed to converge to the desired eigenvalue and may oscillate or diverge.
-= Arnoldi method: This is a generalization of the power method, which computes a few eigenvalues and eigenvectors of a matrix by constructing an orthogonal basis for a Krylov subspace, which is the span of successive powers of the matrix applied to a random vector, and then finding the eigenvalues and eigenvectors of a smaller matrix that preserves the action of the original matrix on the subspace. The Arnoldi method can find eigenvalues of any magnitude and multiplicity, but it requires storing and orthogonalizing the basis vectors, which can be expensive and ill-conditioned.
+  = Arnoldi method: This is a generalization of the power method, which computes a few eigenvalues and eigenvectors of a matrix by constructing an orthogonal basis for a Krylov subspace, which is the span of successive powers of the matrix applied to a random vector, and then finding the eigenvalues and eigenvectors of a smaller matrix that preserves the action of the original matrix on the subspace. The Arnoldi method can find eigenvalues of any magnitude and multiplicity, but it requires storing and orthogonalizing the basis vectors, which can be expensive and ill-conditioned.
 - Davidson method: This is an improvement of the Arnoldi method, which computes a few eigenvalues and eigenvectors of a symmetric matrix by using a preconditioner, which is a matrix that approximates the inverse of the matrix, to accelerate the convergence of the Krylov subspace and reduce the size of the smaller matrix. The Davidson method can be more efficient and robust than the Arnoldi method, but it depends on the choice of the preconditioner, which can be challenging to construct and apply.
 - Jacobi-Davidson method: This is a further improvement of the Davidson method, which computes a few eigenvalues and eigenvectors of a symmetric matrix by using a correction equation, which is a linear system that updates the approximate eigenvector by minimizing the residual, to refine the Krylov subspace and the preconditioner. The Jacobi-Davidson method can be more accurate and flexible than the Davidson method, but it requires solving a correction equation at each step, which can be challenging and time-consuming.
 - Lanczos method: This is a special case of the Arnoldi method, which computes a few eigenvalues and eigenvectors of a symmetric matrix by constructing a tridiagonal matrix that preserves the action of the original matrix on the Krylov subspace. The Lanczos method can be faster and more stable than the Arnoldi method, but it may suffer from loss of orthogonality and spurious eigenvalues due to round-off errors.
 
 ## Implementation
+
 various iterative methods for finding eigenvalues and eigenvectors of matrices in Python are presented. The following methods are implemented:
 
-	- Power method
-	- Shifted inverse power method
-	- RQ iteration method
-	- Block power method
-	- Lanczos method
-	- Davidson method
-	- Subspace iteration method
-	- Jacobi-Davidson method
-
+    - Power method
+    - Shifted inverse power method
+    - RQ iteration method
+    - Block power method
+    - Lanczos method
+    - Davidson method
+    - Subspace iteration method
+    - Jacobi-Davidson method
 
 The performance and accuracy of the implementation are tested, and the results are compared with the built-in functions in SciPy and numpy.
 
@@ -68,4 +69,3 @@ The performance and accuracy of the implementation are tested, and the results a
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_residuals.svg" alt="Smallest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_real_diff.svg" alt="Biggest Eigenvalue Problem Real Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/biggest_residuals.svg" alt="Biggest Eigenvalue Problem Residuals" class="img-fluid rounded z-depth-1" zoomable=true %}
-

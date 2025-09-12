@@ -12,10 +12,10 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instan
 tags: [agriculture, crop-detection, instance-segmentation, r-cnn]
 categories: ["Repository", Jupyter Notebook]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
----
 
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+---
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/maincover.jpg" alt="Project Cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 
@@ -64,11 +64,11 @@ This project implements Mask R-CNN using PyTorch for image segmentation and obje
 
 2. Create a virtual environment and install dependencies:
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate        # On Windows: venv\Scripts\activate
-    pip install -r requirements.txt
-    ```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate        # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
 Prepare your dataset in the datasets/PhenoBench/ directory:
 
@@ -115,7 +115,7 @@ python main.py --resume \
   --num_epochs 5 \
   --checkpoint checkpoints/model.pth \
   --resume_checkpoint checkpoints/model_resumed.pth
-  ```
+```
 
 ## Configuration
 
@@ -128,7 +128,7 @@ Key arguments for main.py:
 --batch_size_train, --batch_size_test: Batch sizes for training and testing.
 --checkpoint: Path to save/load checkpoints.
 --log_level: Logging level (DEBUG, INFO, etc.).
-  ```
+```
 
 ## Logging
 
@@ -149,7 +149,7 @@ python main.py --train \
   --num_epochs 1 \
   --batch_size_train 2 \
   --log_level DEBUG
-  ```
+```
 
 Test on the Test Dataset
 

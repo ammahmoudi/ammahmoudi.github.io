@@ -12,18 +12,21 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots
 tags: [arkanoid, java, swing]
 categories: ["Repository", Java]
 ---
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Arkanoid" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Arkanoid" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Arkanoid" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 ---
-classic  arkanoid game using java and swing
+
+classic arkanoid game using java and swing
 
 ## Features:
+
 - Bricks:
   - Glass Bricks: They are destroyed when the ball hits them the first time.
   - Wooden Bricks: They are destroyed by hitting the ball twice.
   - Invisible Bricks: Cannot be seen and are made of glass.
   - Flashing Bricks: Flashing and are destroyed by the ball while they are visible, and the ball passes through them when they are not seen.
-  -Bonus Bricks: Have bonus and with the ball to them the Brick is destroyed and its bonus moves down.
+    -Bonus Bricks: Have bonus and with the ball to them the Brick is destroyed and its bonus moves down.
 - Bonuses:
   - Fireball: After hitting and destroying the bricks, the ball continues its path in the same direction and does not change direction until it reaches the wall.The fireball also destroys wooden bricks with one hit.
   - Multiple balls: After receiving this award by the player, 2 more balls will be added to the playing field. When there are more than 1 balls in the game, the player does not die when the balls are lost. Unlike other awards, the effect of this award does not disappear after some time and is permanent.
@@ -35,7 +38,9 @@ classic  arkanoid game using java and swing
   - Random prize: Until the player receives the prize, it is not known what the effect of the prize will be. Once the player receives the prize, one of the other prizes will be randomly applied.
 - Score Borad
 - Save and Load Game
+
 ## Screenshots
+
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/cover.png" alt="main screen" class="img-fluid rounded z-depth-1" zoomable=true %}
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/game.png" alt="game play" class="img-fluid rounded z-depth-1" zoomable=true %}
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Arkanoid/main/screenshots/scores.png" alt="score borad" class="img-fluid rounded z-depth-1" zoomable=true %}

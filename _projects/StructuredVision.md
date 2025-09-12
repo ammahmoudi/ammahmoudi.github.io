@@ -7,8 +7,8 @@ date: 2025-06-03 11:11:29 +0000
 last_modified_at: 2025-09-12 08:30:15 +0000
 url: https://github.com/ammahmoudi/StructuredVision
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainhttps://img.shields.io/badge/python-3.10+-blue.svg
-og_image: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainhttps://img.shields.io/badge/python-3.10+-blue.svg
+img: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/main/https://img.shields.io/badge/python-3.10+-blue.svg
+og_image: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/main/https://img.shields.io/badge/python-3.10+-blue.svg
 tags: [ocr, structured-output, text-extraction, vlm]
 categories: ["Repository", Python]
 ---

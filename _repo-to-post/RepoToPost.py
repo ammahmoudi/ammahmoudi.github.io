@@ -198,6 +198,9 @@ class RepoToPost:
          return contents
     @staticmethod
     def add_raw_github_to_url(url,repo_name,repo_branch):
+            # Ensure url starts with a slash
+            if not url.startswith('/'):
+                url = '/' + url
             return "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+url
    
     @staticmethod

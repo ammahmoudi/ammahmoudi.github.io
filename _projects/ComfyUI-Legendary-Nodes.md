@@ -7,8 +7,8 @@ date: 2025-01-20 06:19:31 +0000
 last_modified_at: 2025-09-12 08:44:33 +0000
 url: https://github.com/ammahmoudi/ComfyUI-Legendary-Nodes
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_dataset_saver.png
-og_image: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_dataset_saver.png
+img: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_dataset_saver.png
+og_image: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_dataset_saver.png
 tags: [comfyui, comfyui-custom-node, comfyui-nodes]
 categories: ["Repository", Python]
 ---

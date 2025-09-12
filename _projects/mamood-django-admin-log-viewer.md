@@ -7,8 +7,8 @@ date: 2025-08-12 23:48:55 +0000
 last_modified_at: 2025-09-03 13:10:57 +0000
 url: https://github.com/ammahmoudi/mamood-django-admin-log-viewer
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs.jpeg
-og_image: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs.jpeg
+img: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs.jpeg
+og_image: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs.jpeg
 tags: [djnago, log, log-viewer]
 categories: ["Repository", Python]
 ---

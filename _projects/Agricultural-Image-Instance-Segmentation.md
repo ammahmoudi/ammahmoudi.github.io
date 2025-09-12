@@ -7,8 +7,8 @@ date: 2025-01-03 15:04:10 +0000
 last_modified_at: 2025-09-12 09:13:35 +0000
 url: https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation
 importance: 1
-img: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/maincover.jpg
-og_image: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/maincover.jpg
+img: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/main/cover.jpg
+og_image: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/main/cover.jpg
 tags: [agriculture, crop-detection, instance-segmentation, r-cnn]
 categories: ["Repository", Jupyter Notebook]
 ---

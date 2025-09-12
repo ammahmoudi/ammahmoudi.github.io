@@ -12,6 +12,7 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/sam
 tags: [eigenfaces, face-recognition, machine-learning, ml, pca, svm]
 categories: ["Repository", Jupyter Notebook]
 ---
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Face-Recognition" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Face-Recognition" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 

@@ -12,6 +12,7 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-
 tags: [calculator, java, javafx, jfoenix, server-client, socket, tcp]
 categories: ["Repository", Java]
 ---
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 

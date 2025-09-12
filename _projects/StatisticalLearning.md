@@ -12,6 +12,7 @@ og_image: https://socialify.git.ci/ammahmoudi/StatisticalLearning/image?&forks=1
 tags: [data-visualization, feature-selection, logistic-regression, random-forest]
 categories: ["Repository", HTML]
 ---
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/StatisticalLearning" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/StatisticalLearning" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 Homework Solutions for Statistical Learning Course as Computer Science B.Sc. Student at the Department of Mathematical Sciences, Sharif University of Technology

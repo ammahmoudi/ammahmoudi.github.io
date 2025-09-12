@@ -12,6 +12,7 @@ og_image: https://socialify.git.ci/ammahmoudi/Fluxomic-Prediction/image?&forks=1
 tags: [bioinformatics, deep-neural-networks, fluxomics, ml, optimization, transcriptomics]
 categories: ["Repository", Jupyter Notebook]
 ---
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Fluxomic-Prediction" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Fluxomic-Prediction" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 Applying implicit deep learning and convex optimization layers to infer metabolic fluxes from gene expression data

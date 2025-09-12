@@ -12,6 +12,7 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/AdaBoost-Implementation/m
 tags: [adaboost, early-stopping, machine-learning, ml, scratch-implementation]
 categories: ["Repository", Jupyter Notebook]
 ---
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/AdaBoost-Implementation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/AdaBoost-Implementation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 The code demonstrates how to implement AdaBoost from scratch and compare it with Scikit-Learn's implementation. It also explores early stopping and weighted errors in boosting algorithms.

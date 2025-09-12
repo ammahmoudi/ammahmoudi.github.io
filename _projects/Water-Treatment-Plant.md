@@ -12,6 +12,7 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/mai
 tags: [eda, knn, ml, svm, water-treatment, machine-learning]
 categories: ["Repository", Jupyter Notebook]
 ---
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Water-Treatment-Plant" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Water-Treatment-Plant" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 This problem comes from the daily measures of sensors in an urban waste water treatment plant. The objective is to classify the operation state of the plant at each of the stages of the treatment process using SVMs and KNN.

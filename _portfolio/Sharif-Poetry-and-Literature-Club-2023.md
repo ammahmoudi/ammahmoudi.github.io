@@ -26,7 +26,6 @@ Sharif poetry and literature club is a student-run organization at Sharif Univer
         {% include figure.liquid path="assets/projects/sharif_poetry_and_literature_club_2023/images/sss (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
-
 </div>
 
 <div class="row mt-3">

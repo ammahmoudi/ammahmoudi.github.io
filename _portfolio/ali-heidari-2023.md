@@ -43,7 +43,6 @@ The logo is suitable for various applications, such as business cards, websites,
         {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
-
 </div>
 
 <div class="row mt-3">
@@ -53,6 +52,5 @@ The logo is suitable for various applications, such as business cards, websites,
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
 
 </div>

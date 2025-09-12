@@ -30,5 +30,4 @@ giscus_comments: true
         {% include figure.liquid path="assets/projects/ialn_poster_2023/images/ialn_poster (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
-
 </div>

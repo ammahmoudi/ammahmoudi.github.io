@@ -302,11 +302,7 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 
 _280-300 words_
 
-
-
 ### Introduction
-
-
 
 - The reading and the lecture are both about …
 
@@ -496,8 +492,6 @@ These are General phrases which could be used in both writing and speaking.
 - Whereas…, ….
 
 ### Reporting examples
-
-
 
 - The professor explains this \[with the example of…/by describing…\]
 
@@ -711,8 +705,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - Across
 
-
-
 ## Capability (To Show Ability)
 
 - I’d be capable of
@@ -723,8 +715,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - … enables
 
-
-
 ## To Show Purpose
 
 - In order to
@@ -734,8 +724,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 - So that
 
 - So as to
-
-
 
 ## To Restate or Repeat an Argument
 
@@ -824,10 +812,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 - As a matter of fact
 
 - Further still
-
-
-
-
 
 ## To generalize
 
@@ -936,8 +920,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 - As in/as with/as was
 
 - Like
-
-
 
 ## To Show Evidence/Give an Example
 
@@ -1054,8 +1036,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 - Let me think
 
 - That’s a good question
-
-
 
 ## To Agree
 

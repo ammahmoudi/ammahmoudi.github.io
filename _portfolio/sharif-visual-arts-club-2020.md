@@ -35,7 +35,6 @@ I enjoyed working on these posters because they allowed me to express my creativ
         {% include figure.liquid path="assets/projects/sharif_visual_arts_club_2020/images/vac (3) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
-
 </div>
 
 <div class="row mt-3">

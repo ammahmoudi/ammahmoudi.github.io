@@ -224,7 +224,7 @@ sv-extract image.png --extractor gemini --output results/ --verbose
 
 <!-- Add sample images for EasyOCR regions and structured data examples -->
 
-{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainsample_easyocr_text_regions.jpg" alt="EasyOCR text regions example" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/main/sample_easyocr_text_regions.jpg" alt="EasyOCR text regions example" class="img-fluid rounded z-depth-1" zoomable=true %}
 *Figure: Detected text regions using EasyOCR — useful for debugging region detection and OCR preprocessing.*
 
 
@@ -246,7 +246,7 @@ sv-extract image.png --extractor gemini --output results/ --verbose
 }
 ```
 
-{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/mainsample_structured_data.jpg" alt="Structured data extraction example" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/StructuredVision/main/sample_structured_data.jpg" alt="Structured data extraction example" class="img-fluid rounded z-depth-1" zoomable=true %}
 *Figure: Example of the structured JSON output visualized alongside the original image — helpful for verifying schema fields and values.*
 
 

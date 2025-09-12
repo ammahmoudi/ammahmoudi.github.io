@@ -21,11 +21,11 @@ A powerful Django app that provides a comprehensive web interface to view and mo
 
 ### Log File Listing
 
-{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs.jpeg" alt="Log Files Interface" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs.jpeg" alt="Log Files Interface" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### Log Viewer Interface
 
-{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs%20(2" alt="Log Viewer Details" class="img-fluid rounded z-depth-1" zoomable=true %}.jpeg)
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs%20(2" alt="Log Viewer Details" class="img-fluid rounded z-depth-1" zoomable=true %}.jpeg)
 
 ## 🌟 Features
 

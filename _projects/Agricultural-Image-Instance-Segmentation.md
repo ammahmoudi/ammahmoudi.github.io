@@ -16,7 +16,7 @@ categories: ["Repository", Jupyter Notebook]
 ---
 
 
-{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/maincover.jpg" alt="Project Cover" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/main/cover.jpg" alt="Project Cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 # Mask R-CNN for Image Segmentation and Detection
 

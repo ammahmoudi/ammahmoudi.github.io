@@ -41,13 +41,13 @@ This project contains several high-value nodes and utilities. Main nodes include
 
 - Legendary Dataset Saver (`nodes/dataset_loader/dataset_loader.py`): Save and manage datasets produced by your workflow. Useful for logging experiments, storing user submissions, or exporting intermediate results.
 
-	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_dataset_saver.png" alt="Legendary Dataset Saver" class="img-fluid rounded z-depth-1" zoomable=true %}
+	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_dataset_saver.png" alt="Legendary Dataset Saver" class="img-fluid rounded z-depth-1" zoomable=true %}
 - Legendary Image URL Loader (`nodes/image_url_loader/image_url_loader.py`): Load images from remote URLs and output them into ComfyUI for immediate processing. Supports basic size/format options and timeouts.
 
-	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_image_url_loader.png" alt="Legendary Image URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
+	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_image_url_loader.png" alt="Legendary Image URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
 - Legendary LoRA URL Loader (`nodes/lora_url_loader/lora_url_loader.py`): Download and (optionally) apply LoRA files from a URL to your models and CLIP embeddings. Includes strength controls for model and CLIP adaptation.
 
-	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_lora_url_loader.png" alt="Legendary LoRA URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
+	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_lora_url_loader.png" alt="Legendary LoRA URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 There are also downloader utilities and workflow helpers in `nodes/` (for example `base_downloader.py`, `download_utils.py`, and `install.py`) and higher-level automation under `nodes/auto/`.
 

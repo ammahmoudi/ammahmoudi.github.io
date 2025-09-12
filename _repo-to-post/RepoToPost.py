@@ -167,13 +167,10 @@ class RepoToPost:
             images=RepoToPost.get_image_content(content)
             if len(images)!=0:
                 for alt,url in images:
-
-                # p_index=content.find("](")
-                    new_content= "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+url
-                    print("new_url: ",new_content)
-                    address=f"![{alt}]({url})"
-                    
-                    contents=contents.replace(url,new_content)
+                    new_url = RepoToPost.add_raw_github_to_url(url, repo_name, repo_branch)
+                    address = f"![{alt}]({url})"
+                    new_address = f"![{alt}]({new_url})"
+                    contents = contents.replace(address, new_address)
          return contents
     
     @staticmethod
@@ -200,10 +197,15 @@ class RepoToPost:
             # If url already starts with 'https://', return as-is
             if url.startswith('https://') or url.startswith('http://'):
                 return url
+            # Remove any leading './' or similar
+            url = url.lstrip('./')
+            # Remove any accidental leading slash from repo_branch
+            repo_branch = repo_branch.lstrip('/')
             # Ensure url starts with a slash
             if not url.startswith('/'):
                 url = '/' + url
-            return "https://raw.githubusercontent.com/"+RepoToPost.username+"/"+repo_name+"/"+repo_branch+url
+            # Ensure only one slash between branch and path
+            return f"https://raw.githubusercontent.com/{RepoToPost.username}/{repo_name}/{repo_branch}{url}"
    
     @staticmethod
     def image_to_figure(contents):

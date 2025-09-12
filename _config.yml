@@ -7,7 +7,7 @@ first_name: Amirhossein
 middle_name: 
 last_name: Mahmoudi
 contact_note: >
- Mostly Available bt email and Telegram.
+ Mostly Available by email and Telegram.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   B.Sc. in Computer Science at Sharif University of Technology
 footer_text: >
@@ -139,11 +139,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
     output: true
     permalink: /projects/:path/
@@ -152,7 +152,7 @@ collections:
     permalink: /portfolio/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -265,15 +265,15 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["honors", "notes", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_categories: ["notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Mahmoudi]
+  first_name: [Amirhossein]
 
   style: apa
   locale: en

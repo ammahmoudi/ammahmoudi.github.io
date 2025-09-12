@@ -44,43 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-yerevan-adventure",
+        },{id: "post-yerevan-adventure",
         
           title: "Yerevan Adventure",
         
@@ -89,50 +53,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/yerevan-trip/";
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
           
         },
       },{id: "post-toefl-notes",
@@ -256,21 +176,6 @@ ninja.data = [{
           description: "logo and personal card designs for ALMA Co.",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/Alma-2023/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "projects-arkanoid",
           title: 'Arkanoid',
           description: "classic  arkanoid game using java and swing",
@@ -449,13 +354,6 @@ ninja.data = [{
           window.open("mailto:%61%6D.%6D%61%68%6D%6F%75%64%69@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -463,25 +361,11 @@ ninja.data = [{
           window.open("https://github.com/ammahmoudi", "_blank");
         },
       },{
-        id: 'social-gitlab',
-        title: 'GitLab',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://gitlab.com/", "_blank");
-        },
-      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/ammahmoodi", "_blank");
-        },
-      },{
-        id: 'social-mastodon',
-        title: 'Mastodon',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -498,25 +382,11 @@ ninja.data = [{
           window.open("https://telegram.me/am_mahmoudi", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
-        },
-      },{
-        id: 'social-semanticscholar',
-        title: 'Semantic Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.semanticscholar.org/author/", "_blank");
-        },
-      },{
         id: 'social-whatsapp',
         title: 'whatsapp',
         section: 'Socials',
         handler: () => {
-          window.open("https://wa.me/", "_blank");
+          window.open("https://wa.me/989039232023", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -526,179 +396,11 @@ ninja.data = [{
           window.open("https://orcid.org/0009-0006-8879-7932", "_blank");
         },
       },{
-        id: 'social-medium',
-        title: 'Medium',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://medium.com/@", "_blank");
-        },
-      },{
-        id: 'social-quora',
-        title: 'Quora',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.quora.com/profile/", "_blank");
-        },
-      },{
-        id: 'social-publons',
-        title: 'Publons',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://publons.com/a//", "_blank");
-        },
-      },{
-        id: 'social-lattes',
-        title: 'Lattes',
-        section: 'Socials',
-        handler: () => {
-          window.open("http://lattes.cnpq.br/", "_blank");
-        },
-      },{
-        id: 'social-osf',
-        title: 'Open Science Framework',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://osf.io//", "_blank");
-        },
-      },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile//", "_blank");
-        },
-      },{
-        id: 'social-scopus',
-        title: 'Scopus',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.scopus.com/authid/detail.uri?authorId=", "_blank");
-        },
-      },{
-        id: 'social-blogger',
-        title: 'Blogger',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-work',
-        title: 'Work',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-keybase',
-        title: 'Keybase',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://keybase.io/", "_blank");
-        },
-      },{
-        id: 'social-wikidata',
-        title: 'Wikidata',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.wikidata.org/wiki/", "_blank");
-        },
-      },{
-        id: 'social-wikipedia',
-        title: 'Wikipedia',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://wikipedia.org/wiki/User:", "_blank");
-        },
-      },{
-        id: 'social-dblp',
-        title: 'DBLP',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-stackoverflow',
-        title: 'Stackoverflow',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://stackoverflow.com/users/", "_blank");
-        },
-      },{
-        id: 'social-kaggle',
-        title: 'Kaggle',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.kaggle.com/", "_blank");
-        },
-      },{
-        id: 'social-lastfm',
-        title: 'Last FM',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.last.fm/user/", "_blank");
-        },
-      },{
-        id: 'social-spotify',
-        title: 'Spotify',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://open.spotify.com/user/", "_blank");
-        },
-      },{
-        id: 'social-pinterest',
-        title: 'Pinterest',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.pinterest.com/", "_blank");
-        },
-      },{
-        id: 'social-unsplash',
-        title: 'Unsplash',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://unsplash.com/@", "_blank");
-        },
-      },{
         id: 'social-instagram',
         title: 'Instagram',
         section: 'Socials',
         handler: () => {
           window.open("https://instagram.com/am.mahmoudi", "_blank");
-        },
-      },{
-        id: 'social-facebook',
-        title: 'Facebook',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://facebook.com/", "_blank");
-        },
-      },{
-        id: 'social-youtube',
-        title: 'YouTube',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://youtube.com/@", "_blank");
-        },
-      },{
-        id: 'social-discord',
-        title: 'Discord',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://discord.com/users/", "_blank");
-        },
-      },{
-        id: 'social-zotero',
-        title: 'Zotero',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.zotero.org/", "_blank");
-        },
-      },{
-        id: 'social-wechat_qr',
-        title: 'Wechat_qr',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
         },
       },{
       id: 'light-theme',

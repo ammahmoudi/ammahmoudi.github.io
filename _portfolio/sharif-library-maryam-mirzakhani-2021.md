@@ -3,15 +3,14 @@ layout: page
 
 title: Maryam Mirzakhani Wallpaper 2021
 description: Wallpaper Designed for the Memorial Wall of Maryam Mirzakhani in Sharif University Library
-date: 2021-10-23 00:35:40 
-last_modified_at: 2021-10-23 00:35:40 
+date: 2021-10-23 00:35:40
+last_modified_at: 2021-10-23 00:35:40
 url: http://library.sharif.ir/
 importance: 1
-img:     assets/projects/sharif_library/maryam_mirzakhani_2021/sharif_library_mirzakhani (2) (Medium).png
+img: assets/projects/sharif_library/maryam_mirzakhani_2021/sharif_library_mirzakhani (2) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Poster, Wallpaper]
-categories: [ "Visual Content", "Graphics", "Poster", "Wallpaper"]
+categories: ["Visual Content", "Graphics", "Poster", "Wallpaper"]
 giscus_comments: true
-
 ---
 
 <div class="row mt-3">

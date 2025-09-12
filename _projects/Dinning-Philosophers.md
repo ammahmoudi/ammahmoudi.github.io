@@ -12,8 +12,9 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/mast
 tags: [dining-philosophers-problem, dinning-philosophers, java, javafx]
 categories: ["Repository", Java]
 ---
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Dinning-Philosophers" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
----
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Dinning-Philosophers" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+
 Implementing Dinning Philosophers problem in a client-server style with a nice GUI using java and JavaFX
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/cover.jpg" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -21,6 +22,7 @@ Implementing Dinning Philosophers problem in a client-server style with a nice G
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/main.png" alt="main" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## Dining Philosophers Problem
+
 The problem of dining philosophers is a classic problem in computer science that illustrates the challenges of concurrency and synchronization. The problem can be described as follows:
 
 - **Five philosophers** sit around a circular table, each with a bowl of rice and a chopstick on each side.
@@ -52,7 +54,6 @@ The solution also uses a GUI to visualize the problem and the solution. The GUI 
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/extra.png" alt="extra" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-
 ## Code Structure
 
 The code is organized into two packages: Client and Server. The Client package contains the classes for the philosopher, the client, and the GUI. The Server package contains the classes for the table, the server, and the chopstick.
@@ -64,6 +65,7 @@ The GUI class creates a graphical user interface using JavaFX. The GUI class use
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Dinning-Philosophers/master/images/console.png" alt="console" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## How to Run
+
 you have to first run the server and then start some instances of the client. Then a client needs to start the dining.
 To run the simulation, you need to have Java and JavaFX installed on your system.
 

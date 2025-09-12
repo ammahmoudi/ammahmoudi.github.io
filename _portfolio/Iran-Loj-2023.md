@@ -3,15 +3,14 @@ layout: page
 
 title: Iran Loj 2023
 description: Logo, Letter head and advertising assets for Iran Loj, an international business platform
-date: 2023-02-05 00:35:40 
-last_modified_at: 2023-02-05 00:35:40 
+date: 2023-02-05 00:35:40
+last_modified_at: 2023-02-05 00:35:40
 url: https://iranloj.com
 importance: 1
-img:     assets/projects/iran_loj_2023/images/iran_loj (0) (Medium).png
+img: assets/projects/iran_loj_2023/images/iran_loj (0) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Posters]
-categories: ["iran_loj", "Visual Content", "Graphics","logo","letter head"]
+categories: ["iran_loj", "Visual Content", "Graphics", "logo", "letter head"]
 giscus_comments: true
-
 ---
 
 <div class="row mt-3 align-items-center">

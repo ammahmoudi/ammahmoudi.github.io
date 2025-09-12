@@ -12,8 +12,8 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/scr
 tags: [chat-application, end-to-end-encryption, messanger, server-client]
 categories: ["Repository", Python]
 ---
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Simple-Messanger" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
----
+
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Simple-Messanger" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 
 This is a simple chat application implemented in Python using a server-client architecture. The app allows users to create groups, join groups, leave groups, create channels, join channels, leave channels, and send messages to groups and channels.
 
@@ -33,7 +33,6 @@ This is a simple chat application implemented in Python using a server-client ar
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_2.png" alt="sc2" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-
 ## Usage
 
 1. Run `chat_server.py` on your server machine.
@@ -42,16 +41,19 @@ This is a simple chat application implemented in Python using a server-client ar
 4. Use commands to create groups, join groups, leave groups, create channels, join channels, leave channels, and send messages to groups and channels.
 
 ### Group Commands
+
 - `/groupcreate group_name`: Creates a new group.
 - `/groupjoin group_name`: Joins an existing group.
 - `/groupleave group_name`: Leaves a group.
 
 ### Channel Commands
+
 - `/channelcreate channel_name`: Creates a new channel.
 - `/channeljoin channel_name`: Joins an existing channel.
 - `/channelleave channel_name`: Leaves a channel.
 
 ### Sending Messages
+
 - To send a message to a group: `/group group_name message`
 - To send a message to a channel: `/channel channel_name message`
 
@@ -62,4 +64,3 @@ This is a simple chat application implemented in Python using a server-client ar
 ## Disclaimer
 
 This chat application is a simplified example intended for educational purposes. It may not be suitable for use in production environments. Use at your own risk.
-

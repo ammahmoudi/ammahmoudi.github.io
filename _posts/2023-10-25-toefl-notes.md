@@ -9,8 +9,8 @@ thumbnail: assets/img/posts/toefl-notes/cover.jpg
 giscus_comments: true
 toc:
   sidebar: left
-  
 ---
+
 I have gathered some material to prepare for TOEFL iBT test. There are templates for all tasks of speaking and writing sections along with some general templates for both sections. At the end a catagorized list of phrases are included to be used in speaking and writing. an onenote version of this post is also available [here](https://1drv.ms/u/s!AhV7J-x4u7MwpiQLrwcqxpY7C0yd). I would appreciate any comments.
 
 <div class="row mt-3">
@@ -20,14 +20,18 @@ I have gathered some material to prepare for TOEFL iBT test. There are templates
     </div>
 
 # TOEFL Speaking Template
+
 Once a friend said:
+
 <blockquote>
 Talking is not word by word but chunk by chunk.
 
 -Nima Kelidari
+
 </blockquote>
 
 These are the templates I have gathered for TOEFL iBT speaking tasks. Some phrases are marked with ✅ which is offered to use.
+
 ## Task 1
 
 Try to first simply state your opinion.Then give two reasons to support it.
@@ -282,7 +286,7 @@ Try to first simply state your opinion.Then give two reasons to support it.
 
 ### Second Things (25 seconds)
 
-- Secondly … 
+- Secondly …
 
 - Second, she mentions…
 
@@ -290,18 +294,19 @@ Try to first simply state your opinion.Then give two reasons to support it.
 
 - He/She goes on to say that \[example 2 including details\]
 
-
 # TOEFL Writing Template
+
 These are the templates I have gathered for TOEFL iBT writing tasks. Some phrases are marked with ✅ which is offered to use.
+
 ## Task 1
 
- *280-300 words*
+_280-300 words_
 
-  
+
 
 ### Introduction
 
-  
+
 
 - The reading and the lecture are both about …
 
@@ -319,13 +324,13 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 
 - Recently, there has been a ton of debate as to …
 
-- No one can deny that there are both positive and negative aspects of 
+- No one can deny that there are both positive and negative aspects of
 
 ### Body Paragraphs 
 
 #### Part 1
 
-- According to the reading 
+- According to the reading
 
 - The article mentions that …
 
@@ -373,9 +378,9 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 
 - Finally, the author wraps his argument by positing that …
 
-## Task 2 
+## Task 2
 
- *More than 100 words*
+_More than 100 words_
 
 ### Introduction
 
@@ -385,7 +390,7 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 
 - This is a challenging topic, but I would have to agree with \[STUDENT WHICH YOU AGREE WITH\]'s idea. ✅
 
-### Including the other opinions 
+### Including the other opinions
 
 - I strongly agree with \[student\]’s idea that \[mention one point made by the student\].
 
@@ -431,24 +436,27 @@ These are the templates I have gathered for TOEFL iBT writing tasks. Some phrase
 This is a sample response to task 2, which shows how the structure of a highly scored response could be. I have inspired this from my dear friend, <a href="https://amir-thatoneguy.github.io/">Amir</a> , who helped me to cope with TOEFL iBt ❤️.
 </blockquote>
 
-
 #### Doctor Achebe
+
 This week, we'll be discussing how technological advances are transforming the job market, making some jobs unnecessary. Let's focus on government actions. Suppose the government had to choose between two ways in which to support people whose jobs are no longer needed. The government could either give them enough money to live on until they find new jobs or offer them free job training without giving them money directly. Which of these two solutions do you think is better? Why?
 
 #### Andrew
+
 I believe that the government should prioritize providing free job training opportunities. Modern training programs are usually costly, which means that many people will not be able to afford them without the government's funding. By participating in training programs, people will develop new, in-demand skills and become more competitive in the job market.
 
 #### Kelly
+
 Although I agree that having access to free training programs sounds promising, I think the government's first step should be to give people enough money to live on until they find new jobs. This money will go directly into people's pockets and allow them to make their own choices concerning their future.
 
 #### Response
+
 **This is a challenging topic, but I would have to agree with** Andrew here. **While I do understand Kelly's concern about** how providing money to unemployed people can help them survive, free job training opportunities allow them to earn skills that will help them get a job. If unemployed people rely on the government's financial aid too much, they might never be able to earn money independently.
 **I would also like to add something to** Andrew **'s comment**. Technology is always advancing, so even if people find a job, they will have to improve their skills constantly. This means that the government will have to keep paying unemployed people, which can be costly. Training programs are beneficial because they can teach people how to learn job skills for themselves. Many people might never have the opportunity to learn these skills.
 
-
-
 # General Phrases
+
 These are General phrases which could be used in both writing and speaking.
+
 ### Naming the source
 
 - According to \[the lecturer/professor/speaker\]…
@@ -488,7 +496,9 @@ These are General phrases which could be used in both writing and speaking.
 - Whereas…, ….
 
 ### Reporting examples
- 
+
+
+
 - The professor explains this \[with the example of…/by describing…\]
 
 - The professor illustrates \[that point/the idea\] \[with the example of…/by describing…\]
@@ -500,7 +510,9 @@ These are General phrases which could be used in both writing and speaking.
 - According to the \[lecture/professor\], one instance of this is…
 
 # TOEFL Speaking and Writing Phrases
+
 This is a categorized list of phrases which i could be used for both speaking and writing tasks.
+
 ## Conclusion(To Summarize)
 
 - To summarize
@@ -598,7 +610,6 @@ This is a categorized list of phrases which i could be used for both speaking an
 - From my perspective
 
 - To my mind
-
 
 ## To Show Time Relationships
 
@@ -700,7 +711,7 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - Across
 
- 
+
 
 ## Capability (To Show Ability)
 
@@ -712,7 +723,7 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - … enables
 
- 
+
 
 ## To Show Purpose
 
@@ -724,7 +735,7 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - So as to
 
- 
+
 
 ## To Restate or Repeat an Argument
 
@@ -814,9 +825,9 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - Further still
 
- 
 
- 
+
+
 
 ## To generalize
 
@@ -926,7 +937,7 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - Like
 
- 
+
 
 ## To Show Evidence/Give an Example
 
@@ -1044,7 +1055,7 @@ This is a categorized list of phrases which i could be used for both speaking an
 
 - That’s a good question
 
- 
+
 
 ## To Agree
 

@@ -31,34 +31,32 @@
       "endDate": "present",
       "score": "16.84/20.0",
       "courses": [
-     "Machine Learning",
-            "Statistical Learning",
-            "Introduction to Bioinformatics",
-            "Big Data Engineering",
-            "Probability and Its Applications",
-            "Advanced Programming",
-            "Numerical Analysis 2"
+        "Machine Learning",
+        "Statistical Learning",
+        "Introduction to Bioinformatics",
+        "Big Data Engineering",
+        "Probability and Its Applications",
+        "Advanced Programming",
+        "Numerical Analysis 2"
       ]
     }
-
   ],
   "research interests": [
     {
-      "icon":"fa fa-rocket",
-      "name":"Machine Learning",
-      "keywords":["Deep learning","Statistical Learning","Natural Language Processing"]
+      "icon": "fa fa-rocket",
+      "name": "Machine Learning",
+      "keywords": ["Deep learning", "Statistical Learning", "Natural Language Processing"]
     },
     {
-      "icon":"fa fa-heartbeat",
-      "name":"Computation Biology",
-      "keywords":["Computer-Aided Medical Procedures","Medical Image Processing"]
+      "icon": "fa fa-heartbeat",
+      "name": "Computation Biology",
+      "keywords": ["Computer-Aided Medical Procedures", "Medical Image Processing"]
     },
     {
-      "icon":"fa fa-database",
-      "name":"Data Science",
-      "keywords":["Data Engineering"]
+      "icon": "fa fa-database",
+      "name": "Data Science",
+      "keywords": ["Data Engineering"]
     }
-
   ],
   "teaching experience": [
     {
@@ -68,8 +66,7 @@
       "startDate": "2023-01-01",
       "endDate": "2023-08-01",
       "summary": "Lecturing and designing homework",
-      "highlights": ["Supervised by Dr. Mahdi Sharifzadeh"
-      ]
+      "highlights": ["Supervised by Dr. Mahdi Sharifzadeh"]
     },
     {
       "name": "Advanced Programming with Java",
@@ -78,8 +75,7 @@
       "startDate": "2023-01-01",
       "endDate": "2023-08-01",
       "summary": "Designing course project",
-      "highlights": ["Supervised by Dr. Hossein Boomari"
-      ]
+      "highlights": ["Supervised by Dr. Hossein Boomari"]
     },
     {
       "name": "Basics for Programming with C",
@@ -88,8 +84,7 @@
       "startDate": "2021-01-01",
       "endDate": "2021-08-01",
       "summary": "Designing course homework",
-      "highlights": ["Supervised by Dr. Marjan Nikbin"
-      ]
+      "highlights": ["Supervised by Dr. Marjan Nikbin"]
     }
   ],
   "work experience": [
@@ -100,9 +95,7 @@
       "startDate": "2022-05-01",
       "endDate": "2023-04-01",
       "summary": "Biggest student event in Iran around supply chain simulation",
-      "highlights": [
-        "Team Lead","Project Planning","Visual Content Design"
-      ]
+      "highlights": ["Team Lead", "Project Planning", "Visual Content Design"]
     },
     {
       "name": "Winter Seminar Series",
@@ -111,9 +104,7 @@
       "startDate": "2023-02-01",
       "endDate": "2023-03-01",
       "summary": "Annual events including seminars about advanced topics of computer science with the presence of prominent professors",
-      "highlights": [
-        "Graphic Design"
-      ]
+      "highlights": ["Graphic Design"]
     },
     {
       "name": "Sharif Visual Arts Club",
@@ -122,9 +113,7 @@
       "startDate": "2020-10-01",
       "endDate": "2023-09-25",
       "summary": "Cool university club centered around visual arts",
-      "highlights": [
-        "Graphic Design","Wordpress"
-      ]
+      "highlights": ["Graphic Design", "Wordpress"]
     },
     {
       "name": "Sharif Poetry and Literature Club",
@@ -133,9 +122,7 @@
       "startDate": "2020-11-01",
       "endDate": "2023-09-25",
       "summary": "University club to share and develop Persian poetry skills",
-      "highlights": [
-        "Graphic Design","Persian poetry"
-      ]
+      "highlights": ["Graphic Design", "Persian poetry"]
     },
     {
       "name": "Hamband Scientific Society",
@@ -144,9 +131,7 @@
       "startDate": "2022-08-01",
       "endDate": "2023-09-25",
       "summary": "Scientific Society of Math Department at Sharif University of Technology",
-      "highlights": [
-        "Graphic Design"
-      ]
+      "highlights": ["Graphic Design"]
     }
   ],
   "research experience and projects": [
@@ -155,113 +140,62 @@
       "url": "",
       "startDate": "2023-08-01",
       "endDate": "present",
-      "highlights": ["Supervised by Dr. Mojtaba Tefagh","Currently in progress as bachelor project"],
-      "summary":"Applying implicit deep learning and convex optimization layers to infer metabolic fluxes from gene expression data"
-      
+      "highlights": ["Supervised by Dr. Mojtaba Tefagh", "Currently in progress as bachelor project"],
+      "summary": "Applying implicit deep learning and convex optimization layers to infer metabolic fluxes from gene expression data"
     },
     {
       "name": "WE",
       "url": "https://github.com/ammahmoudi/WE",
       "startDate": "2021-04-01",
       "endDate": "2021-08-01",
-      "highlights": ["Supervised by Mojtaba Ostovari","The final project for advanced programming course"],
-      "summary":"Developed a Java-based social app with JavaFX and Hibernate ORM, featuring messaging and posting"
-      
-    },    
+      "highlights": ["Supervised by Mojtaba Ostovari", "The final project for advanced programming course"],
+      "summary": "Developed a Java-based social app with JavaFX and Hibernate ORM, featuring messaging and posting"
+    },
     {
       "name": "Breast Cancer Prediction",
       "url": "https://github.com/ammahmoudi/Breast-Cancer-Prediction",
       "startDate": "2022-11-25",
       "endDate": "2022-12-25",
-      "highlights": ["Supervised by Dr. Ali Sharifi Zarchi","Homework for Machine Learning Course"],
-      "summary":"Applying machine learning models to estimate survival outcomes of breast cancer patients"
-      
+      "highlights": ["Supervised by Dr. Ali Sharifi Zarchi", "Homework for Machine Learning Course"],
+      "summary": "Applying machine learning models to estimate survival outcomes of breast cancer patients"
     }
-
   ],
   "volunteer": [],
- 
-  "honors and awards": [
-  
-  ],
-  "certificates": [],
-  "publications": [
-    
- 
 
-  ],
+  "honors and awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-    "icon":"fa fa-code",
-    "name":"Programming Languages",
-    "keywords": [
-      "C",
-      "Java",
-      "Python",
-      "Javascript",
-      "R",
-      "Scala",
-      "HTML/CSS"
-    ]
-  },
-  {
-    "icon":"fa fa-cogs",
-    "name":"Tools",
-    "keywords": [
-      "Git/GitHub",
-      "Docker",
-      "Unix Shell",
-      "SQL",
-      "Spark",
-      "MongoDB"
-    ]
-  },
-  {
-    "icon":"fa fa-cubes",
-    "name":"Frameworks",
-    "keywords": [
-      "React",
-      "Django",
-      "Nextjs",
-      "WordPress",
-      "Spring",
-      "Hibernate ORM"
-    ]
-  },
-  {
-    "icon":"fa fa-book",
-    "name":"Libraries",
-    "keywords": [
-      "TensorFlow",
-      "PyTorch",
-      "Scikit-Learn",
-      "Keras",
-      "Pandas"
-    ]
-  },
-  {
-    "icon":"fa fa-child",
-    "name":"Soft Skills",
-    "keywords": [
-      "Team Leadership",
-      "Project Planning",
-      "Presentation"
-    ]
-  },
-  {
-    "icon":"fa fa-paint-brush",
-    "name":"Graphic Skills",
-    "keywords": [
-      "Adobe Illustrator",
-      "Adobe Photoshop",
-      "Adobe Aftereffects",
-      "Adobe Primiere",
-      "Adobe InDesign"
-      
-    ]
-  }
-
-
+      "icon": "fa fa-code",
+      "name": "Programming Languages",
+      "keywords": ["C", "Java", "Python", "Javascript", "R", "Scala", "HTML/CSS"]
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Tools",
+      "keywords": ["Git/GitHub", "Docker", "Unix Shell", "SQL", "Spark", "MongoDB"]
+    },
+    {
+      "icon": "fa fa-cubes",
+      "name": "Frameworks",
+      "keywords": ["React", "Django", "Nextjs", "WordPress", "Spring", "Hibernate ORM"]
+    },
+    {
+      "icon": "fa fa-book",
+      "name": "Libraries",
+      "keywords": ["TensorFlow", "PyTorch", "Scikit-Learn", "Keras", "Pandas"]
+    },
+    {
+      "icon": "fa fa-child",
+      "name": "Soft Skills",
+      "keywords": ["Team Leadership", "Project Planning", "Presentation"]
+    },
+    {
+      "icon": "fa fa-paint-brush",
+      "name": "Graphic Skills",
+      "keywords": ["Adobe Illustrator", "Adobe Photoshop", "Adobe Aftereffects", "Adobe Primiere", "Adobe InDesign"]
+    }
   ],
   "languages": [
     {
@@ -280,28 +214,25 @@
 
   "hobbies and interests": [
     {
-      "icon":"fa fa-font",
-      "name":"Writing poem in Persian",
-      "keywords":[]
+      "icon": "fa fa-font",
+      "name": "Writing poem in Persian",
+      "keywords": []
     },
     {
-      "icon":"fa fa-paint-brush",
-      "name":"Drawing portrait",
-      "keywords":[]
+      "icon": "fa fa-paint-brush",
+      "name": "Drawing portrait",
+      "keywords": []
     },
     {
-      "icon":"fa fa-comments",
-      "name":"Coordinating English free discussion sessions at the local language institute",
-      "keywords":[]
+      "icon": "fa fa-comments",
+      "name": "Coordinating English free discussion sessions at the local language institute",
+      "keywords": []
     },
     {
-      "icon":"fa fa-male",
-      "name":"Amatur volleyball player (Member of the volleyball team in the Math Department)",
-      "keywords":[]
+      "icon": "fa fa-male",
+      "name": "Amatur volleyball player (Member of the volleyball team in the Math Department)",
+      "keywords": []
     }
-
   ],
-  "references": [
-  ]
-
+  "references": []
 }

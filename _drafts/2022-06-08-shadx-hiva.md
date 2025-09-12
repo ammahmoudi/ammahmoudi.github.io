@@ -8,6 +8,7 @@ categories: honors
 thumbnail: assets/img/posts/shadx-hiva/cover.png
 giscus_comments: true
 ---
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/shadx-hiva/team.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -25,9 +26,7 @@ giscus_comments: true
 
 I would like to thank our great supervisor Dr. Maryam Kiani . It was an incredible experience to work under your supervision and learn so many technical details. Also, I want to Thank my teammates:
 
-
 Also here it is my Certicates:
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,5 +34,3 @@ Also here it is my Certicates:
     </div>
     
 </div>
-
-

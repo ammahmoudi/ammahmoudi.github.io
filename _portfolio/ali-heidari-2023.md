@@ -3,15 +3,14 @@ layout: page
 
 title: Ali Heidari 2023
 description: Personal Brand Design for Ali Heidari
-date: 2023-05-06 00:35:40 
-last_modified_at: 2023-05-05 00:35:40 
+date: 2023-05-06 00:35:40
+last_modified_at: 2023-05-05 00:35:40
 url: https://aliheidari.me
 importance: 1
-img:     assets/projects/ali_heidari_2023/images/ah (0) (Medium).png
+img: assets/projects/ali_heidari_2023/images/ah (0) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, logo, id-card]
 categories: ["logo", "Visual Content", "Graphics"]
 giscus_comments: true
-
 ---
 
 <div class="row mt-3 align-items-center">
@@ -35,6 +34,7 @@ The color palette was also inspired by the Peach Tree of Heavenly Wisdom from th
        </div>
 
 The logo is suitable for various applications, such as business cards, websites, social media, and presentations. It represents Ali Heidari’s personal brand and showcases his professional skills and values.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (1) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -42,7 +42,7 @@ The logo is suitable for various applications, such as business cards, websites,
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    
+
 
 </div>
 
@@ -53,6 +53,6 @@ The logo is suitable for various applications, such as business cards, websites,
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/projects/ali_heidari_2023/images/ah (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    
+
 
 </div>

@@ -3,13 +3,13 @@ layout: page
 
 title: Koodaroo 2022
 description: Banners, Paper Ads and Letterhead Designed for Kodaroo Onlone Drugstore
-date: 2022-09-06 00:35:40 
-last_modified_at: 2022-09-05 00:35:40 
-url: 
+date: 2022-09-06 00:35:40
+last_modified_at: 2022-09-05 00:35:40
+url:
 importance: 1
-img:     assets/projects/koodaroo_2022/images/koodaroo (0) (Medium).png
+img: assets/projects/koodaroo_2022/images/koodaroo (0) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Letterhead, Banner]
-categories: ["logo", "Visual Content", "Graphics","Letterhead","Banner"]
+categories: ["logo", "Visual Content", "Graphics", "Letterhead", "Banner"]
 giscus_comments: true
 ---
 
@@ -29,7 +29,6 @@ I have created various graphic designs for Koodaroo, an online pharmacy that off
         {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo (2) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
-
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,6 +37,5 @@ I have created various graphic designs for Koodaroo, an online pharmacy that off
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/projects/koodaroo_2022/images/koodaroo (4) (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
 
 </div>

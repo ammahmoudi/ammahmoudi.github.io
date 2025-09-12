@@ -11,7 +11,6 @@ og_image: https://mamood.ir/assets/img/posts/yerevan-trip/republic_square.JPG
 giscus_comments: true
 toc:
   sidebar: left
-  
 ---
 
 In May 2024, I traveled to Yerevan, Armenia, primarily for a US embassy appointment. Here’s a detailed account of my journey, which could be particularly helpful for students heading to Yerevan for visa purposes.
@@ -24,6 +23,7 @@ In May 2024, I traveled to Yerevan, Armenia, primarily for a US embassy appointm
 </div>
 
 ## Travel Dates and Accommodation
+
 - **Travel Dates**: I departed from Tehran on May 5th and returned on May 9th.
 - **Accommodation**: I booked a guest house on Noragyugh Street via [Booking.com](https://www.booking.com/). The host, a kind old woman, made our stay very comfortable. Communication was a bit challenging as most locals do not speak English, but we managed with gestures and the help of local teenagers who acted as our translators.
 <div class="row mt-3">
@@ -38,6 +38,7 @@ In May 2024, I traveled to Yerevan, Armenia, primarily for a US embassy appointm
 - **Transportation**: We installed the [Yandex Go app](https://go.yandex/) for rides to our guest house and for local transportation. While Yandex rides were convenient, they were expensive, so we often used public buses and the metro. Public transport cost 100 AMD per ride, payable in cash to the driver.
 
 ## Daily Essentials and Food
+
 - **Local Shops**: Near our guest house, there were essential shops including grocery stores, hypermarkets, and printing facilities.
 - **Restaurants**: We enjoyed meals at various places, with highlights being the delicious burgers at [Burgery Angus & More](https://www.yeremyanprojects.com/en/restaurants/burgery), albeit a bit pricey, and the delightful dishes at [Lavash Restaurant](https://www.yeremyanprojects.com/en/restaurants/lavash). Additionally, the local bread called Lavash, which cost around 110 AMD each, was a tasty and affordable treat.
 
@@ -52,7 +53,9 @@ In May 2024, I traveled to Yerevan, Armenia, primarily for a US embassy appointm
 </div>
 
 ## Sightseeing and Attractions
+
 During our stay, we explored several notable places:
+
 - **Opera House**
 - **Mother Armenia Monument**
 - **Armenian Genocide Memorial**
@@ -82,27 +85,28 @@ During our stay, we explored several notable places:
 </div>
 
 ## Costs and Budgeting
-Here is a summary of some of  our travel expenses for three people, converted to USD:
 
-| **Item**                                | **Cost (USD)** |
-|-----------------------------------------|----------------|
-| Handmade Earring (Vernissage Market)    | 10.42          |
-| Handmade Backpack  (Vernissage Market) | 13.02          |
-| Burger with Soda and Fries (Angus Burgery)| 9.90         |
-| Yandex Ride (Airport to Guest House)    | 3.91           |
-| 1 Liter Coca Cola                       | 1.46           |
-| Guest House per Night                   | 34.00          |
-| SIM Card Plan (Unlimited Internet)      | 10.42          |
-| SIM Card Plan (Limited Internet)        | 7.81           |
-| 1 Lavash Bread                            | 0.29           |
-| Two Kilikia Beer and a KitKat           | 1.28           |
-| Special Ice Cream (Angus Burgery)       | 1.82           |
-| Photo Printing for Embassy              | 2.60           |
+Here is a summary of some of our travel expenses for three people, converted to USD:
+
+| **Item**                                   | **Cost (USD)** |
+| ------------------------------------------ | -------------- |
+| Handmade Earring (Vernissage Market)       | 10.42          |
+| Handmade Backpack (Vernissage Market)      | 13.02          |
+| Burger with Soda and Fries (Angus Burgery) | 9.90           |
+| Yandex Ride (Airport to Guest House)       | 3.91           |
+| 1 Liter Coca Cola                          | 1.46           |
+| Guest House per Night                      | 34.00          |
+| SIM Card Plan (Unlimited Internet)         | 10.42          |
+| SIM Card Plan (Limited Internet)           | 7.81           |
+| 1 Lavash Bread                             | 0.29           |
+| Two Kilikia Beer and a KitKat              | 1.28           |
+| Special Ice Cream (Angus Burgery)          | 1.82           |
+| Photo Printing for Embassy                 | 2.60           |
 
 - **Total Cost for One Person**: Approximately 200 million IRR (about $340 USD)
 
-
 ## Tips for Future Travelers
+
 1. **Accommodation**: Booking through platforms like Booking.com can help you find reliable stays.
 2. **Communication**: Learn a few basic Armenian phrases or rely on translation apps and local teenagers who often know some English.
 3. **Transportation**: Public transport is much more economical compared to ride-hailing services like Yandex Go.

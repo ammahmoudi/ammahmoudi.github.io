@@ -3,15 +3,14 @@ layout: page
 
 title: Gamein 2022
 description: What I have done as the head of visual content at Gamein 2022, biggest student event in Iran
-date: 2024-02-05 00:35:40 
-last_modified_at: 2024-02-05 00:35:40 
+date: 2024-02-05 00:35:40
+last_modified_at: 2024-02-05 00:35:40
 url: https://gamein.ie.sharif.edu
 importance: 1
-img:     assets/projects/gamein_2022/images/gamein (0) (Medium).png
+img: assets/projects/gamein_2022/images/gamein (0) (Medium).png
 tags: [Illustrator, Photoshop, Graphics, Posters]
 categories: ["Gamein", "Visual Content", "Graphics"]
 giscus_comments: true
-
 ---
 
 <div class="row mt-3 align-items-center">

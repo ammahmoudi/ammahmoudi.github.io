@@ -7,8 +7,8 @@ tags: awards honors AIAA
 categories: honors
 thumbnail: assets/img/posts/shadx-chaka/cover.png
 giscus_comments: true
-
 ---
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/shadx-chaka/team.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -27,6 +27,7 @@ I have a great honor to announce that we at Team <a href="https://ae.sharif.edu/
 I would like to thank our great supervisor Mohammad Sadraey . It was an incredible experience to work under your supervision and learn so many technical details. Also, I want to present my warmest congratulations to my teammates who did not mind to lack of facilities and temporary failures. Proud of you all!
 Erfan Vaezi Sam Zavaree Mohsen Zahmatkesh kasra Eghabli Farid Rassouli Mohammadreza Varshavi Zahra Heydari Amirreza Sadat madani Kimia Emami Amirhossein Kariman
 supporters : Bahar Hajipour zahra shahbazi Amirhossein Ghaemi
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/shadx-chaka/cutaway.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -38,7 +39,6 @@ supporters : Bahar Hajipour zahra shahbazi Amirhossein Ghaemi
 A version of the proposal also is available in <a href="http://dx.doi.org/10.13140/RG.2.2.20347.64802">my ResearchGate profile</a>.
 Also here it is my Certicates:
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/shadx-chaka/AIAA_2021_Team_Certificate.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -47,5 +47,3 @@ Also here it is my Certicates:
         {% include figure.liquid path="assets/img/posts/shadx-chaka/AIAA_2021_Personal_Certificate.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-
-

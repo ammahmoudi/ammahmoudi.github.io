@@ -1,0 +1,218 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content=""> <meta name="msvalidate.01" content=""> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> mamood django admin log viewer | Amirhossein Mahmoudi </title> <meta name="author" content="Amirhossein Mahmoudi"> <meta name="description" content="A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel."> <meta name="keywords" content="amirhossein-mahmoudi, mahmoudi, am_mahmoudi,"> <meta property="og:site_name" content="Amirhossein Mahmoudi"> <meta property="og:type" content="website"> <meta property="og:title" content="Amirhossein Mahmoudi | mamood django admin log viewer"> <meta property="og:url" content="https://mamood.ir/projects/mamood-django-admin-log-viewer/"> <meta property="og:description" content="A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel."> <meta property="og:image" content="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs.jpeg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="mamood django admin log viewer"> <meta name="twitter:description" content="A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel."> <meta name="twitter:image" content="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs.jpeg"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Amirhossein Mahmoudi"
+        },
+        "url": "https://mamood.ir/projects/mamood-django-admin-log-viewer/",
+        "@type": "WebSite",
+        "description": "A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.",
+        "headline": "mamood django admin log viewer",
+        
+        "name": "Amirhossein Mahmoudi",
+        "@context": "https://schema.org"
+    }
+  </script> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?35f4f1d9ccd51f0ffeea607d2b075320"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://mamood.ir/projects/mamood-django-admin-log-viewer/"> <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Amirhossein</span> Mahmoudi </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">Projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/portfolio/">Portfolio </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">mamood django admin log viewer</h1> <p class="post-description">A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.</p> </header> <article> <div id="open-in-github"> <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/mamood-django-admin-log-viewer" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td> </tr> </tbody> </table> </div> <hr> <p>A powerful Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.</p> <h2 id="-screenshots">📸 Screenshots</h2> <h3 id="log-file-listing">Log File Listing</h3> <figure> <picture> <source class="responsive-img-srcset" srcset="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs-480.webp 480w,https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs-800.webp 800w,https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs.jpeg" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="Log Files Interface" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> <h3 id="log-viewer-interface">Log Viewer Interface</h3> <figure> <picture> <source class="responsive-img-srcset" srcset="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs%20(2" sizes="95vw"></source> <img src="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/mainimages/logs%20(2" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="Log Viewer Details" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> <p>.jpeg)</p> <h2 id="-features">🌟 Features</h2> <h3 id="core-features">Core Features</h3> <ul> <li> <p><strong>Multi-Log File Support</strong>: View multiple log files with automatic detection and grouping</p> </li> <li> <p><strong>Configurable Log Formats</strong>: Support for Django, Celery, Nginx, and custom log formats</p> </li> <li> <p><strong>Multi-line Log Processing</strong>: Properly handles stack traces and multi-line log entries</p> </li> <li> <p><strong>Smart Pagination</strong>: Multi-line aware pagination that never splits log entries across pages</p> </li> <li> <p><strong>Real-time Monitoring</strong>: Live mode with auto-refresh for real-time log monitoring</p> </li> <li> <p><strong>Log Rotation Support</strong>: Automatic detection and handling of rotated log files (.1, .2, .gz, etc.)</p> </li> </ul> <h3 id="user-experience">User Experience</h3> <ul> <li> <p><strong>Responsive Design</strong>: Works perfectly on desktop, tablet, and mobile devices</p> </li> <li> <p><strong>Dark Mode Support</strong>: Built-in dark theme for comfortable viewing</p> </li> <li> <p><strong>Advanced Filtering</strong>: Filter by log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL)</p> </li> <li> <p><strong>Download Functionality</strong>: Download individual log files directly from the interface</p> </li> <li> <p><strong>Sidebar Navigation</strong>: Easy navigation between multiple log files</p> </li> <li> <p><strong>Search &amp; Filtering</strong>: Quick search through log content</p> </li> </ul> <h3 id="technical-features">Technical Features</h3> <ul> <li> <p><strong>Memory Efficient</strong>: Streaming file reading for large log files</p> </li> <li> <p><strong>Security Focused</strong>: Staff-only access with proper file path validation</p> </li> <li> <p><strong>Performance Optimized</strong>: AJAX-based updates for smooth user experience</p> </li> <li> <p><strong>No Database Required</strong>: Reads files directly from disk</p> </li> <li> <p><strong>Configurable UI</strong>: Customizable colors, refresh intervals, and display options</p> </li> </ul> <h2 id="-installation">📦 Installation</h2> <h3 id="production-installation">Production Installation</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+pip <span class="nb">install </span>mamood-django-admin-log-viewer
+
+</code></pre></div></div> <h3 id="development-installation-editable-mode">Development Installation (Editable Mode)</h3> <p>For development or contributing:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c"># Clone the repository</span>
+
+git clone https://github.com/ammahmoudi/mamood-django-admin-log-viewer.git
+
+<span class="nb">cd </span>mamood-django-admin-log-viewer
+
+
+
+<span class="c"># Install in editable mode</span>
+
+pip <span class="nb">install</span> <span class="nt">-e</span> <span class="nb">.</span>
+
+
+
+<span class="c"># Or with development dependencies</span>
+
+pip <span class="nb">install</span> <span class="nt">-e</span> .[dev]
+
+</code></pre></div></div> <p>The editable install (<code class="language-plaintext highlighter-rouge">-e</code> flag) allows you to modify the source code and see changes immediately without reinstalling.</p> <h3 id="2-add-to-django-settings">2. Add to Django Settings</h3> <p>Add <code class="language-plaintext highlighter-rouge">mamood_django_admin_log_viewer</code> to your <code class="language-plaintext highlighter-rouge">INSTALLED_APPS</code>:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
+
+    <span class="c1"># ... other apps
+</span>
+    <span class="sh">'</span><span class="s">django.contrib.admin</span><span class="sh">'</span><span class="p">,</span>  <span class="c1"># Required
+</span>
+    <span class="sh">'</span><span class="s">django.contrib.auth</span><span class="sh">'</span><span class="p">,</span>   <span class="c1"># Required  
+</span>
+    <span class="sh">'</span><span class="s">django.contrib.contenttypes</span><span class="sh">'</span><span class="p">,</span>  <span class="c1"># Required
+</span>
+    <span class="sh">'</span><span class="s">mamood_django_admin_log_viewer</span><span class="sh">'</span><span class="p">,</span>
+
+<span class="p">]</span>
+
+</code></pre></div></div> <h3 id="3-basic-configuration">3. Basic Configuration</h3> <p>Add to your <code class="language-plaintext highlighter-rouge">settings.py</code>:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="n">os</span>
+
+<span class="kn">from</span> <span class="n">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+
+
+<span class="c1"># Basic log viewer settings
+</span>
+<span class="n">LOG_VIEWER_FILES</span> <span class="o">=</span> <span class="p">[</span><span class="sh">'</span><span class="s">django.log</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">application.log</span><span class="sh">'</span><span class="p">]</span>
+
+<span class="n">LOG_VIEWER_FILES_DIR</span> <span class="o">=</span> <span class="n">BASE_DIR</span> <span class="o">/</span> <span class="sh">'</span><span class="s">logs</span><span class="sh">'</span>  <span class="c1"># or '/path/to/your/logs/'
+</span>
+<span class="n">LOG_VIEWER_PAGE_LENGTH</span> <span class="o">=</span> <span class="mi">25</span>
+
+</code></pre></div></div> <h3 id="4-url-configuration">4. URL Configuration</h3> <p>The log viewer integrates automatically with Django admin - no URL configuration needed!</p> <h2 id="️-configuration">⚙️ Configuration</h2> <p>The Django Admin Log Viewer comes with comprehensive default settings that work out of the box. You only need to specify the log files you want to monitor - all other settings are optional and have sensible defaults.</p> <h3 id="required-settings">Required Settings</h3> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># Required: List of log files to monitor
+</span>
+<span class="n">LOG_VIEWER_FILES</span> <span class="o">=</span> <span class="p">[</span><span class="sh">'</span><span class="s">django.log</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">application.log</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">celery_beat.log</span><span class="sh">'</span><span class="p">]</span>
+
+
+
+<span class="c1"># Required: Directory containing log files
+</span>
+<span class="n">LOG_VIEWER_FILES_DIR</span> <span class="o">=</span> <span class="n">BASE_DIR</span> <span class="o">/</span> <span class="sh">'</span><span class="s">logs</span><span class="sh">'</span>
+
+</code></pre></div></div> <h3 id="optional-settings-with-defaults">Optional Settings (with defaults)</h3> <p>All the settings below are optional. The app provides comprehensive defaults that work well for most use cases:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># Display settings (defaults shown)
+</span>
+<span class="n">LOG_VIEWER_PAGE_LENGTH</span> <span class="o">=</span> <span class="mi">25</span>                    <span class="c1"># Log entries per page
+</span>
+<span class="n">LOG_VIEWER_MAX_READ_LINES</span> <span class="o">=</span> <span class="mi">1000</span>              <span class="c1"># Max lines to read per request
+</span>
+<span class="n">LOG_VIEWER_FILE_LIST_MAX_ITEMS_PER_PAGE</span> <span class="o">=</span> <span class="mi">25</span>  <span class="c1"># Files per page in file list
+</span>
+<span class="n">LOG_VIEWER_FILE_LIST_TITLE</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Log Files</span><span class="sh">"</span>      <span class="c1"># Title for file list page
+</span>
+
+
+<span class="c1"># Real-time monitoring (defaults shown)
+</span>
+<span class="n">LOGVIEWER_REFRESH_INTERVAL</span> <span class="o">=</span> <span class="mi">10000</span>            <span class="c1"># Auto-refresh interval (10 seconds)
+</span>
+<span class="n">LOGVIEWER_AUTO_REFRESH_DEFAULT</span> <span class="o">=</span> <span class="bp">True</span>         <span class="c1"># Enable auto-refresh by default
+</span>
+<span class="n">LOGVIEWER_AUTO_SCROLL_TO_BOTTOM</span> <span class="o">=</span> <span class="bp">True</span>        <span class="c1"># Auto-scroll to latest logs
+</span>
+<span class="n">LOGVIEWER_ONLY_REFRESH_WHEN_ACTIVE</span> <span class="o">=</span> <span class="bp">True</span>     <span class="c1"># Only refresh when tab is active
+</span>
+
+
+<span class="c1"># Performance settings (defaults shown)
+</span>
+<span class="n">LOGVIEWER_INITIAL_NUMBER_OF_CHARS</span> <span class="o">=</span> <span class="mi">2048</span>      <span class="c1"># Initial load size
+</span>
+<span class="n">LOGVIEWER_DISABLE_ACCESS_LOGS</span> <span class="o">=</span> <span class="bp">True</span>          <span class="c1"># Don't log AJAX requests
+</span>
+</code></pre></div></div> <blockquote> <p><strong>💡 Pro Tip</strong>: You only need to specify settings that you want to change from the defaults. The app will automatically use sensible defaults for any unspecified settings.</p> </blockquote> <h3 id="-quick-start-summary">🎯 Quick Start Summary</h3> <p>For most users, you only need these two settings to get started:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># Minimal configuration - just specify your log files!
+</span>
+<span class="n">LOG_VIEWER_FILES</span> <span class="o">=</span> <span class="p">[</span><span class="sh">'</span><span class="s">django.log</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">application.log</span><span class="sh">'</span><span class="p">]</span> 
+
+<span class="n">LOG_VIEWER_FILES_DIR</span> <span class="o">=</span> <span class="n">BASE_DIR</span> <span class="o">/</span> <span class="sh">'</span><span class="s">logs</span><span class="sh">'</span>
+
+
+
+<span class="c1"># Everything else uses intelligent defaults:
+</span>
+<span class="c1"># ✅ 8 built-in log format patterns (Django, Celery, Nginx, Apache, etc.)
+</span>
+<span class="c1"># ✅ Beautiful color scheme for all log levels  
+</span>
+<span class="c1"># ✅ Real-time monitoring with 10-second refresh
+</span>
+<span class="c1"># ✅ 25 entries per page with smart multi-line pagination
+</span>
+<span class="c1"># ✅ Performance optimizations enabled by default
+</span>
+</code></pre></div></div> <h3 id="advanced-log-format-configuration">Advanced Log Format Configuration</h3> <p>The app comes with <strong>8 built-in log format patterns</strong> that handle most common log formats out of the box:</p> <h4 id="built-in-log-formats">Built-in Log Formats</h4> <ul> <li> <p><strong><code class="language-plaintext highlighter-rouge">django_default</code></strong> - Django standard format: <code class="language-plaintext highlighter-rouge">LEVEL YYYY-MM-DD HH:MM:SS,mmm module: message</code></p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">simple</code></strong> - Simple format: <code class="language-plaintext highlighter-rouge">LEVEL: message</code></p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">celery_beat</code></strong> - Celery Beat scheduler logs</p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">celery_worker</code></strong> - Celery Worker task logs</p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">nginx_access</code></strong> - Nginx access log format</p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">nginx_error</code></strong> - Nginx error log format</p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">apache_common</code></strong> - Apache Common Log Format</p> </li> <li> <p><strong><code class="language-plaintext highlighter-rouge">syslog</code></strong> - Standard syslog format</p> </li> </ul> <h4 id="custom-log-format-configuration">Custom Log Format Configuration</h4> <p>If you need custom log parsing, you can override or extend the default formats:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># Custom log format configuration (optional)
+</span>
+<span class="n">LOG_VIEWER_FORMATS</span> <span class="o">=</span> <span class="p">{</span>
+
+    <span class="c1"># Use any of the built-in formats, or define your own
+</span>
+    <span class="sh">'</span><span class="s">my_custom_format</span><span class="sh">'</span><span class="p">:</span> <span class="p">{</span>
+
+        <span class="sh">'</span><span class="s">pattern</span><span class="sh">'</span><span class="p">:</span> <span class="sa">r</span><span class="sh">'</span><span class="s">(?P&lt;level&gt;\w+)\s+(?P&lt;timestamp&gt;\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})\s+(?P&lt;message&gt;.*)</span><span class="sh">'</span><span class="p">,</span>
+
+        <span class="sh">'</span><span class="s">timestamp_format</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">%Y-%m-%d %H:%M:%S</span><span class="sh">'</span><span class="p">,</span>
+
+        <span class="sh">'</span><span class="s">description</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">My custom format</span><span class="sh">'</span>
+
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+
+
+<span class="c1"># Per-file format assignment
+</span>
+<span class="n">LOG_VIEWER_FILE_FORMATS</span> <span class="o">=</span> <span class="p">{</span>
+
+    <span class="sh">'</span><span class="s">django.log</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">django_default</span><span class="sh">'</span><span class="p">,</span>
+
+    <span class="sh">'</span><span class="s">application.log</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">simple</span><span class="sh">'</span><span class="p">,</span> 
+
+    <span class="sh">'</span><span class="s">celery_beat.log</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">celery_beat</span><span class="sh">'</span><span class="p">,</span>
+
+    <span class="sh">'</span><span class="s">access.log</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">nginx_access</span><span class="sh">'</span><span class="p">,</span>
+
+<span class="p">}</span>
+
+
+
+<span class="c1"># Default format for unspecified files
+</span>
+<span class="n">LOG_VIEWER_DEFAULT_FORMAT</span> <span class="o">=</span> <span class="sh">'</span><span class="s">django_default</span><span class="sh">'</span>
+
+</code></pre></div></div> <h3 id="styling-and-colors">Styling and Colors</h3> <p>The app comes with a comprehensive <strong>default color scheme</strong> for all log levels. You only need to customize colors if you want to override the defaults:</p> <h4 id="default-color-scheme">Default Color Scheme</h4> <ul> <li> <p><strong>DEBUG</strong>: <code class="language-plaintext highlighter-rouge">#6c757d</code> (Gray) - Low-priority debug information</p> </li> <li> <p><strong>INFO</strong>: <code class="language-plaintext highlighter-rouge">#0dcaf0</code> (Cyan) - General informational messages</p> </li> <li> <p><strong>WARNING/WARN</strong>: <code class="language-plaintext highlighter-rouge">#ffc107</code> (Yellow) - Warning messages</p> </li> <li> <p><strong>ERROR</strong>: <code class="language-plaintext highlighter-rouge">#dc3545</code> (Red) - Error conditions</p> </li> <li> <p><strong>CRITICAL/FATAL</strong>: <code class="language-plaintext highlighter-rouge">#6f42c1</code> (Purple) - Critical system errors</p> </li> <li> <p><strong>NOTICE</strong>: <code class="language-plaintext highlighter-rouge">#17a2b8</code> (Teal) - Important notices</p> </li> <li> <p><strong>ALERT</strong>: <code class="language-plaintext highlighter-rouge">#fd7e14</code> (Orange) - Alert conditions</p> </li> </ul> <h4 id="custom-color-configuration-optional">Custom Color Configuration (Optional)</h4> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># Override default colors only if needed
+</span>
+<span class="n">LOG_VIEWER_LEVEL_COLORS</span> <span class="o">=</span> <span class="p">{</span>
+
+    <span class="sh">'</span><span class="s">ERROR</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">#ff0000</span><span class="sh">'</span><span class="p">,</span>    <span class="c1"># Custom red for errors
+</span>
+    <span class="sh">'</span><span class="s">DEBUG</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">#888888</span><span class="sh">'</span><span class="p">,</span>    <span class="c1"># Custom gray for debug
+</span>
+    <span class="c1"># ... other custom colors
+</span>
+<span class="p">}</span>
+
+
+
+<span class="c1"># Optional: Exclude certain log patterns  
+</span>
+<span class="n">LOG_VIEWER_EXCLUDE_TEXT_PATTERN</span> <span class="o">=</span> <span class="sa">r</span><span class="sh">'</span><span class="s">healthcheck|ping</span><span class="sh">'</span>  <span class="c1"># Regex pattern
+</span>
+</code></pre></div></div> <h2 id="-usage">🚀 Usage</h2> <h3 id="accessing-the-log-viewer">Accessing the Log Viewer</h3> <ol> <li> <p>Login to Django Admin as a staff user</p> </li> <li> <p>Look for <strong>“Log Files”</strong> in the admin interface, or navigate directly to <code class="language-plaintext highlighter-rouge">admin/logs/</code></p> </li> <li> <p>Click to view the list of available log files</p> </li> <li> <p>Select any log file to view its contents</p> </li> </ol> <p><strong>Direct URL Access</strong>: You can also access logs directly at <code class="language-plaintext highlighter-rouge">[http://your-domain.com/admin/logs/</code>](http://your-domain.com/admin/logs/`) after logging in as a staff user.</p> <h3 id="features-in-action">Features in Action</h3> <ul> <li> <p><strong>Real-time Monitoring</strong>: Toggle “Live Mode” to auto-refresh logs</p> </li> <li> <p><strong>Multi-line Support</strong>: Stack traces and exceptions are properly grouped</p> </li> <li> <p><strong>Download Logs</strong>: Click the download button to save log files locally</p> </li> <li> <p><strong>Pagination</strong>: Navigate through large log files with smart pagination</p> </li> <li> <p><strong>Filtering</strong>: Filter by log levels using the dropdown menu</p> </li> <li> <p><strong>Search</strong>: Use browser search (Ctrl+F) to find specific content</p> </li> </ul> <h2 id="-advanced-usage">🔧 Advanced Usage</h2> <h3 id="custom-log-formats">Custom Log Formats</h3> <p>Create custom regex patterns for your specific log formats:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">LOG_VIEWER_FORMATS</span> <span class="o">=</span> <span class="p">{</span>
+
+    <span class="sh">'</span><span class="s">my_custom_format</span><span class="sh">'</span><span class="p">:</span> <span class="p">{</span>
+
+        <span class="sh">'</span><span class="s">pattern</span><span class="sh">'</span><span class="p">:</span> <span class="sa">r</span><span class="sh">'</span><span class="s">(?P&lt;timestamp&gt;\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})\s+(?P&lt;level&gt;\w+)\s+(?P&lt;message&gt;.*)</span><span class="sh">'</span><span class="p">,</span>
+
+        <span class="sh">'</span><span class="s">timestamp_format</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">%Y-%m-%dT%H:%M:%S</span><span class="sh">'</span><span class="p">,</span>
+
+        <span class="sh">'</span><span class="s">description</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Custom ISO timestamp format</span><span class="sh">'</span>
+
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+</code></pre></div></div> <h3 id="log-rotation-support">Log Rotation Support</h3> <p>The viewer automatically detects rotated log files:</p> <ul> <li> <p><code class="language-plaintext highlighter-rouge">application.log</code> (current)</p> </li> <li> <p><code class="language-plaintext highlighter-rouge">application.log.1</code> (yesterday)</p> </li> <li> <p><code class="language-plaintext highlighter-rouge">application.log.2.gz</code> (compressed older logs)</p> </li> <li> <p><code class="language-plaintext highlighter-rouge">application.log.2023-12-01</code> (dated logs)</p> </li> </ul> <h3 id="multi-line-processing">Multi-line Processing</h3> <p>Perfect handling of:</p> <ul> <li> <p>Python stack traces</p> </li> <li> <p>Java exceptions</p> </li> <li> <p>SQL query logs</p> </li> <li> <p>JSON formatted logs</p> </li> <li> <p>Any multi-line log entry</p> </li> </ul> <h2 id="️-security">🛡️ Security</h2> <ul> <li> <p><strong>Staff Only Access</strong>: Only Django staff users can access log files</p> </li> <li> <p><strong>Path Validation</strong>: Prevents directory traversal attacks</p> </li> <li> <p><strong>File Size Limits</strong>: Configurable limits prevent memory exhaustion</p> </li> <li> <p><strong>Error Handling</strong>: Graceful handling of missing or corrupt files</p> </li> </ul> <h2 id="-requirements">📋 Requirements</h2> <ul> <li> <p><strong>Python</strong>: 3.8+</p> </li> <li> <p><strong>Django</strong>: 4.2+</p> </li> <li> <p><strong>Permissions</strong>: Staff access to Django admin</p> </li> </ul> <h2 id="-future-features">🚀 Future Features</h2> <p>We’re continuously working to enhance the Django Admin Log Viewer. Here are some exciting features planned for future releases:</p> <h3 id="cloud-storage-integration">Cloud Storage Integration</h3> <ul> <li> <p><strong>Amazon S3</strong>: Read logs directly from S3 buckets with configurable credentials and path patterns</p> </li> <li> <p><strong>Google Cloud Storage</strong>: Support for GCS log files with service account authentication</p> </li> <li> <p><strong>Azure Blob Storage</strong>: Integration with Azure storage accounts for enterprise scenarios</p> </li> </ul> <h3 id="advanced-log-sources">Advanced Log Sources</h3> <ul> <li> <p><strong>Remote Servers</strong>: SSH/SFTP integration to read logs from remote servers</p> </li> <li> <p><strong>Docker Containers</strong>: Direct container log streaming and monitoring</p> </li> <li> <p><strong>Kubernetes Pods</strong>: Native K8s log aggregation and viewing</p> </li> <li> <p><strong>Database Logs</strong>: Read logs stored in database tables or collections</p> </li> </ul> <h3 id="enhanced-features">Enhanced Features</h3> <ul> <li> <p><strong>Log Streaming</strong>: Real-time log tailing with WebSocket connections</p> </li> <li> <p><strong>Advanced Search</strong>: Full-text search with regex support and saved searches</p> </li> <li> <p><strong>Log Analytics</strong>: Basic statistics, error rate monitoring, and trend analysis</p> </li> <li> <p><strong>Alert System</strong>: Configurable alerts for error patterns or log volume spikes</p> </li> <li> <p><strong>Export Options</strong>: Export filtered logs to CSV, JSON, or PDF formats</p> </li> </ul> <h3 id="integrations">Integrations</h3> <ul> <li> <p><strong>Elasticsearch</strong>: Integration with ELK stack for advanced searching</p> </li> <li> <p><strong>Prometheus</strong>: Metrics export for monitoring and alerting</p> </li> <li> <p><strong>Slack/Teams</strong>: Notification integrations for critical log events</p> </li> <li> <p><strong>API Access</strong>: REST API for programmatic log access and automation</p> </li> </ul> <p>Have ideas for other features? Feel free to open an issue or contribute to the project!</p> <h2 id="-contributing">🤝 Contributing</h2> <p>Contributions are welcome! Please feel free to submit a Pull Request.</p> <h2 id="-license">📄 License</h2> <p>MIT License - see LICENSE file for details.</p> <h2 id="-troubleshooting">🐛 Troubleshooting</h2> <h3 id="log-files-not-showing">Log Files Not Showing</h3> <ul> <li> <p>Check <code class="language-plaintext highlighter-rouge">LOG_VIEWER_FILES_DIR</code> path exists</p> </li> <li> <p>Verify file permissions</p> </li> <li> <p>Ensure files are listed in <code class="language-plaintext highlighter-rouge">LOG_VIEWER_FILES</code></p> </li> </ul> <h3 id="performance-issues">Performance Issues</h3> <ul> <li> <p>Reduce <code class="language-plaintext highlighter-rouge">LOG_VIEWER_PAGE_LENGTH</code> for large files</p> </li> <li> <p>Increase <code class="language-plaintext highlighter-rouge">LOGVIEWER_REFRESH_INTERVAL</code></p> </li> <li> <p>Set <code class="language-plaintext highlighter-rouge">LOGVIEWER_DISABLE_ACCESS_LOGS = True</code></p> </li> </ul> <h3 id="multi-line-logs-not-grouping">Multi-line Logs Not Grouping</h3> <ul> <li> <p>Check your log format regex pattern</p> </li> <li> <p>Ensure the pattern matches the first line of log entries</p> </li> <li> <p>Verify timestamp format matches your logs</p> </li> </ul> <h2 id="-changelog">🎯 Changelog</h2> <h3 id="v200-latest">v2.0.0 (Latest)</h3> <ul> <li> <p>✅ Multi-line log processing with smart pagination</p> </li> <li> <p>✅ Configurable log format parsing</p> </li> <li> <p>✅ Log rotation support</p> </li> <li> <p>✅ Dark mode theme</p> </li> <li> <p>✅ Real-time monitoring with live mode</p> </li> <li> <p>✅ Module/logger name display</p> </li> <li> <p>✅ Download functionality</p> </li> <li> <p>✅ Responsive sidebar navigation</p> </li> <li> <p>✅ Memory-efficient streaming</p> </li> </ul> <hr> <p>⭐ <strong>Star this repo if you find it useful!</strong></p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2025 Amirhossein Mahmoudi. Last updated: September 12, 2025. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNCS9B9B3L"></script> <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-TNCS9B9B3L');
+  </script> <script defer src="/assets/js/google-analytics-setup.js"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>

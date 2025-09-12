@@ -211,13 +211,13 @@ ninja.data = [{
           description: "A simple calculator with clinet and server using socket and javafx gui with jfoenix beautiful design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Simple-Calculator-Server-Clinet/";
-            },},{id: "projects-os-task-manager",
-          title: 'Os Task Manager',
+            },},{id: "projects-os-taskmanager",
+          title: 'Os TaskManager',
           description: "a context switching simulation of operation system supporting every context switching algorithms and deadlock prevention methods",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Os-TaskManager/";
-            },},{id: "projects-map-reduce-examples",
-          title: 'Map Reduce examples',
+            },},{id: "projects-mapreduce-examples",
+          title: 'MapReduce examples',
           description: "Map Rduce Examples  using pure Scala and Then using Spark",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MapReduce-examples/";
@@ -231,28 +231,28 @@ ninja.data = [{
           description: "Breast Cancer survival analysis using Machine Learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Breast-Cancer-Prediction/";
-            },},{id: "projects-design-algorithms",
-          title: 'Design Algorithms',
+            },},{id: "projects-designalgorithms",
+          title: 'DesignAlgorithms',
           description: "Homework Solutions for Design Algorithm Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DesignAlgorithms/";
-            },},{id: "projects-introduction-to-machine-learning",
-          title: 'Introduction To Machine Learning',
+            },},{id: "projects-introductiontomachinelearning",
+          title: 'IntroductionToMachineLearning',
           description: "Introduction to Machine Learning, for B.Sc. Students, Industrial Engineering Department, Sharif University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IntroductionToMachineLearning/";
-            },},{id: "projects-numerical-analysis",
-          title: 'Numerical Analysis',
+            },},{id: "projects-numericalanalysis",
+          title: 'NumericalAnalysis',
           description: "Homework Solutions for Numerical Analysis Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NumericalAnalysis/";
-            },},{id: "projects-statistical-learning",
-          title: 'Statistical Learning',
+            },},{id: "projects-statisticallearning",
+          title: 'StatisticalLearning',
           description: "Homework Solutions for Statistical Learning Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/StatisticalLearning/";
-            },},{id: "projects-introduction-to-bioinformatics",
-          title: 'Introduction To Bioinformatics',
+            },},{id: "projects-introductiontobioinformatics",
+          title: 'IntroductionToBioinformatics',
           description: "Homework Solutions for Introduction to Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IntroductionToBioinformatics/";
@@ -286,8 +286,8 @@ ninja.data = [{
           description: "Face recognition using Eigen faces, PCA and support vector machines",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Face-Recognition/";
-            },},{id: "projects-ada-boost-implementation",
-          title: 'Ada Boost Implementation',
+            },},{id: "projects-adaboost-implementation",
+          title: 'AdaBoost Implementation',
           description: "implementing AdaBoost from scratch and comparing it with Scikit-Learn&#39;s implementation along with exploring concept of early stopping and weighted errors in boosting algorithms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AdaBoost-Implementation/";
@@ -337,8 +337,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/P2PKH-Address-Generator/";
             },},{id: "projects-token-swap-dapp",
-          title: 'Token Swap Dapp',
-          description: "None",
+          title: 'token swap dapp',
+          description: "A simple dapp  to connect with wallets and swap tokens in blockchain networks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/token-swap-dapp/";
             },},{id: "projects-stochastic-processes",
@@ -346,6 +346,26 @@ ninja.data = [{
           description: "Homework Solutions for Stochastic Processes Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Stochastic-Processes/";
+            },},{id: "projects-agricultural-image-instance-segmentation",
+          title: 'Agricultural Image Instance Segmentation',
+          description: "PyTorch-based Mask R-CNN framework for high-precision instance segmentation of agricultural imagery. Supports custom datasets, advanced training workflows, and robust evaluation for crop and plant analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Agricultural-Image-Instance-Segmentation/";
+            },},{id: "projects-comfyui-legendary-nodes",
+          title: 'ComfyUI Legendary Nodes',
+          description: "Set of useful nodes for comfyui",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ComfyUI-Legendary-Nodes/";
+            },},{id: "projects-structuredvision",
+          title: 'StructuredVision',
+          description: "A powerful toolkit for extracting structured JSON data from images using multiple AI-powered OCR and vision models. Specialized for game interfaces, documents, forms, and general text extraction with schema validation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/StructuredVision/";
+            },},{id: "projects-mamood-django-admin-log-viewer",
+          title: 'mamood django admin log viewer',
+          description: "A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mamood-django-admin-log-viewer/";
             },},{
         id: 'social-email',
         title: 'email',

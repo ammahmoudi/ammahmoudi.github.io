@@ -85,7 +85,11 @@ class RepoToPost:
     @staticmethod
     def remove_title(contents) -> str:
         if contents.startswith('# '):
-            return contents.split('\n', 1)[1]
+            parts = contents.split('\n', 1)
+            if len(parts) > 1:
+                return parts[1]
+            else:
+                return ""  # No content after title
         return contents
 
     @staticmethod

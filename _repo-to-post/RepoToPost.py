@@ -11,6 +11,10 @@ class RepoToPost:
         RepoToPost.username=username
         print("Writing posts...")
         for repository in tqdm(repositories):
+            # Skip private repositories
+            if getattr(repository, 'private', False):
+                print(f"Skipping private repo: {repository.name}")
+                continue
             if repository.name != RepoToPost.username+".github.io":
                 RepoToPost.write_post(repository, post_dir_path)
         print("Finished writing posts!")
@@ -53,7 +57,7 @@ class RepoToPost:
                     f.write(f'{RepoToPost.add_raw_github_to_url(img_url,repository.name.replace(" ","-"),repository.repo.default_branch)}\n')
                 else:
                     f.write(f'https://socialify.git.ci/{repository.fullname}/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light\n')
-                f.write(f'og_image: ')
+                f.write('og_image: ')
                 if img_url:
                     f.write(f'{RepoToPost.add_raw_github_to_url(img_url,repository.name.replace(" ","-"),repository.repo.default_branch)}\n')
                 else:
@@ -68,12 +72,7 @@ class RepoToPost:
                     f.write(f'tags: [{", ".join(repository.topics)}]\n')
                 f.write(f'categories: ["Repository", {repository.language}]\n')
                 f.write('---\n')
-                # f.write(f'\n## [Open In Github]({repository.url})')
-                # f.write(f'[![Open In Github](https://icons-for-free.com/download-icon-part+1+github-1320568339880199515_0.svg)]({repository.url})\n\n')
-
-                f.write('## ')
                 f.write(f'<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="{repository.url}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>\n')
-                # f.write(f'<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="{repository.url}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>\n')
                 f.write('---\n')
                 f.write(contents)
 
@@ -198,6 +197,9 @@ class RepoToPost:
          return contents
     @staticmethod
     def add_raw_github_to_url(url,repo_name,repo_branch):
+            # If url already starts with 'https://', return as-is
+            if url.startswith('https://') or url.startswith('http://'):
+                return url
             # Ensure url starts with a slash
             if not url.startswith('/'):
                 url = '/' + url
@@ -209,8 +211,12 @@ class RepoToPost:
             images=RepoToPost.get_image_content(content)
             if len(images)!=0:
                 for alt,url in images:
-   
-                    new_content='{% include figure.liquid path="'+url+'" alt="'+alt+'" class="img-fluid rounded z-depth-1" zoomable=true %}'
+                    # If the url is a shield or other external asset, use as-is
+                    if url.startswith('http://') or url.startswith('https://'):
+                        new_url = url
+                    else:
+                        new_url = RepoToPost.add_raw_github_to_url(url, RepoToPost.repo_name, RepoToPost.repo_branch)
+                    new_content='{% include figure.liquid path="'+new_url+'" alt="'+alt+'" class="img-fluid rounded z-depth-1" zoomable=true %}'
                     address=f"![{alt}]({url})"
                     contents=contents.replace(address,new_content)
                     print("image: ",address)

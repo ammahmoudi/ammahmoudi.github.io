@@ -12,9 +12,7 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/m
 tags: [comfyui, comfyui-custom-node, comfyui-nodes]
 categories: ["Repository", Python]
 ---
-
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/ComfyUI-Legendary-Nodes" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-
+<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/ComfyUI-Legendary-Nodes" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
 
 ComfyUI-Legendary-Nodes is a collection of helpful ComfyUI nodes that extend and simplify common workflows in ComfyUI — from loading images and LoRA files by URL to saving and managing datasets. This repository provides implementation and utilities for nodes that make iterative design, data handling, and model adaptation easier whether you're running ComfyUI locally or in a cloud environment.
@@ -43,15 +41,13 @@ This project contains several high-value nodes and utilities. Main nodes include
 
 - Legendary Dataset Saver (`nodes/dataset_loader/dataset_loader.py`): Save and manage datasets produced by your workflow. Useful for logging experiments, storing user submissions, or exporting intermediate results.
 
-  {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_dataset_saver.png" alt="Legendary Dataset Saver" class="img-fluid rounded z-depth-1" zoomable=true %}
-
+	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_dataset_saver.png" alt="Legendary Dataset Saver" class="img-fluid rounded z-depth-1" zoomable=true %}
 - Legendary Image URL Loader (`nodes/image_url_loader/image_url_loader.py`): Load images from remote URLs and output them into ComfyUI for immediate processing. Supports basic size/format options and timeouts.
 
-  {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_image_url_loader.png" alt="Legendary Image URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
-
+	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_image_url_loader.png" alt="Legendary Image URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
 - Legendary LoRA URL Loader (`nodes/lora_url_loader/lora_url_loader.py`): Download and (optionally) apply LoRA files from a URL to your models and CLIP embeddings. Includes strength controls for model and CLIP adaptation.
 
-  {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_lora_url_loader.png" alt="Legendary LoRA URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
+	{% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/mainimages/legendary_lora_url_loader.png" alt="Legendary LoRA URL Loader" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 There are also downloader utilities and workflow helpers in `nodes/` (for example `base_downloader.py`, `download_utils.py`, and `install.py`) and higher-level automation under `nodes/auto/`.
 
@@ -60,6 +56,7 @@ There are also downloader utilities and workflow helpers in `nodes/` (for exampl
 This project is a collection of ComfyUI nodes — it is NOT a pip-installable Python package. To install, copy the repository (or the `nodes/` folder) into your ComfyUI installation's custom nodes directory so ComfyUI can load the nodes at startup.
 
 Steps (Windows / PowerShell example):
+
 
 1. Clone or download this repository locally:
 

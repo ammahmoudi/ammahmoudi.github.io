@@ -12,28 +12,24 @@ og_image: https://socialify.git.ci/ammahmoudi/IntroductionToBioinformatics/image
 tags: [alignments, bioinformatics, rosalind-exercises]
 categories: ["Repository", Python]
 ---
-
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/IntroductionToBioinformatics" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-
+<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/IntroductionToBioinformatics" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 ---
-
 Homework Solutions for Introduction To Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology
 
 Fall 2022
 
 Supervisors: [Dr. Ali Sharifi Zarchi](https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en), [Dr. Somayyeh Koohi](http://sharif.ir/~koohi/)
 
-## Description
 
+## Description
 This repository includes my homework and projects around Numerical Bioinformatics.
 There are some problems from Rosalind implemented in Python and Java. Also, a small project about dimension reduction and AML is included.
 
 ## Table of Rosalind's Problems
-
 24 Rosalind problems listed below are implemented as homework.
 
-| Num | Title                                                                                               |
-| --- | --------------------------------------------------------------------------------------------------- |
+| Num | Title                                                                                                         |
+| --- | ------------------------------------------------------------------------------------------------------------- |
 | 1   | [Computing GC Content](https://rosalind.info/problems/gc/)                                          |
 | 2   | [Complementing a Strand of DNA](https://rosalind.info/problems/revc/)                               |
 | 3   | [Enumerating k-mers Lexicographically](https://rosalind.info/problems/lexf/)                        |

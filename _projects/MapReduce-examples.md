@@ -1,7 +1,7 @@
 ---
 layout: page
 category: Repositories
-title: Map Reduce examples
+title: MapReduce examples
 description: Map Rduce Examples  using pure Scala and Then using Spark
 date: 2022-07-04 16:59:16 +0000
 last_modified_at: 2023-11-03 08:47:39 +0000
@@ -12,9 +12,8 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master
 tags: [mapreduce, map-reduce, scala, spark, spark-mapreduce]
 categories: ["Repository", Scala]
 ---
-
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/MapReduce-examples" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-
+<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/MapReduce-examples" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+---
 MapReduce Examples using pure Scala and Then using Spark.
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/MapReduce-examples/master/cover.jpg" alt="spark scala" class="img-fluid rounded z-depth-1" zoomable=true %}

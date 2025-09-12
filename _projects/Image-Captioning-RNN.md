@@ -12,15 +12,13 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main
 tags: [bert-embeddings, deep-learning, image-captioning, lstm, machine-learning, ml, resnet50, rnn]
 categories: ["Repository", Jupyter Notebook]
 ---
-
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Image-Captioning-RNN" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
-
+<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/Image-Captioning-RNN" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+---
 Image Captioning using Recurrent Neural Networks on Flickr images with pretrained ResNet50 model features.
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main/output.png" alt="result" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## Data Documentation
-
 A new benchmark collection for sentence-based image description and search, consisting of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. … The images were chosen from six different Flickr groups, and tend not to contain any well-known people or locations, but were manually selected to depict a variety of scenes and situations. For more information please read the [data documentation](https://www.kaggle.com/datasets/adityajn105/flickr8k).
 
 ## Code Explanation
@@ -35,3 +33,5 @@ A new benchmark collection for sentence-based image description and search, cons
 
 - **Train**: The code splits the data into train and test sets, creates a data generator for the train set, and trains the model for 20 epochs using categorical crossentropy loss and Adam optimizer.
 - **Test**: The code loads the trained model and defines a function to generate captions for new images. It randomly selects some images from the test set, displays them, and shows the predicted captions along with the real captions and their similarity scores using BERT embeddings.
+
+

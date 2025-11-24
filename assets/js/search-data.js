@@ -48,7 +48,7 @@ ninja.data = [{
         
           title: "Red–Black Trees: Structure, Height Guarantees, and Invariants",
         
-        description: "An introduction to red–black trees: conventions, invariants,and case analysis.",
+        description: "An introduction to red–black trees: conventions, invariants, case analysis, and their relation to 2–3–4 trees.",
         section: "Posts",
         handler: () => {
           

@@ -1,0 +1,184 @@
+<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content=""> <meta name="msvalidate.01" content=""> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Red–Black Trees: Structure, Height Guarantees, and Invariants | Amirhossein Mahmoudi </title> <meta name="author" content="Amirhossein Mahmoudi"> <meta name="description" content="An introduction to red–black trees: conventions, invariants,and case analysis."> <meta name="keywords" content="amirhossein-mahmoudi, mahmoudi, am_mahmoudi,"> <meta property="og:site_name" content="Amirhossein Mahmoudi"> <meta property="og:type" content="article"> <meta property="og:title" content="Amirhossein Mahmoudi | Red–Black Trees: Structure, Height Guarantees, and Invariants"> <meta property="og:url" content="https://mamood.ir/blog/2025/red-black-trees/"> <meta property="og:description" content="An introduction to red–black trees: conventions, invariants,and case analysis."> <meta property="og:image" content="https://mamood.ir/assets/img/og_pic.png"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Red–Black Trees: Structure, Height Guarantees, and Invariants"> <meta name="twitter:description" content="An introduction to red–black trees: conventions, invariants,and case analysis."> <meta name="twitter:image" content="https://mamood.ir/assets/img/og_pic.png"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Amirhossein Mahmoudi"
+        },
+        "url": "https://mamood.ir/blog/2025/red-black-trees/",
+        "@type": "BlogPosting",
+        "description": "An introduction to red–black trees: conventions, invariants,and case analysis.",
+        "headline": "Red–Black Trees: Structure, Height Guarantees, and Invariants",
+        
+        "name": "Amirhossein Mahmoudi",
+        "@context": "https://schema.org"
+    }
+  </script> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?35f4f1d9ccd51f0ffeea607d2b075320"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://mamood.ir/blog/2025/red-black-trees/"> <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css"> <script src="/assets/js/distillpub/template.v2.js"></script> <script src="/assets/js/distillpub/transforms.v2.js"></script> </head> <body> <d-front-matter> <script async type="text/json">
+      {
+            "title": "Red–Black Trees: Structure, Height Guarantees, and Invariants",
+            "description": "An introduction to red–black trees: conventions, invariants,and case analysis.",
+            "published": "November 24, 2025",
+            "authors": [
+              
+            ],
+            "katex": {
+              "delimiters": [
+                {
+                  "left": "$",
+                  "right": "$",
+                  "display": false
+                },
+                {
+                  "left": "$$",
+                  "right": "$$",
+                  "display": true
+                }
+              ]
+            }
+          }
+    </script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Amirhossein</span> Mahmoudi </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/portfolio/">Portfolio </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Red–Black Trees: Structure, Height Guarantees, and Invariants</h1> <p>An introduction to red–black trees: conventions, invariants,and case analysis.</p> </d-title> <d-article> <d-contents> <nav class="l-text figcaption"> <h3>Contents</h3> <div> <a href="#motivation">Motivation</a> </div> <div> <a href="#structural-conventions">Structural Conventions</a> </div> <div> <a href="#definition-of-red-black-trees">Definition of Red–Black Trees</a> </div> <div> <a href="#children-of-a-red-node">Children of a Red Node</a> </div> <div> <a href="#black-height-and-tree-size">Black-Height and Tree Size</a> </div> <div> <a href="#path-lengths-and-height-bound">Path Lengths and Height Bound</a> </div> <div> <a href="#extreme-sizes-and-red-black-ratio">Extreme Sizes and Red/Black Ratio</a> </div> <div> <a href="#absorbing-red-nodes-and-2-3-4-trees">Absorbing Red Nodes and 2–3–4 Trees</a> </div> <div> <a href="#relaxed-red-black-trees">Relaxed Red–Black Trees</a> </div> <div> <a href="#cheat-sheet">Cheat Sheet</a> </div> </nav> </d-contents> <h2 id="motivation">Motivation</h2> <p>A <strong>binary search tree (BST)</strong> stores keys so that for each internal node $ x $:</p> <ul> <li>All keys in the left subtree of $ x $ are smaller than <code class="language-plaintext highlighter-rouge">key(x)</code>.</li> <li>All keys in the right subtree of $ x $ are larger than <code class="language-plaintext highlighter-rouge">key(x)</code>.</li> </ul> <p>BST operations have running time proportional to the <strong>height</strong> $ h $ of the tree:</p> <ul> <li>Search: $ \Theta(h) $</li> <li>Insert: $ \Theta(h) $</li> <li>Delete: $ \Theta(h) $</li> </ul> <p>In the worst case (for example, inserting already sorted keys into an empty tree), a BST degenerates into a chain and $ h = \Theta(n) $. To avoid this, we use <strong>balanced</strong> search trees.</p> <p>A small comparison:</p> <table> <thead> <tr> <th>Data Structure</th> <th>Search</th> <th>Insert</th> <th>Delete</th> <th>Height</th> <th>Notes</th> </tr> </thead> <tbody> <tr> <td>Unbalanced BST</td> <td>$ O(\log n) $ avg, $ O(n) $ worst</td> <td>same</td> <td>same</td> <td>Up to $ n $</td> <td>Can degrade to a linked list</td> </tr> <tr> <td>AVL Tree</td> <td>$ O(\log n) $</td> <td>$ O(\log n) $</td> <td>$ O(\log n) $</td> <td>Strictly balanced</td> <td>Stricter height invariants</td> </tr> <tr> <td><strong>Red–Black Tree</strong></td> <td>$ O(\log n) $</td> <td>$ O(\log n) $</td> <td>$ O(\log n) $</td> <td>$ \le 2\log_2(n+1) $</td> <td>Relaxed balancing, few rotations</td> </tr> <tr> <td>Treap</td> <td>Expected $ O(\log n) $</td> <td>Expected $ O(\log n) $</td> <td>Expected $ O(\log n) $</td> <td>Expected $ O(\log n) $</td> <td>Randomized priorities</td> </tr> </tbody> </table> <p>Red–black trees guarantee logarithmic height via <strong>color-based invariants</strong> instead of strict height balancing.</p> <hr> <h2 id="structural-conventions">Structural Conventions</h2> <p>To be precise, we fix conventions compatible with CLRS.</p> <h3 id="internal-nodes-and-nil-leaves">Internal Nodes and NIL Leaves</h3> <ul> <li> <strong>Internal node</strong>: a real node storing a key.</li> <li> <strong>NIL leaf</strong>: a special sentinel node representing an empty child. <ul> <li>All NIL nodes are <strong>black</strong>.</li> <li>NIL nodes do <strong>not</strong> store keys.</li> <li>NIL nodes are used in black-height counts, but not in height (which we define using internal leaves).</li> </ul> </li> </ul> <h3 id="height-depth-level">Height, Depth, Level</h3> <p>Let the tree be rooted at a node <code class="language-plaintext highlighter-rouge">root</code>.</p> <ul> <li> <strong>Depth(x)</strong>: the number of edges on the path from <code class="language-plaintext highlighter-rouge">root</code> to <code class="language-plaintext highlighter-rouge">x</code>.<br> So <code class="language-plaintext highlighter-rouge">depth(root) = 0</code>.</li> <li> <strong>Level(x)</strong>: <code class="language-plaintext highlighter-rouge">depth(x) + 1</code>.<br> So <code class="language-plaintext highlighter-rouge">level(root) = 1</code>.</li> <li> <strong>Height(x)</strong>: the number of <strong>internal nodes</strong> on the longest path from <code class="language-plaintext highlighter-rouge">x</code> down to an <strong>internal leaf</strong>, including both endpoints.<br> NIL leaves are not counted in height.</li> </ul> <p>The <strong>height of the tree</strong> is the height of the root.</p> <h3 id="black-height">Black-Height</h3> <p>For any node $ x $, the <strong>black-height</strong> $ bh(x) $ is defined as:</p> <blockquote> <p>The number of black nodes on any simple path from $ x $ (exclusive) down to a NIL leaf (inclusive).</p> </blockquote> <p>Thanks to the red–black properties, this number is well-defined (independent of which path to a NIL leaf you choose).</p> <hr> <h2 id="definition-of-redblack-trees">Definition of Red–Black Trees</h2> <p>A <strong>red–black tree</strong> is a binary search tree where each internal node is colored <strong>red</strong> or <strong>black</strong> and the following invariants hold:</p> <ol> <li>Every node is either red or black.</li> <li>The root is black.</li> <li>Every NIL leaf is black.</li> <li>If a node is red, then both its children are black. (No red–red edge.)</li> <li>For every node $ x $, every simple path from $ x $ to a NIL leaf has the same number of black nodes.</li> </ol> <p>A simple example:</p> <pre><code class="language-mermaid">graph TD
+    R["🔴 Black&lt;br/&gt;(Root)"]
+    A["🔵 Red"]
+    B["🔴 Black"]
+    C["🔴 Black"]
+    D["🔴 Black"]
+    E["🔴 Black"]
+    F["🔴 Black"]
+    NIL1["⬛ NIL"]
+    NIL2["⬛ NIL"]
+    NIL3["⬛ NIL"]
+    NIL4["⬛ NIL"]
+    NIL5["⬛ NIL"]
+    NIL6["⬛ NIL"]
+    NIL7["⬛ NIL"]
+    NIL8["⬛ NIL"]
+    
+    R --&gt; A
+    R --&gt; B
+    A --&gt; C
+    A --&gt; D
+    C --&gt; NIL1
+    C --&gt; NIL2
+    D --&gt; NIL3
+    D --&gt; NIL4
+    B --&gt; E
+    B --&gt; F
+    E --&gt; NIL5
+    E --&gt; NIL6
+    F --&gt; NIL7
+    F --&gt; NIL8
+</code></pre> <hr> <h2 id="children-of-a-red-node">Children of a Red Node</h2> <p>We now explicitly analyze all possible shapes of children for a <strong>red</strong> node.</p> <p>Let <code class="language-plaintext highlighter-rouge">R</code> be a red internal node. Each child can be:</p> <ul> <li>a NIL leaf (black),</li> <li>a black internal node,</li> <li>but <strong>never</strong> a red node (by invariant 4).</li> </ul> <p>We consider all possibilities.</p> <h3 id="case-1-both-children-are-nil-allowed">Case 1: Both children are NIL (allowed)</h3> <pre><code class="language-mermaid">graph TD
+    R["🔵 Red"]
+    NIL1["⬛ NIL"]
+    NIL2["⬛ NIL"]
+    
+    R --&gt; NIL1
+    R --&gt; NIL2
+</code></pre> <p>This is allowed: a red internal node whose two children are NIL leaves.</p> <hr> <h3 id="case-2-both-children-are-black-internal-nodes-allowed">Case 2: Both children are black internal nodes (allowed)</h3> <pre><code class="language-mermaid">graph TD
+    R["🔵 Red"]
+    L["🔴 Black"]
+    RR["🔴 Black"]
+    NIL1["⬛ NIL"]
+    NIL2["⬛ NIL"]
+    NIL3["⬛ NIL"]
+    NIL4["⬛ NIL"]
+    
+    R --&gt; L
+    R --&gt; RR
+    L --&gt; NIL1
+    L --&gt; NIL2
+    RR --&gt; NIL3
+    RR --&gt; NIL4
+</code></pre> <p>This is also allowed. The subtrees below the two black children must, of course, satisfy the red–black invariants.</p> <hr> <h3 id="case-3-one-nil-child-and-one-black-internal-child-forbidden">Case 3: One NIL child and one black internal child (forbidden)</h3> <p>Consider:</p> <pre><code class="language-mermaid">graph TD
+    R["🔵 Red"]
+    L["🔴 Black"]
+    N["⬛ NIL"]
+    NIL1["⬛ NIL"]
+    NIL2["⬛ NIL"]
+    
+    R --&gt; L
+    R --&gt; N
+    L --&gt; NIL1
+    L --&gt; NIL2
+</code></pre> <ul> <li> <p>Path 1: <code class="language-plaintext highlighter-rouge">R → N</code> Below <code class="language-plaintext highlighter-rouge">R</code>, we see exactly one black node: the NIL leaf. So the number of black nodes on this path (exclusive of <code class="language-plaintext highlighter-rouge">R</code>, inclusive of NIL) is <code class="language-plaintext highlighter-rouge">1</code>.</p> </li> <li> <p>Path 2: <code class="language-plaintext highlighter-rouge">R → L → ... → NIL</code> Below <code class="language-plaintext highlighter-rouge">R</code>, we see:</p> <ul> <li>the black internal node <code class="language-plaintext highlighter-rouge">L</code> (1 black), and</li> <li>then at least one NIL leaf (another black), so there are at least <strong>two</strong> black nodes on this path.</li> </ul> </li> </ul> <p>Thus the number of black nodes on paths from <code class="language-plaintext highlighter-rouge">R</code> to NIL leaves differs between the left and right sides, contradicting property 5.</p> <p>Therefore, this case is <strong>not allowed</strong>.</p> <p>The symmetric case (left NIL, right black internal) is equally forbidden.</p> <hr> <h3 id="case-4-any-red-child-forbidden">Case 4: Any red child (forbidden)</h3> <pre><code class="language-mermaid">graph TD
+    R["🔵 Red"]
+    C["🔵 Red"]
+    
+    R --&gt; C
+</code></pre> <p>This directly violates property 4: a red node cannot have a red child.</p> <hr> <h3 id="summary-children-of-a-red-node">Summary: children of a red node</h3> <p>A red node may have:</p> <ul> <li>two NIL (black) children, or</li> <li>two black internal children,</li> </ul> <p>but may not have:</p> <ul> <li>exactly one non-NIL child, or</li> <li>any red child.</li> </ul> <p>This structural fact will be referenced in several proofs.</p> <hr> <h2 id="black-height-and-tree-size">Black-Height and Tree Size</h2> <p>We now formalize the relationship between black-height and the number of internal nodes.</p> <p>Let $ S(k) $ be the <strong>minimum number of internal nodes</strong> in any red–black subtree whose root has black-height $ k $.</p> <h3 id="derivation-of-the-recurrence">Derivation of the recurrence</h3> <ul> <li>Base case: a subtree of black-height 0 contains no internal nodes, just a NIL leaf. Hence:</li> </ul> \[S(0) = 0.\] <ul> <li> <p>For $ k &gt; 0 $: to minimize node count in a tree with black-height $ k $:</p> <ul> <li> <p>The root must be black. If the root were red, its black children would force higher black-height below, which does not minimize the size.</p> </li> <li> <p>Each child subtree must itself have black-height $ k-1 $.</p> </li> <li> <p>We choose both children to be minimal $ S(k-1) $ subtrees.</p> </li> </ul> </li> </ul> <p>Thus:</p> \[S(k) = 1 + 2S(k-1).\] <h3 id="solving-the-recurrence">Solving the recurrence</h3> <p>Unroll:</p> \[\begin{aligned} S(k) &amp;= 1 + 2S(k-1) \\ &amp;= 1 + 2(1 + 2S(k-2)) \\ &amp;= 1 + 2 + 4S(k-2) \\ &amp;= 1 + 2 + 4(1 + 2S(k-3)) \\ &amp;= 1 + 2 + 4 + 8S(k-3) \\ &amp;\dots \\ &amp;= 1 + 2 + 4 + \dots + 2^{k-1} + 2^k S(0). \end{aligned}\] <p>Since $ S(0) = 0 $, the last term vanishes:</p> \[S(k) = 1 + 2 + 4 + \dots + 2^{k-1} = 2^k - 1.\] <p>Therefore, any subtree with black-height $ k $ has at least $ 2^k - 1 $ internal nodes.</p> <p>If the whole tree has $ n $ internal nodes and root black-height $ bh(\text{root}) = k $, then:</p> \[n \ge 2^k - 1 \quad\Rightarrow\quad k \le \log_2(n+1).\] <p>This bounds the black-height in terms of the tree size.</p> <hr> <h2 id="path-lengths-and-height-bound">Path Lengths and Height Bound</h2> <p>We now relate black-height to the actual height of the tree.</p> <p>Consider any node $ x $ with black-height $ B $. Every path from $ x $ to a NIL leaf passes through exactly $ B $ black nodes (excluding $ x $, including NIL).</p> <h3 id="shortest-path-from-x">Shortest path from (x)</h3> <p>The shortest path uses only black nodes (no reds at all along the path):</p> <pre><code class="language-mermaid">graph TD
+    X["🔴 x&lt;br/&gt;(Black)"]
+    B1["🔴 B&lt;br/&gt;(Black)"]
+    B2["🔴 B&lt;br/&gt;(Black)"]
+    BN["⬛ NIL"]
+    
+    X --&gt; B1
+    B1 --&gt; B2
+    B2 --&gt; BN
+</code></pre> <p>The number of internal nodes on such a path is $ \approx B $ (up to constant offsets depending on conventions). For our purposes, shortest length is proportional to $ B $.</p> <h3 id="longest-path-from-x">Longest path from (x)</h3> <p>Because no red node may have a red child, between any two black nodes on a path there can be <strong>at most one red node</strong>. Thus the longest path alternates:</p> <pre><code class="language-mermaid">graph TD
+    X["🔴 x&lt;br/&gt;(Black)"]
+    B1["🔴 B&lt;br/&gt;(Black)"]
+    R1["🔵 R&lt;br/&gt;(Red)"]
+    B2["🔴 B&lt;br/&gt;(Black)"]
+    R2["🔵 R&lt;br/&gt;(Red)"]
+    B3["🔴 B&lt;br/&gt;(Black)"]
+    N["⬛ NIL"]
+    
+    X --&gt; B1
+    B1 --&gt; R1
+    R1 --&gt; B2
+    B2 --&gt; R2
+    R2 --&gt; B3
+    B3 --&gt; N
+</code></pre> <p>With $ B $ black nodes, there can be at most $ B $ red nodes interleaved. Hence:</p> \[L_{\max}(x) \le 2B,\quad L_{\min}(x) \ge B, \quad\Rightarrow\quad \frac{L_{\max}(x)}{L_{\min}(x)} \le 2.\] <h3 id="height-bound-for-the-tree">Height bound for the tree</h3> <p>For the root, let black-height be $ k $. Then:</p> <ul> <li>Shortest root-to-leaf path has length at least $ k $.</li> <li>Longest root-to-leaf path (the height $ h $) has length at most $ 2k $.</li> </ul> <p>From the previous section:</p> \[k \le \log_2(n+1).\] <p>Combining:</p> \[h \le 2k \le 2\log_2(n+1).\] <p>Thus a red–black tree with $ n $ internal nodes has height at most $ 2\log_2(n+1) $.</p> <hr> <h2 id="extreme-sizes-and-redblack-ratio">Extreme Sizes and Red/Black Ratio</h2> <h3 id="minimum-and-maximum-internal-nodes-for-fixed-black-height">Minimum and maximum internal nodes for fixed black-height</h3> <p>For a fixed black-height $ k $:</p> <ul> <li>Minimum internal nodes:</li> </ul> \[n_{\min}(k) = 2^k - 1.\] <ul> <li> <p>Maximum internal nodes:</p> <p>The height is at most $ 2k $, and a perfect binary tree of height $ 2k $ has \(n_{\max}(k) = 2^{2k} - 1 = 4^k - 1\) internal nodes. This bound is achievable.</p> </li> </ul> <h3 id="ratio-of-red-to-black-internal-nodes">Ratio of red to black internal nodes</h3> <p>Let:</p> <ul> <li>$ R $ = number of red internal nodes,</li> <li>$ B $ = number of black internal nodes.</li> </ul> <p>Each red node must have a black parent, and each black internal node can have at most <strong>two red children</strong>. Therefore:</p> \[R \le 2B \quad\Rightarrow\quad 0 \le \frac{R}{B} \le 2.\] <ul> <li>The ratio $ R/B = 2 $ can be achieved by a tree where every black internal node has two red children and the red nodes are leaves.</li> <li>The ratio $ R/B = 0 $ is achieved by a tree where all internal nodes are black.</li> </ul> <hr> <h2 id="absorbing-red-nodes-and-234-trees">Absorbing Red Nodes and 2–3–4 Trees</h2> <p>A useful viewpoint is to “absorb” each red node into its black parent:</p> <ul> <li>Remove the red node.</li> <li>Connect its two children directly to the black parent.</li> </ul> <p>Consider this fragment:</p> <pre><code class="language-mermaid">graph TD
+    B["🔴 Black"]
+    R1["🔵 Red"]
+    R2["🔵 Red"]
+    C1["🔴 B"]
+    C2["🔴 B"]
+    C3["🔴 B"]
+    C4["🔴 B"]
+    
+    B --&gt; R1
+    B --&gt; R2
+    R1 --&gt; C1
+    R1 --&gt; C2
+    R2 --&gt; C3
+    R2 --&gt; C4
+</code></pre> <p>After absorption:</p> <pre><code class="language-mermaid">graph TD
+    B["🔴 Black"]
+    C1["🔴 B"]
+    C2["🔴 B"]
+    C3["🔴 B"]
+    C4["🔴 B"]
+    
+    B --&gt; C1
+    B --&gt; C2
+    B --&gt; C3
+    B --&gt; C4
+</code></pre> <p>In general, after absorbing all red nodes:</p> <ul> <li>Every internal node has degree <strong>2</strong>, <strong>3</strong>, or <strong>4</strong>.</li> <li>All leaves lie at the same depth (because black-heights were equal).</li> </ul> <p>The resulting structure is exactly a <strong>2–3–4 tree</strong> (a B-tree of order 4).</p> <hr> <h2 id="relaxed-redblack-trees">Relaxed Red–Black Trees</h2> <p>A <strong>relaxed red–black tree</strong> satisfies properties 1, 3, 4, 5, but allows the root to be red (property 2 may fail).</p> <p>Suppose the root is red. If we simply recolor the root red $ \to $ black and make no other changes:</p> <ul> <li>Every root-to-NIL path gains exactly one extra black node (the root).</li> <li>Thus the <strong>black-height of the root and of all its descendants increases by exactly 1</strong>, but remains equal on all paths.</li> <li>No red–red edge is introduced, since the root becomes black.</li> <li>Property 2 (root is black) is restored.</li> </ul> <p>Therefore, recoloring the root is sufficient to turn a relaxed red–black tree into a proper red–black tree.</p> <hr> <h2 id="cheat-sheet">Cheat Sheet</h2> <h3 id="conventions">Conventions</h3> <table> <thead> <tr> <th>Concept</th> <th>Definition</th> </tr> </thead> <tbody> <tr> <td>Internal node</td> <td>Real, key-bearing node</td> </tr> <tr> <td>NIL leaf</td> <td>Black sentinel child for every missing pointer; counted in black-height, not in height</td> </tr> <tr> <td>Depth(x)</td> <td>Number of edges from root to $ x $</td> </tr> <tr> <td>Level(x)</td> <td><code class="language-plaintext highlighter-rouge">depth(x) + 1</code></td> </tr> <tr> <td>Height(x)</td> <td>Number of internal nodes on longest path from $ x $ to an internal leaf</td> </tr> <tr> <td>Black-height</td> <td>Black nodes from $ x $ (exclusive) to NIL (inclusive)</td> </tr> </tbody> </table> <h3 id="redblack-invariants">Red–Black Invariants</h3> <table> <thead> <tr> <th>Property</th> <th>Statement</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>Every node is red or black</td> </tr> <tr> <td>2</td> <td>Root is black</td> </tr> <tr> <td>3</td> <td>All NIL leaves are black</td> </tr> <tr> <td>4</td> <td>Red node has two black children</td> </tr> <tr> <td>5</td> <td>All paths from a node to NIL have the same number of black nodes</td> </tr> </tbody> </table> <h3 id="structural-facts">Structural Facts</h3> <table> <thead> <tr> <th>Topic</th> <th>Result</th> </tr> </thead> <tbody> <tr> <td>Children of a red node</td> <td>Either two NIL children or two black internal children</td> </tr> <tr> <td>Forbidden for red node</td> <td>Exactly one non-NIL child; any red child</td> </tr> <tr> <td>Min nodes for black-height $ k $</td> <td>$ 2^k - 1 $</td> </tr> <tr> <td>Max nodes for black-height $ k $</td> <td>$ 4^k - 1 $</td> </tr> <tr> <td>Height bound</td> <td>$ h \le 2\log_2(n+1) $</td> </tr> <tr> <td>Longest vs shortest path</td> <td>$ L_{\max} \le 2L_{\min} $</td> </tr> <tr> <td>Red/black internal node ratio</td> <td>$ 0 \le R/B \le 2 $</td> </tr> <tr> <td>Absorbing red nodes</td> <td>Internal node degrees in $ {2,3,4} $</td> </tr> <tr> <td>Corresponding structure</td> <td>2–3–4 tree</td> </tr> <tr> <td>Relaxed root recoloring</td> <td>Recolor root red→black yields a valid red–black tree</td> </tr> </tbody> </table> <hr> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> <d-bibliography src="/assets/bibliography/"></d-bibliography> <div id="giscus_thread" style="max-width: 930px; margin: 0 auto;"> <script>
+      let giscusTheme = determineComputedTheme();
+      let giscusAttributes = {
+        src: 'https://giscus.app/client.js',
+        'data-repo': 'ammahmoudi/ammahmoudi.github.io',
+        'data-repo-id': 'R_kgDOKS8Ryw',
+        'data-category': 'Comments',
+        'data-category-id': '',
+        'data-mapping': 'title',
+        'data-strict': '1',
+        'data-reactions-enabled': '1',
+        'data-emit-metadata': '0',
+        'data-input-position': 'top',
+        'data-theme': giscusTheme,
+        'data-lang': 'en',
+        crossorigin: 'anonymous',
+        async: '',
+      };
+
+      let giscusScript = document.createElement('script');
+      Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+      document.getElementById('giscus_thread').appendChild(giscusScript);
+    </script> <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a> </noscript> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2025 Amirhossein Mahmoudi. Last updated: November 24, 2025. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10.7.0/dist/mermaid.min.js" integrity="sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js" integrity="sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw=" crossorigin="anonymous"></script> <script defer src="/assets/js/mermaid-setup.js?38ca0a0126f7328d2d9a46bad640931f" type="text/javascript"></script> <script defer src="https://tikzjax.com/v1/tikzjax.js" integrity="sha256-+1qyucCXRZJrCg3lm3KxRt/7WXaYhBid4/1XJRHGB1E=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNCS9B9B3L"></script> <script defer src="/assets/js/google-analytics-setup.js"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>

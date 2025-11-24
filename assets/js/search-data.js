@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-yerevan-adventure",
+        },{id: "post-red-black-trees-structure-height-guarantees-and-invariants",
+        
+          title: "Red–Black Trees: Structure, Height Guarantees, and Invariants",
+        
+        description: "An introduction to red–black trees: conventions, invariants,and case analysis.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/red-black-trees/";
+          
+        },
+      },{id: "post-yerevan-adventure",
         
           title: "Yerevan Adventure",
         

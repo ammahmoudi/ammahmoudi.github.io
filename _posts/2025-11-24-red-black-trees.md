@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: "Red–Black Trees: Structure, Height Guarantees, and Invariants"
-description: "An introduction to red–black trees: conventions, invariants,and case analysis."
+description: "An introduction to red–black trees: conventions, invariants, case analysis, and their relation to 2–3–4 trees."
 tags: data-structures algorithms trees
 giscus_comments: true
 date: 2025-11-24
@@ -30,6 +30,10 @@ toc:
   - name: Cheat Sheet
 
 ---
+
+<blockquote>
+📊 <strong>Prefer slides?</strong> Check out the interactive presentation: <a href="https://rbtree.slides.mamood.ir/">Red–Black Trees Slides</a>
+</blockquote>
 
 ## Motivation
 

@@ -4,7 +4,7 @@ title: "Recommender System Architectures: From E-Commerce to Bioinformatics"
 description: "An introduction to recommender systems in bioinformatics"
 tags: algorithms bioinformatics
 giscus_comments: true
-date: 2026006-26
+date: 2026-06-26
 featured: true
 thumbnail: assets/img/posts/bio-recommender-systems/cover.png
 mermaid:

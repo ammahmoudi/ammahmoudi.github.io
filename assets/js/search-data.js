@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-",
+        },{id: "post-recommender-system-architectures-from-e-commerce-to-bioinformatics",
         
-          title: "",
+          title: "Recommender System Architectures: From E-Commerce to Bioinformatics",
         
-        description: "",
+        description: "An introduction to recommender systems in bioinformatics",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-06-26-bio-recommender-systems/";
+            window.location.href = "/blog/2026/bio-recommender-systems/";
           
         },
       },{id: "post-red-black-trees-structure-height-guarantees-and-invariants",

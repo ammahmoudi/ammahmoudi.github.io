@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-red-black-trees-structure-height-guarantees-and-invariants",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-06-26-bio-recommender-systems/";
+          
+        },
+      },{id: "post-red-black-trees-structure-height-guarantees-and-invariants",
         
           title: "Red–Black Trees: Structure, Height Guarantees, and Invariants",
         

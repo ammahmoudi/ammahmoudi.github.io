@@ -25,7 +25,7 @@ toc:
   - name: Deep Learning (Autoencoders)
   - name: Graph Neural Networks (GNN)
   - name: Reinforcement Learning (RL)
-  - name: Appendix: Simple Biology and Math Glossary
+  - name: Appendix
   
 
 ---
@@ -574,7 +574,7 @@ flowchart LR
 
 ---
 
-## Appendix: Simple Biology and Math Glossary
+## Appendix
 
 ### DTI: Drug-Target Interaction
 

@@ -32,11 +32,3 @@
   --global-theme-color: #00a693;
   --global-hover-color: #00a693;
 }
-
-// The Bootstrap compatibility layer hides `.collapse` by default. Restore the
-// expanded desktop navbar while leaving the mobile toggle behavior unchanged.
-@media (min-width: 576px) {
-  .navbar-expand-sm .navbar-collapse {
-    visibility: visible;
-  }
-}

@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content=""> <meta name="msvalidate.01" content=""> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> P2PKH Address Generator | Amirhossein Mahmoudi </title> <meta name="author" content="Amirhossein Mahmoudi"> <meta name="description" content="Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts."> <meta name="keywords" content="amirhossein-mahmoudi, mahmoudi, am_mahmoudi,"> <meta property="og:site_name" content="Amirhossein Mahmoudi"> <meta property="og:type" content="website"> <meta property="og:title" content="Amirhossein Mahmoudi | P2PKH Address Generator"> <meta property="og:url" content="https://mamood.ir/projects/P2PKH-Address-Generator/"> <meta property="og:description" content="Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts."> <meta property="og:image" content="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="P2PKH Address Generator"> <meta name="twitter:description" content="Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts."> <meta name="twitter:image" content="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg"> <script type="application/ld+json">
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content=""> <meta name="msvalidate.01" content=""> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> P2PKH Address Generator | Amirhossein Mahmoudi </title> <meta name="author" content="Amirhossein Mahmoudi"> <meta name="description" content="Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts."> <meta name="keywords" content="amirhossein-mahmoudi, mahmoudi, am_mahmoudi"> <meta property="og:site_name" content="Amirhossein Mahmoudi"> <meta property="og:type" content="website"> <meta property="og:title" content="Amirhossein Mahmoudi | P2PKH Address Generator"> <meta property="og:url" content="https://mamood.ir/projects/P2PKH-Address-Generator/"> <meta property="og:description" content="Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts."> <meta property="og:image" content="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="P2PKH Address Generator"> <meta name="twitter:description" content="Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts."> <meta name="twitter:image" content="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg"> <script type="application/ld+json">
     {
         "author":
         {
@@ -10,23 +10,507 @@
         "description": "Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts.",
         "headline": "P2PKH Address Generator",
         
+        "sameAs": ["https://github.com/ammahmoudi","https://twitter.com/ammahmoodi","https://www.linkedin.com/in/am-mahmoudi","https://telegram.me/am_mahmoudi","https://wa.me/989039232023","https://orcid.org/0009-0006-8879-7932","https://instagram.com/am.mahmoudi"],
+        
         "name": "Amirhossein Mahmoudi",
         "@context": "https://schema.org"
     }
-  </script> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?35f4f1d9ccd51f0ffeea607d2b075320"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://mamood.ir/projects/P2PKH-Address-Generator/"> <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link rel="stylesheet" href="/assets/css/bootstrap-compat.css?v=aa8aa1241f76708eaa8c8fad88fe7955"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?v=35f4f1d9ccd51f0ffeea607d2b075320"> <link rel="apple-touch-icon" href="/assets/img/favicon.png?v=35f4f1d9ccd51f0ffeea607d2b075320"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://mamood.ir/projects/P2PKH-Address-Generator/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Amirhossein</span> Mahmoudi </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">Projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/portfolio/">Portfolio </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">P2PKH Address Generator</h1> <p class="post-description">Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts.</p> </header> <article> <div id="open-in-github"> <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/P2PKH-Address-Generator" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td> </tr> </tbody> </table> </div> <hr> <figure> <picture> <source class="responsive-img-srcset" srcset="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover-480.webp 480w,https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover-800.webp 800w,https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="cover" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> <p>This Python application is designed to generate Pay-to-PubKey-Hash (P2PKH) Bitcoin addresses with the ability to specify the second and third characters of the address. It includes a loop to generate both public and private keys, runs the address generation algorithm, and checks if the address meets the specified criteria.</p> <h2 id="features">Features</h2> <ul> <li>Generates P2PKH Bitcoin addresses.</li> <li>Allows customization of the second and third characters of the address.</li> <li>Implements the full address generation algorithm, including SHA-256 and RIPEMD-160 hashing, network byte addition, checksum calculation, and Base58 encoding.</li> </ul> <h2 id="getting-started">Getting Started</h2> <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p> <h3 id="prerequisites">Prerequisites</h3> <p>What things you need to install the software and how to install them:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Python 3.x
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Amirhossein</span> Mahmoudi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">Projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/portfolio/">Portfolio </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">P2PKH Address Generator</h1> <p class="post-description">Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts.</p> </header> <article> <h2 id="div-idopen-in-github--table-classtable-cv-list-group-table-tbody-tr-td-classlist-group-name--this-page-is-auto-generated-for-more-info-and-materials-take-a-look-at-the-original-repository-tdtr-tbody-tablediv">&lt;div id="open-in-github" &gt; &lt;table class="table-cv list-group-table"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class="list-group-name"&gt;<b> <a href="https://github.com/ammahmoudi/P2PKH-Address-Generator" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b>&lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</h2> <figure> <picture> <source class="responsive-img-srcset" srcset="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover-480.webp 480w,https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover-800.webp 800w,https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="cover" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <p>This Python application is designed to generate Pay-to-PubKey-Hash (P2PKH) Bitcoin addresses with the ability to specify the second and third characters of the address. It includes a loop to generate both public and private keys, runs the address generation algorithm, and checks if the address meets the specified criteria.</p> <h2 id="features">Features</h2> <ul> <li>Generates P2PKH Bitcoin addresses.</li> <li>Allows customization of the second and third characters of the address.</li> <li>Implements the full address generation algorithm, including SHA-256 and RIPEMD-160 hashing, network byte addition, checksum calculation, and Base58 encoding.</li> </ul> <h2 id="getting-started">Getting Started</h2> <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p> <h3 id="prerequisites">Prerequisites</h3> <p>What things you need to install the software and how to install them:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Python 3.x
 </code></pre></div></div> <h3 id="installing">Installing</h3> <p>A step by step series of examples that tell you how to get a development environment running:</p> <p>First, clone the repository to your local machine:</p> <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/your-username/P2PKH-Address-Generator.git
 </code></pre></div></div> <p>Then, navigate to the cloned directory:</p> <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>P2PKH-Address-Generator
 </code></pre></div></div> <p>Install the required packages:</p> <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
-</code></pre></div></div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Amirhossein Mahmoudi. Last updated: June 26, 2026. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNCS9B9B3L"></script> <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-TNCS9B9B3L');
-  </script> <script defer src="/assets/js/google-analytics-setup.js"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+</code></pre></div></div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Amirhossein Mahmoudi. Last updated: September 27, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: true
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script src="/assets/js/bootstrap-compat.js?v=b5579a3408e7c44d505c6a9755578409"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNCS9B9B3L"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-TNCS9B9B3L");
+</script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
     addBackToTop();
-  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-cv",
+          title: "CV",
+          description: "an itemized list of my entire education, publications, accomplishments, notable projects, awards, honors, achievements, and professional experiences. An academic styled pdf version is available for download by the icon located on the top-right side of the page.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A growing collection of my projects",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-portfolio",
+          title: "Portfolio",
+          description: "My Visual Designs Portfolio",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/portfolio/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Publications by categories in reversed chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "post-recommender-system-architectures-from-e-commerce-to-bioinformatics",
+        
+          title: "Recommender System Architectures: From E-Commerce to Bioinformatics",
+        
+        description: "An introduction to recommender systems in bioinformatics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/bio-recommender-systems/";
+          
+        },
+      },{id: "post-red-black-trees-structure-height-guarantees-and-invariants",
+        
+          title: "Red–Black Trees: Structure, Height Guarantees, and Invariants",
+        
+        description: "An introduction to red–black trees: conventions, invariants, case analysis, and their relation to 2–3–4 trees.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/red-black-trees/";
+          
+        },
+      },{id: "post-yerevan-adventure",
+        
+          title: "Yerevan Adventure",
+        
+        description: "Experiences of a 4-day trip to Yerevan, Armenia",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/yerevan-trip/";
+          
+        },
+      },{id: "post-toefl-notes",
+        
+          title: "TOEFL Notes",
+        
+        description: "Resources and templates which i&#39;ve gathered to prepare for TOEFL iBT exam.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/toefl-notes/";
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "portfolio-turboshut-2017",
+          title: 'TurboSHUT 2017',
+          description: "Logo and Letterhead Designed for TurboSHUT Renewable Energy Company",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/turboshut-2017/";
+            },},{id: "portfolio-chay-ba-ostad-2019",
+          title: 'Chay Ba Ostad 2019',
+          description: "Logo Designed for Chay Ba Ostad Event (Tea with Faculty)",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/chay-ba-ostad-2019/";
+            },},{id: "portfolio-zanco-2020",
+          title: 'Zanco 2020',
+          description: "Logo Designed for Zanco Konkor Consulting Group",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Zanco-2020/";
+            },},{id: "portfolio-sharif-visual-arts-club-2020",
+          title: 'Sharif Visual Arts Club 2020',
+          description: "Posters Designed for Sharif Visual Arts Club",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/sharif-visual-arts-club-2020/";
+            },},{id: "portfolio-owj-2020",
+          title: 'Owj 2020',
+          description: "Covers Designed for Owj, An Aerospace-Based Trade magazine",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/owj-2020/";
+            },},{id: "portfolio-maryam-mirzakhani-wallpaper-2021",
+          title: 'Maryam Mirzakhani Wallpaper 2021',
+          description: "Wallpaper Designed for the Memorial Wall of Maryam Mirzakhani in Sharif University Library",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/sharif-library-maryam-mirzakhani-2021/";
+            },},{id: "portfolio-sharif-yarigaran-charity-club-2021",
+          title: 'Sharif Yarigaran Charity Club 2021',
+          description: "Covers Designed for Sharif Yarigaran Charity Club Magazine (Kish-e Mehr)",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Sharif-Yarigaran-Charity-Club-2021/";
+            },},{id: "portfolio-sharif-library-poster-2022",
+          title: 'Sharif Library Poster 2022',
+          description: "Poster Template Designed for Events in the library of Sharif University of Technology",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/sharif-library-poster-2022/";
+            },},{id: "portfolio-sharif-library-wallpapers-2022",
+          title: 'Sharif Library Wallpapers 2022',
+          description: "Wallpaper Designed for Walls in Sharif University Library",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/sharif-library-wallpapers-2022/";
+            },},{id: "portfolio-koodaroo-2022",
+          title: 'Koodaroo 2022',
+          description: "Banners, Paper Ads and Letterhead Designed for Kodaroo Onlone Drugstore",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/koodaroo-2022/";
+            },},{id: "portfolio-dr-mojtahedi-wallpaper-2023",
+          title: 'Dr. Mojtahedi Wallpaper 2023',
+          description: "Wallpaper Designed for the Memorial Wall of Mohammad Ali Mojtahedi, The Founder of the University, in Sharif University Library",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/sharif-library-dr-mojtahedi-wallpaper-2023/";
+            },},{id: "portfolio-iran-loj-2023",
+          title: 'Iran Loj 2023',
+          description: "Logo, Letter head and advertising assets for Iran Loj, an international business platform",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Iran-Loj-2023/";
+            },},{id: "portfolio-ialn-poster-2023",
+          title: 'IALN Poster 2023',
+          description: "Poster Template Designed for Iran Academic Libraries Network Event",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/IALN-poster-2023/";
+            },},{id: "portfolio-sharif-poetry-and-literature-club-2023",
+          title: 'Sharif Poetry and Literature Club 2023',
+          description: "Posters Designed for Sharif Poetry and Literature Club",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Sharif-Poetry-and-Literature-Club-2023/";
+            },},{id: "portfolio-sharif-summer-school-2023",
+          title: 'Sharif Summer School 2023',
+          description: "Logo and Posters Desigened for Sharif Summer School Event",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Sharif-Summer-School-2023/";
+            },},{id: "portfolio-wss-2023",
+          title: 'WSS 2023',
+          description: "ID Cards and Pop Up Stand for WSS Event",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/WSS-2023/";
+            },},{id: "portfolio-ali-heidari-2023",
+          title: 'Ali Heidari 2023',
+          description: "Personal Brand Design for Ali Heidari",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/ali-heidari-2023/";
+            },},{id: "portfolio-lightening-day-poster-2023",
+          title: 'Lightening Day Poster 2023',
+          description: "Poster  Designed for Lightening Day Event about cryptography in Math Department, Sharif University of Technology",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/lightening-day-poster-2023/";
+            },},{id: "portfolio-deraye-2023",
+          title: 'Deraye 2023',
+          description: "Covers Designed for Deraye, An Cultural-Scientific Magazine of The Sharif university Math Department",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/deraye-2023/";
+            },},{id: "portfolio-gamein-2022",
+          title: 'Gamein 2022',
+          description: "What I have done as the head of visual content at Gamein 2022, biggest student event in Iran",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Gamein-2022/";
+            },},{id: "portfolio-alma-2023",
+          title: 'ALMA 2023',
+          description: "logo and personal card designs for ALMA Co.",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Alma-2023/";
+            },},{id: "projects-arkanoid",
+          title: 'Arkanoid',
+          description: "classic  arkanoid game using java and swing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Arkanoid/";
+            },},{id: "projects-we",
+          title: 'WE',
+          description: "A social app for postint and messaging  using java , javafx,hibernate ORM",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WE/";
+            },},{id: "projects-sea-battle",
+          title: 'Sea Battle',
+          description: "classic Sea battle game implemented using Java socket, Javafx, Hibernate ORM",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Sea-Battle/";
+            },},{id: "projects-dinning-philosophers",
+          title: 'Dinning Philosophers',
+          description: "Implenting Dinning Philosophers problem in a client-server style with nice GUI using java and javafx",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Dinning-Philosophers/";
+            },},{id: "projects-udp-pinger",
+          title: 'UDP Pinger',
+          description: "a Simple UDP Pinger using python",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/UDP-Pinger/";
+            },},{id: "projects-ants-colony",
+          title: 'Ants Colony',
+          description: "Ants Coloney multi-processing app",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Ants-Colony/";
+            },},{id: "projects-simple-calculator-server-clinet",
+          title: 'Simple Calculator Server Clinet',
+          description: "A simple calculator with clinet and server using socket and javafx gui with jfoenix beautiful design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Simple-Calculator-Server-Clinet/";
+            },},{id: "projects-os-taskmanager",
+          title: 'Os TaskManager',
+          description: "a context switching simulation of operation system supporting every context switching algorithms and deadlock prevention methods",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Os-TaskManager/";
+            },},{id: "projects-mapreduce-examples",
+          title: 'MapReduce examples',
+          description: "Map Rduce Examples  using pure Scala and Then using Spark",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MapReduce-examples/";
+            },},{id: "projects-costumerdataplatform",
+          title: 'costumerDataPlatform',
+          description: "None",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/costumerDataPlatform/";
+            },},{id: "projects-breast-cancer-prediction",
+          title: 'Breast Cancer Prediction',
+          description: "Breast Cancer survival analysis using Machine Learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Breast-Cancer-Prediction/";
+            },},{id: "projects-designalgorithms",
+          title: 'DesignAlgorithms',
+          description: "Homework Solutions for Design Algorithm Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DesignAlgorithms/";
+            },},{id: "projects-introductiontomachinelearning",
+          title: 'IntroductionToMachineLearning',
+          description: "Introduction to Machine Learning, for B.Sc. Students, Industrial Engineering Department, Sharif University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/IntroductionToMachineLearning/";
+            },},{id: "projects-numericalanalysis",
+          title: 'NumericalAnalysis',
+          description: "Homework Solutions for Numerical Analysis Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/NumericalAnalysis/";
+            },},{id: "projects-statisticallearning",
+          title: 'StatisticalLearning',
+          description: "Homework Solutions for Statistical Learning Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/StatisticalLearning/";
+            },},{id: "projects-introductiontobioinformatics",
+          title: 'IntroductionToBioinformatics',
+          description: "Homework Solutions for Introduction to Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/IntroductionToBioinformatics/";
+            },},{id: "projects-tasnim-news-classification",
+          title: 'Tasnim News Classification',
+          description: "Text classification for news articles sourced from an Iranian newspaper including data exploration, text preprocessing, vectorization, train-test data splitting, and machine learning model training.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Tasnim-News-Classification/";
+            },},{id: "projects-bike-sharing-trends",
+          title: 'Bike Sharing Trends',
+          description: "Predicting bike sharing trends using classic machine learning methods (linear regression, decision tree)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Bike-Sharing-Trends/";
+            },},{id: "projects-water-treatment-plant",
+          title: 'Water Treatment Plant',
+          description: "Categorizing the plant&#39;s operation state using sensor data suing SVMs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Water-Treatment-Plant/";
+            },},{id: "projects-credit-risk-prediction",
+          title: 'Credit Risk Prediction',
+          description: "Predicting credit risk when a person requests for loan using random forest on south German dataset (fixing imbalanced data)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Credit-Risk-Prediction/";
+            },},{id: "projects-decision-tree-implementation",
+          title: 'Decision Tree Implementation',
+          description: "Implementing Decision Tree Classifer from scrath and then train it on breast cancer dataset from the University of Wisconsin Hospitals",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Decision-Tree-Implementation/";
+            },},{id: "projects-face-recognition",
+          title: 'Face Recognition',
+          description: "Face recognition using Eigen faces, PCA and support vector machines",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Face-Recognition/";
+            },},{id: "projects-adaboost-implementation",
+          title: 'AdaBoost Implementation',
+          description: "implementing AdaBoost from scratch and comparing it with Scikit-Learn&#39;s implementation along with exploring concept of early stopping and weighted errors in boosting algorithms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AdaBoost-Implementation/";
+            },},{id: "projects-galaxy-classifier",
+          title: 'Galaxy Classifier',
+          description: "Classifing galaxy images using a MLP Model with PyTorch",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Galaxy-Classifier/";
+            },},{id: "projects-handwritten-digit-classification",
+          title: 'Handwritten Digit Classification',
+          description: "Handwritten Digit Classification on MNIST dataset using Conventional Neural Network in PyTorch",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Handwritten-Digit-Classification/";
+            },},{id: "projects-covid-19-autoencoder",
+          title: 'COVID 19 Autoencoder',
+          description: "Using Autoencoder in keras as a nonlinear dimensionality reduction method to encode COVID-19 patients data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/COVID-19-Autoencoder/";
+            },},{id: "projects-image-captioning-rnn",
+          title: 'Image Captioning RNN',
+          description: "Image Captioning using Recurrent Neural Networks on Flickr images with pretrained ResNet50 model features.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Image-Captioning-RNN/";
+            },},{id: "projects-fluxomic-prediction",
+          title: 'Fluxomic Prediction',
+          description: "Applying implicit deep learning and convex optimization layers to infer metabolic fluxes from gene expression data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Fluxomic-Prediction/";
+            },},{id: "projects-iterative-methods-for-eigenvalue-problem",
+          title: 'Iterative Methods for Eigenvalue Problem',
+          description: "Applying Diffrenet iterative methods to find some specific (smallest or largest) eigen values",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Iterative-Methods-for-Eigenvalue-Problem/";
+            },},{id: "projects-simple-messanger",
+          title: 'Simple Messanger',
+          description: "simple chat application implemented in Python using a server-client architecture with groups and channels",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Simple-Messanger/";
+            },},{id: "projects-data-visualization",
+          title: 'Data Visualization',
+          description: "A curated collection of innovative data visualization projects",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Data-Visualization/";
+            },},{id: "projects-p2pkh-address-generator",
+          title: 'P2PKH Address Generator',
+          description: "Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/P2PKH-Address-Generator/";
+            },},{id: "projects-token-swap-dapp",
+          title: 'token swap dapp',
+          description: "A simple dapp  to connect with wallets and swap tokens in blockchain networks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/token-swap-dapp/";
+            },},{id: "projects-stochastic-processes",
+          title: 'Stochastic Processes',
+          description: "Homework Solutions for Stochastic Processes Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Stochastic-Processes/";
+            },},{id: "projects-agricultural-image-instance-segmentation",
+          title: 'Agricultural Image Instance Segmentation',
+          description: "PyTorch-based Mask R-CNN framework for high-precision instance segmentation of agricultural imagery. Supports custom datasets, advanced training workflows, and robust evaluation for crop and plant analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Agricultural-Image-Instance-Segmentation/";
+            },},{id: "projects-comfyui-legendary-nodes",
+          title: 'ComfyUI Legendary Nodes',
+          description: "Set of useful nodes for comfyui",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ComfyUI-Legendary-Nodes/";
+            },},{id: "projects-structuredvision",
+          title: 'StructuredVision',
+          description: "A powerful toolkit for extracting structured JSON data from images using multiple AI-powered OCR and vision models. Specialized for game interfaces, documents, forms, and general text extraction with schema validation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/StructuredVision/";
+            },},{id: "projects-mamood-django-admin-log-viewer",
+          title: 'mamood django admin log viewer',
+          description: "A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mamood-django-admin-log-viewer/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%61%6D.%6D%61%68%6D%6F%75%64%69@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/ammahmoudi", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/ammahmoodi", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/am-mahmoudi", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/am_mahmoudi", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/989039232023", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0006-8879-7932", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/am.mahmoudi", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>

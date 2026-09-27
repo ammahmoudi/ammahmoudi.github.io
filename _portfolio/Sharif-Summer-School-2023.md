@@ -14,7 +14,7 @@ giscus_comments: true
 ---
 
 <div class="row mt-3 align-items-center">
-    <div class="col-sm-12 offset-md-12 align-self-center  mt-12 mt-md-12">
+    <div class="col-12 align-self-center mt-3">
          {% include figure.liquid path="assets/projects/sharif_summer_school_2023/images/sharif_summer_school_wide (Medium).png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>

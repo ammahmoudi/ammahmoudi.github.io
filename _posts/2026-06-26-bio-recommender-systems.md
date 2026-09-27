@@ -318,16 +318,16 @@ $$
 
 **Bio formula explanation:**
 
-| Symbol       | Meaning                                                                                                                                             |
-| :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $p_0$        | Starting probability vector; for example, all probability starts at the disease node.                                                               |
-| $p_t$        | Probability distribution over all nodes after $t$ steps.                                                                                            |
-| $p_{t+1}$    | Updated probability distribution after one more step.                                                                                               |
-| $W$          | Transition matrix; each entry says how likely the walker is to move from one node to another.                                                       |
-| $c$          | Restart probability; higher $c$ keeps the walk closer to the starting node.                                                                         |
-| $(1-c)Wp_t$  | The part that walks through the graph.                                                                                                              |
-| $cp_0$       | The part that jumps back to the start.                                                                                                              |
-| Steady state | The final stable probability distribution when repeated updates barely change $p_t$. High-score nodes are close or strongly connected to the start. |
+| Symbol        | Meaning                                                                                                                                             |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $p_0$         | Starting probability vector; for example, all probability starts at the disease node.                                                               |
+| $p_t$         | Probability distribution over all nodes after $t$ steps.                                                                                            |
+| $p_{t+1}$     | Updated probability distribution after one more step.                                                                                               |
+| $W$           | Transition matrix; each entry says how likely the walker is to move from one node to another.                                                       |
+| $c$           | Restart probability; higher $c$ keeps the walk closer to the starting node.                                                                         |
+| ${(1-c)Wp_t}$ | The part that walks through the graph.                                                                                                              |
+| $cp_0$        | The part that jumps back to the start.                                                                                                              |
+| Steady state  | The final stable probability distribution when repeated updates barely change $p_t$. High-score nodes are close or strongly connected to the start. |
 
 ```mermaid
 flowchart LR

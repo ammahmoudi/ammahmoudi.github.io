@@ -32,5 +32,5 @@ Also here it is my Certicates:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/shadx-hiva/AIAA_2022_Team_Certificate.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    
+
 </div>

@@ -26,6 +26,7 @@ In May 2024, I traveled to Yerevan, Armenia, primarily for a US embassy appointm
 
 - **Travel Dates**: I departed from Tehran on May 5th and returned on May 9th.
 - **Accommodation**: I booked a guest house on Noragyugh Street via [Booking.com](https://www.booking.com/). The host, a kind old woman, made our stay very comfortable. Communication was a bit challenging as most locals do not speak English, but we managed with gestures and the help of local teenagers who acted as our translators.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/posts/yerevan-trip/guest_house.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}

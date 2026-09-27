@@ -200,18 +200,18 @@ flowchart LR
 - **Formula:**
 
 $$
-\text{Cosine}(A, B) = \frac{A \cdot B}{||A|| ||B||}
+\text{Cosine}(A, B) = \frac{A \cdot B}{\lVert A \rVert \lVert B \rVert}
 $$
 
 **Formula symbols:**
 
-| Symbol               | Meaning                                                                                                    |
-| :------------------- | :--------------------------------------------------------------------------------------------------------- | --- | --- | ---- | --- | --- | --- | --- | -------------------------------------------------------------------------------------------------------------- |
-| $A$                  | Feature vector for the first item, such as the TF-IDF vector for _Inception_.                              |
-| $B$                  | Feature vector for the second item, such as the TF-IDF vector for _Interstellar_.                          |
-| $A \cdot B$          | Dot product; large when both vectors have high values in the same feature positions.                       |
-| $                    |                                                                                                            | A   |     | $, $ |     | B   |     | $   | Vector lengths. Dividing by them makes the score depend on direction/profile similarity, not just vector size. |
-| $\text{Cosine}(A,B)$ | Similarity score from -1 to 1 in general, and usually 0 to 1 for non-negative feature vectors like TF-IDF. |
+| Symbol                               | Meaning                                                                                                        |
+| :----------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| $A$                                  | Feature vector for the first item, such as the TF-IDF vector for _Inception_.                                  |
+| $B$                                  | Feature vector for the second item, such as the TF-IDF vector for _Interstellar_.                              |
+| $A \cdot B$                          | Dot product; large when both vectors have high values in the same feature positions.                           |
+| $\lVert A \rVert$, $\lVert B \rVert$ | Vector lengths. Dividing by them makes the score depend on direction/profile similarity, not just vector size. |
+| $\text{Cosine}(A,B)$                 | Similarity score from -1 to 1 in general, and usually 0 to 1 for non-negative feature vectors like TF-IDF.     |
 
 ```mermaid
 flowchart LR
@@ -234,20 +234,20 @@ flowchart LR
 - **Formula:**
 
 $$
-T(A, B) = \frac{A \cdot B}{||A||^2 + ||B||^2 - A \cdot B}
+T(A, B) = \frac{A \cdot B}{\lVert A \rVert^2 + \lVert B \rVert^2 - A \cdot B}
 $$
 
 **Formula symbols:**
 
-| Symbol      | Meaning                                                                             |
-| :---------- | :---------------------------------------------------------------------------------- | --- | --- | ---- | ----------------------------------------- | --- | --- | --------------- | ------------------------------------------------------------ |
-| $A$         | Binary fingerprint vector for the first molecule, such as Drug A.                   |
-| $B$         | Binary fingerprint vector for the second molecule, such as Drug B.                  |
-| $A \cdot B$ | Number of fingerprint bits that are 1 in both molecules; shared chemical patterns.  |
-| $           |                                                                                     | A   |     | ^2$  | Number of 1 bits in Drug A's fingerprint. |
-| $           |                                                                                     | B   |     | ^2$  | Number of 1 bits in Drug B's fingerprint. |
-| $           |                                                                                     | A   |     | ^2 + |                                           | B   |     | ^2 - A \cdot B$ | Number of bit positions where at least one molecule has a 1. |
-| $T(A,B)$    | Tanimoto similarity, usually between 0 and 1; higher means more chemically similar. |
+| Symbol                                              | Meaning                                                            |
+| :-------------------------------------------------- | :----------------------------------------------------------------- |
+| $A$                                                 | Binary fingerprint vector for the first molecule, such as Drug A.  |
+| $B$                                                 | Binary fingerprint vector for the second molecule, such as Drug B. |
+| $A \cdot B$                                         | Number of fingerprint bits that are 1 in both molecules.           |
+| $\lVert A \rVert^2$                                 | Number of 1 bits in Drug A's fingerprint.                          |
+| $\lVert B \rVert^2$                                 | Number of 1 bits in Drug B's fingerprint.                          |
+| $\lVert A \rVert^2 + \lVert B \rVert^2 - A \cdot B$ | Number of bit positions where at least one molecule has a 1.       |
+| $T(A,B)$                                            | Tanimoto similarity from 0 to 1; higher means more similar.        |
 
 ```mermaid
 flowchart LR

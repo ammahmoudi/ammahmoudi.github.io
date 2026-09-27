@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "research interests": [
+  "interests": [
     {
       "icon": "fa fa-rocket",
       "name": "Machine Learning",
@@ -56,9 +56,29 @@
       "icon": "fa fa-database",
       "name": "Data Science",
       "keywords": ["Data Engineering"]
+    },
+    {
+      "icon": "fa fa-font",
+      "name": "Writing poem in Persian",
+      "keywords": []
+    },
+    {
+      "icon": "fa fa-paint-brush",
+      "name": "Drawing portrait",
+      "keywords": []
+    },
+    {
+      "icon": "fa fa-comments",
+      "name": "Coordinating English free discussion sessions at the local language institute",
+      "keywords": []
+    },
+    {
+      "icon": "fa fa-male",
+      "name": "Amatur volleyball player (Member of the volleyball team in the Math Department)",
+      "keywords": []
     }
   ],
-  "teaching experience": [
+  "volunteer": [
     {
       "name": "Machine Learning",
       "position": "Teaching Assistant  and Co-Instructor",
@@ -87,7 +107,7 @@
       "highlights": ["Supervised by Dr. Marjan Nikbin"]
     }
   ],
-  "work experience": [
+  "work": [
     {
       "name": "Gamein",
       "position": "Graphic Design Manager",
@@ -134,7 +154,7 @@
       "highlights": ["Graphic Design"]
     }
   ],
-  "research experience and projects": [
+  "projects": [
     {
       "name": "Transcriptome-Based Fluxomics Reconstruction with a Novel Deep Learning Approach",
       "url": "",
@@ -160,9 +180,7 @@
       "summary": "Applying machine learning models to estimate survival outcomes of breast cancer patients"
     }
   ],
-  "volunteer": [],
-
-  "honors and awards": [],
+  "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [
@@ -212,27 +230,5 @@
     }
   ],
 
-  "hobbies and interests": [
-    {
-      "icon": "fa fa-font",
-      "name": "Writing poem in Persian",
-      "keywords": []
-    },
-    {
-      "icon": "fa fa-paint-brush",
-      "name": "Drawing portrait",
-      "keywords": []
-    },
-    {
-      "icon": "fa fa-comments",
-      "name": "Coordinating English free discussion sessions at the local language institute",
-      "keywords": []
-    },
-    {
-      "icon": "fa fa-male",
-      "name": "Amatur volleyball player (Member of the volleyball team in the Math Department)",
-      "keywords": []
-    }
-  ],
   "references": []
 }

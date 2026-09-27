@@ -15,7 +15,7 @@ chart:
   chartjs: false
   echarts: false
   vega_lite: false
-typograms: false 
+typograms: false
 
 toc:
   - name: Motivation
@@ -28,7 +28,6 @@ toc:
   - name: Absorbing Red Nodes and 2–3–4 Trees
   - name: Relaxed Red–Black Trees
   - name: Cheat Sheet
-
 ---
 
 <blockquote>
@@ -52,12 +51,12 @@ In the worst case (for example, inserting already sorted keys into an empty tree
 
 A small comparison:
 
-| Data Structure     | Search                       | Insert                       | Delete                       | Height                    | Notes                                     |
-|--------------------|------------------------------|------------------------------|------------------------------|---------------------------|-------------------------------------------|
-| Unbalanced BST     | $ O(\log n) $ avg, $ O(n) $ worst | same                         | same                         | Up to $ n $               | Can degrade to a linked list             |
-| AVL Tree           | $ O(\log n) $                | $ O(\log n) $                | $ O(\log n) $                | Strictly balanced         | Stricter height invariants               |
-| **Red–Black Tree** | $ O(\log n) $                | $ O(\log n) $                | $ O(\log n) $                | $ \le 2\log_2(n+1) $      | Relaxed balancing, few rotations         |
-| Treap              | Expected $ O(\log n) $       | Expected $ O(\log n) $       | Expected $ O(\log n) $       | Expected $ O(\log n) $    | Randomized priorities                    |
+| Data Structure     | Search                            | Insert                 | Delete                 | Height                 | Notes                            |
+| ------------------ | --------------------------------- | ---------------------- | ---------------------- | ---------------------- | -------------------------------- |
+| Unbalanced BST     | $ O(\log n) $ avg, $ O(n) $ worst | same                   | same                   | Up to $ n $            | Can degrade to a linked list     |
+| AVL Tree           | $ O(\log n) $                     | $ O(\log n) $          | $ O(\log n) $          | Strictly balanced      | Stricter height invariants       |
+| **Red–Black Tree** | $ O(\log n) $                     | $ O(\log n) $          | $ O(\log n) $          | $ \le 2\log_2(n+1) $   | Relaxed balancing, few rotations |
+| Treap              | Expected $ O(\log n) $            | Expected $ O(\log n) $ | Expected $ O(\log n) $ | Expected $ O(\log n) $ | Randomized priorities            |
 
 Red–black trees guarantee logarithmic height via **color-based invariants** instead of strict height balancing.
 
@@ -127,7 +126,7 @@ graph TD
     NIL6["⬛ NIL"]
     NIL7["⬛ NIL"]
     NIL8["⬛ NIL"]
-    
+
     R --> A
     R --> B
     A --> C
@@ -152,9 +151,9 @@ We now explicitly analyze all possible shapes of children for a **red** node.
 
 Let `R` be a red internal node. Each child can be:
 
-* a NIL leaf (black),
-* a black internal node,
-* but **never** a red node (by invariant 4).
+- a NIL leaf (black),
+- a black internal node,
+- but **never** a red node (by invariant 4).
 
 We consider all possibilities.
 
@@ -165,7 +164,7 @@ graph TD
     R["🔵 Red"]
     NIL1["⬛ NIL"]
     NIL2["⬛ NIL"]
-    
+
     R --> NIL1
     R --> NIL2
 ```
@@ -185,7 +184,7 @@ graph TD
     NIL2["⬛ NIL"]
     NIL3["⬛ NIL"]
     NIL4["⬛ NIL"]
-    
+
     R --> L
     R --> RR
     L --> NIL1
@@ -209,21 +208,20 @@ graph TD
     N["⬛ NIL"]
     NIL1["⬛ NIL"]
     NIL2["⬛ NIL"]
-    
+
     R --> L
     R --> N
     L --> NIL1
     L --> NIL2
 ```
 
-* Path 1: `R → N`
+- Path 1: `R → N`
   Below `R`, we see exactly one black node: the NIL leaf. So the number of black nodes on this path (exclusive of `R`, inclusive of NIL) is `1`.
 
-* Path 2: `R → L → ... → NIL`
+- Path 2: `R → L → ... → NIL`
   Below `R`, we see:
-
-  * the black internal node `L` (1 black), and
-  * then at least one NIL leaf (another black),
+  - the black internal node `L` (1 black), and
+  - then at least one NIL leaf (another black),
     so there are at least **two** black nodes on this path.
 
 Thus the number of black nodes on paths from `R` to NIL leaves differs between the left and right sides, contradicting property 5.
@@ -240,7 +238,7 @@ The symmetric case (left NIL, right black internal) is equally forbidden.
 graph TD
     R["🔵 Red"]
     C["🔵 Red"]
-    
+
     R --> C
 ```
 
@@ -252,13 +250,13 @@ This directly violates property 4: a red node cannot have a red child.
 
 A red node may have:
 
-* two NIL (black) children, or
-* two black internal children,
+- two NIL (black) children, or
+- two black internal children,
 
 but may not have:
 
-* exactly one non-NIL child, or
-* any red child.
+- exactly one non-NIL child, or
+- any red child.
 
 This structural fact will be referenced in several proofs.
 
@@ -272,21 +270,20 @@ Let $ S(k) $ be the **minimum number of internal nodes** in any red–black subt
 
 ### Derivation of the recurrence
 
-* Base case: a subtree of black-height 0 contains no internal nodes, just a NIL leaf.
+- Base case: a subtree of black-height 0 contains no internal nodes, just a NIL leaf.
   Hence:
-  
+
 $$
 S(0) = 0.
 $$
 
-* For $ k > 0 $: to minimize node count in a tree with black-height $ k $:
-
-  * The root must be black.
+- For $ k > 0 $: to minimize node count in a tree with black-height $ k $:
+  - The root must be black.
     If the root were red, its black children would force higher black-height below, which does not minimize the size.
 
-  * Each child subtree must itself have black-height $ k-1 $.
+  - Each child subtree must itself have black-height $ k-1 $.
 
-  * We choose both children to be minimal $ S(k-1) $ subtrees.
+  - We choose both children to be minimal $ S(k-1) $ subtrees.
 
 Thus:
 
@@ -346,7 +343,7 @@ graph TD
     B1["🔴 B<br/>(Black)"]
     B2["🔴 B<br/>(Black)"]
     BN["⬛ NIL"]
-    
+
     X --> B1
     B1 --> B2
     B2 --> BN
@@ -367,7 +364,7 @@ graph TD
     R2["🔵 R<br/>(Red)"]
     B3["🔴 B<br/>(Black)"]
     N["⬛ NIL"]
-    
+
     X --> B1
     B1 --> R1
     R1 --> B2
@@ -423,9 +420,11 @@ $$
 - Maximum internal nodes:
 
   The height is at most $ 2k $, and a perfect binary tree of height $ 2k $ has
-$$
-n_{\max}(k) = 2^{2k} - 1 = 4^k - 1
-$$
+
+  $$
+  n_{\max}(k) = 2^{2k} - 1 = 4^k - 1
+  $$
+
   internal nodes. This bound is achievable.
 
 ### Ratio of red to black internal nodes
@@ -466,7 +465,7 @@ graph TD
     C2["🔴 B"]
     C3["🔴 B"]
     C4["🔴 B"]
-    
+
     B --> R1
     B --> R2
     R1 --> C1
@@ -484,7 +483,7 @@ graph TD
     C2["🔴 B"]
     C3["🔴 B"]
     C4["🔴 B"]
-    
+
     B --> C1
     B --> C2
     B --> C3
@@ -493,8 +492,8 @@ graph TD
 
 In general, after absorbing all red nodes:
 
-* Every internal node has degree **2**, **3**, or **4**.
-* All leaves lie at the same depth (because black-heights were equal).
+- Every internal node has degree **2**, **3**, or **4**.
+- All leaves lie at the same depth (because black-heights were equal).
 
 The resulting structure is exactly a **2–3–4 tree** (a B-tree of order 4).
 
@@ -523,10 +522,10 @@ Therefore, recoloring the root is sufficient to turn a relaxed red–black tree 
 | ------------- | -------------------------------------------------------------------------------------- |
 | Internal node | Real, key-bearing node                                                                 |
 | NIL leaf      | Black sentinel child for every missing pointer; counted in black-height, not in height |
-| Depth(x)      | Number of edges from root to $ x $                                                       |
+| Depth(x)      | Number of edges from root to $ x $                                                     |
 | Level(x)      | `depth(x) + 1`                                                                         |
-| Height(x)     | Number of internal nodes on longest path from $ x $ to an internal leaf                  |
-| Black-height  | Black nodes from $ x $ (exclusive) to NIL (inclusive)                                    |
+| Height(x)     | Number of internal nodes on longest path from $ x $ to an internal leaf                |
+| Black-height  | Black nodes from $ x $ (exclusive) to NIL (inclusive)                                  |
 
 ### Red–Black Invariants
 
@@ -540,17 +539,17 @@ Therefore, recoloring the root is sufficient to turn a relaxed red–black tree 
 
 ### Structural Facts
 
-| Topic                          | Result                                                 |
-| ------------------------------ | ------------------------------------------------------ |
-| Children of a red node         | Either two NIL children or two black internal children |
-| Forbidden for red node         | Exactly one non-NIL child; any red child               |
-| Min nodes for black-height $ k $ | $ 2^k - 1 $                                              |
-| Max nodes for black-height $ k $ | $ 4^k - 1 $                                              |
-| Height bound                   | $ h \le 2\log_2(n+1) $                                   |
-| Longest vs shortest path       | $ L_{\max} \le 2L_{\min} $                               |
-| Red/black internal node ratio  | $ 0 \le R/B \le 2 $                                      |
-| Absorbing red nodes            | Internal node degrees in $ \{2,3,4\} $                     |
-| Corresponding structure        | 2–3–4 tree                                             |
-| Relaxed root recoloring        | Recolor root red→black yields a valid red–black tree   |
+| Topic                            | Result                                                 |
+| -------------------------------- | ------------------------------------------------------ |
+| Children of a red node           | Either two NIL children or two black internal children |
+| Forbidden for red node           | Exactly one non-NIL child; any red child               |
+| Min nodes for black-height $ k $ | $ 2^k - 1 $                                            |
+| Max nodes for black-height $ k $ | $ 4^k - 1 $                                            |
+| Height bound                     | $ h \le 2\log_2(n+1) $                                 |
+| Longest vs shortest path         | $ L*{\max} \le 2L*{\min} $                             |
+| Red/black internal node ratio    | $ 0 \le R/B \le 2 $                                    |
+| Absorbing red nodes              | Internal node degrees in $ \{2,3,4\} $                 |
+| Corresponding structure          | 2–3–4 tree                                             |
+| Relaxed root recoloring          | Recolor root red→black yields a valid red–black tree   |
 
 ---

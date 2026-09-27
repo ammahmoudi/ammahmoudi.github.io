@@ -12,41 +12,24 @@ og_image: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-v
 tags: [djnago, log, log-viewer]
 categories: ["Repository", Python]
 ---
-<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="https://github.com/ammahmoudi/mamood-django-admin-log-viewer" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
----
 
+## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/mamood-django-admin-log-viewer" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
 
 A powerful Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.
 
-
-
 ## 📸 Screenshots
-
-
 
 ### Log File Listing
 
-
-
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs.jpeg" alt="Log Files Interface" class="img-fluid rounded z-depth-1" zoomable=true %}
-
-
 
 ### Log Viewer Interface
 
-
-
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs%20(2).jpeg" alt="Log Viewer Details" class="img-fluid rounded z-depth-1" zoomable=true %})
-
-
 
 ## 🌟 Features
 
-
-
 ### Core Features
-
-
 
 - **Multi-Log File Support**: View multiple log files with automatic detection and grouping
 
@@ -60,11 +43,7 @@ A powerful Django app that provides a comprehensive web interface to view and mo
 
 - **Log Rotation Support**: Automatic detection and handling of rotated log files (.1, .2, .gz, etc.)
 
-
-
 ### User Experience
-
-
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 
@@ -78,11 +57,7 @@ A powerful Django app that provides a comprehensive web interface to view and mo
 
 - **Search & Filtering**: Quick search through log content
 
-
-
 ### Technical Features
-
-
 
 - **Memory Efficient**: Streaming file reading for large log files
 
@@ -94,15 +69,9 @@ A powerful Django app that provides a comprehensive web interface to view and mo
 
 - **Configurable UI**: Customizable colors, refresh intervals, and display options
 
-
-
 ## 📦 Installation
 
-
-
 ### Production Installation
-
-
 
 ```bash
 
@@ -110,15 +79,9 @@ pip install mamood-django-admin-log-viewer
 
 ```
 
-
-
 ### Development Installation (Editable Mode)
 
-
-
 For development or contributing:
-
-
 
 ```bash
 
@@ -142,19 +105,11 @@ pip install -e .[dev]
 
 ```
 
-
-
 The editable install (`-e` flag) allows you to modify the source code and see changes immediately without reinstalling.
-
-
 
 ### 2. Add to Django Settings
 
-
-
 Add `mamood_django_admin_log_viewer` to your `INSTALLED_APPS`:
-
-
 
 ```python
 
@@ -164,7 +119,7 @@ INSTALLED_APPS = [
 
     'django.contrib.admin',  # Required
 
-    'django.contrib.auth',   # Required  
+    'django.contrib.auth',   # Required
 
     'django.contrib.contenttypes',  # Required
 
@@ -174,15 +129,9 @@ INSTALLED_APPS = [
 
 ```
 
-
-
 ### 3. Basic Configuration
 
-
-
 Add to your `settings.py`:
-
-
 
 ```python
 
@@ -202,27 +151,15 @@ LOG_VIEWER_PAGE_LENGTH = 25
 
 ```
 
-
-
 ### 4. URL Configuration
-
-
 
 The log viewer integrates automatically with Django admin - no URL configuration needed!
 
-
-
 ## ⚙️ Configuration
-
-
 
 The Django Admin Log Viewer comes with comprehensive default settings that work out of the box. You only need to specify the log files you want to monitor - all other settings are optional and have sensible defaults.
 
-
-
 ### Required Settings
-
-
 
 ```python
 
@@ -238,15 +175,9 @@ LOG_VIEWER_FILES_DIR = BASE_DIR / 'logs'
 
 ```
 
-
-
 ### Optional Settings (with defaults)
 
-
-
 All the settings below are optional. The app provides comprehensive defaults that work well for most use cases:
-
-
 
 ```python
 
@@ -282,25 +213,17 @@ LOGVIEWER_DISABLE_ACCESS_LOGS = True          # Don't log AJAX requests
 
 ```
 
-
-
 > **💡 Pro Tip**: You only need to specify settings that you want to change from the defaults. The app will automatically use sensible defaults for any unspecified settings.
-
-
 
 ### 🎯 Quick Start Summary
 
-
-
 For most users, you only need these two settings to get started:
-
-
 
 ```python
 
 # Minimal configuration - just specify your log files!
 
-LOG_VIEWER_FILES = ['django.log', 'application.log'] 
+LOG_VIEWER_FILES = ['django.log', 'application.log']
 
 LOG_VIEWER_FILES_DIR = BASE_DIR / 'logs'
 
@@ -310,7 +233,7 @@ LOG_VIEWER_FILES_DIR = BASE_DIR / 'logs'
 
 # ✅ 8 built-in log format patterns (Django, Celery, Nginx, Apache, etc.)
 
-# ✅ Beautiful color scheme for all log levels  
+# ✅ Beautiful color scheme for all log levels
 
 # ✅ Real-time monitoring with 10-second refresh
 
@@ -320,23 +243,15 @@ LOG_VIEWER_FILES_DIR = BASE_DIR / 'logs'
 
 ```
 
-
-
 ### Advanced Log Format Configuration
-
-
 
 The app comes with **8 built-in log format patterns** that handle most common log formats out of the box:
 
-
-
 #### Built-in Log Formats
-
-
 
 - **`django_default`** - Django standard format: `LEVEL YYYY-MM-DD HH:MM:SS,mmm module: message`
 
-- **`simple`** - Simple format: `LEVEL: message`  
+- **`simple`** - Simple format: `LEVEL: message`
 
 - **`celery_beat`** - Celery Beat scheduler logs
 
@@ -350,15 +265,9 @@ The app comes with **8 built-in log format patterns** that handle most common lo
 
 - **`syslog`** - Standard syslog format
 
-
-
 #### Custom Log Format Configuration
 
-
-
 If you need custom log parsing, you can override or extend the default formats:
-
-
 
 ```python
 
@@ -388,7 +297,7 @@ LOG_VIEWER_FILE_FORMATS = {
 
     'django.log': 'django_default',
 
-    'application.log': 'simple', 
+    'application.log': 'simple',
 
     'celery_beat.log': 'celery_beat',
 
@@ -404,23 +313,15 @@ LOG_VIEWER_DEFAULT_FORMAT = 'django_default'
 
 ```
 
-
-
 ### Styling and Colors
-
-
 
 The app comes with a comprehensive **default color scheme** for all log levels. You only need to customize colors if you want to override the defaults:
 
-
-
 #### Default Color Scheme
-
-
 
 - **DEBUG**: `#6c757d` (Gray) - Low-priority debug information
 
-- **INFO**: `#0dcaf0` (Cyan) - General informational messages  
+- **INFO**: `#0dcaf0` (Cyan) - General informational messages
 
 - **WARNING/WARN**: `#ffc107` (Yellow) - Warning messages
 
@@ -432,11 +333,7 @@ The app comes with a comprehensive **default color scheme** for all log levels. 
 
 - **ALERT**: `#fd7e14` (Orange) - Alert conditions
 
-
-
 #### Custom Color Configuration (Optional)
-
-
 
 ```python
 
@@ -454,21 +351,15 @@ LOG_VIEWER_LEVEL_COLORS = {
 
 
 
-# Optional: Exclude certain log patterns  
+# Optional: Exclude certain log patterns
 
 LOG_VIEWER_EXCLUDE_TEXT_PATTERN = r'healthcheck|ping'  # Regex pattern
 
 ```
 
-
-
 ## 🚀 Usage
 
-
-
 ### Accessing the Log Viewer
-
-
 
 1. Login to Django Admin as a staff user
 
@@ -478,15 +369,9 @@ LOG_VIEWER_EXCLUDE_TEXT_PATTERN = r'healthcheck|ping'  # Regex pattern
 
 4. Select any log file to view its contents
 
-
-
 **Direct URL Access**: You can also access logs directly at `[http://your-domain.com/admin/logs/`](http://your-domain.com/admin/logs/`) after logging in as a staff user.
 
-
-
 ### Features in Action
-
-
 
 - **Real-time Monitoring**: Toggle "Live Mode" to auto-refresh logs
 
@@ -500,19 +385,11 @@ LOG_VIEWER_EXCLUDE_TEXT_PATTERN = r'healthcheck|ping'  # Regex pattern
 
 - **Search**: Use browser search (Ctrl+F) to find specific content
 
-
-
 ## 🔧 Advanced Usage
-
-
 
 ### Custom Log Formats
 
-
-
 Create custom regex patterns for your specific log formats:
-
-
 
 ```python
 
@@ -532,15 +409,9 @@ LOG_VIEWER_FORMATS = {
 
 ```
 
-
-
 ### Log Rotation Support
 
-
-
 The viewer automatically detects rotated log files:
-
-
 
 - `application.log` (current)
 
@@ -550,19 +421,13 @@ The viewer automatically detects rotated log files:
 
 - `application.log.2023-12-01` (dated logs)
 
-
-
 ### Multi-line Processing
-
-
 
 Perfect handling of:
 
-
-
 - Python stack traces
 
-- Java exceptions  
+- Java exceptions
 
 - SQL query logs
 
@@ -570,11 +435,7 @@ Perfect handling of:
 
 - Any multi-line log entry
 
-
-
 ## 🛡️ Security
-
-
 
 - **Staff Only Access**: Only Django staff users can access log files
 
@@ -584,11 +445,7 @@ Perfect handling of:
 
 - **Error Handling**: Graceful handling of missing or corrupt files
 
-
-
 ## 📋 Requirements
-
-
 
 - **Python**: 3.8+
 
@@ -596,15 +453,9 @@ Perfect handling of:
 
 - **Permissions**: Staff access to Django admin
 
-
-
 ## 🚀 Future Features
 
-
-
 We're continuously working to enhance the Django Admin Log Viewer. Here are some exciting features planned for future releases:
-
-
 
 ### Cloud Storage Integration
 
@@ -613,8 +464,6 @@ We're continuously working to enhance the Django Admin Log Viewer. Here are some
 - **Google Cloud Storage**: Support for GCS log files with service account authentication
 
 - **Azure Blob Storage**: Integration with Azure storage accounts for enterprise scenarios
-
-
 
 ### Advanced Log Sources
 
@@ -625,8 +474,6 @@ We're continuously working to enhance the Django Admin Log Viewer. Here are some
 - **Kubernetes Pods**: Native K8s log aggregation and viewing
 
 - **Database Logs**: Read logs stored in database tables or collections
-
-
 
 ### Enhanced Features
 
@@ -640,8 +487,6 @@ We're continuously working to enhance the Django Admin Log Viewer. Here are some
 
 - **Export Options**: Export filtered logs to CSV, JSON, or PDF formats
 
-
-
 ### Integrations
 
 - **Elasticsearch**: Integration with ELK stack for advanced searching
@@ -652,35 +497,19 @@ We're continuously working to enhance the Django Admin Log Viewer. Here are some
 
 - **API Access**: REST API for programmatic log access and automation
 
-
-
 Have ideas for other features? Feel free to open an issue or contribute to the project!
-
-
 
 ## 🤝 Contributing
 
-
-
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-
 
 ## 📄 License
 
-
-
 MIT License - see LICENSE file for details.
-
-
 
 ## 🐛 Troubleshooting
 
-
-
 ### Log Files Not Showing
-
-
 
 - Check `LOG_VIEWER_FILES_DIR` path exists
 
@@ -688,11 +517,7 @@ MIT License - see LICENSE file for details.
 
 - Ensure files are listed in `LOG_VIEWER_FILES`
 
-
-
 ### Performance Issues
-
-
 
 - Reduce `LOG_VIEWER_PAGE_LENGTH` for large files
 
@@ -700,11 +525,7 @@ MIT License - see LICENSE file for details.
 
 - Set `LOGVIEWER_DISABLE_ACCESS_LOGS = True`
 
-
-
 ### Multi-line Logs Not Grouping
-
-
 
 - Check your log format regex pattern
 
@@ -712,15 +533,9 @@ MIT License - see LICENSE file for details.
 
 - Verify timestamp format matches your logs
 
-
-
 ## 🎯 Changelog
 
-
-
 ### v2.0.0 (Latest)
-
-
 
 - ✅ Multi-line log processing with smart pagination
 
@@ -740,11 +555,6 @@ MIT License - see LICENSE file for details.
 
 - ✅ Memory-efficient streaming
 
-
-
 ---
 
-
-
 ⭐ **Star this repo if you find it useful!**
-

@@ -13,7 +13,7 @@ tags: [autoencoder, covid-19, deep-learning, deep-neural-networks, dimension-red
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Using Autoencoder in keras as a nonlinear dimensionality reduction method.The goal is to reduce and encode patients data in a 2d space which could be seperated easily.
 

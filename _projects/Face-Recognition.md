@@ -13,7 +13,7 @@ tags: [eigenfaces, face-recognition, machine-learning, ml, pca, svm]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 We are going to build a classifier (Face recognition using Eigen faces, PCA and support vector machines) to distinguish the faces of 40 people on a toy dataset. The dataset includes 400 pictures of 40 people faces, each by a 64\*64 pixel picture.
 

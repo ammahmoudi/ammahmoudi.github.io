@@ -13,7 +13,7 @@ tags: [gaussian-mixture-models, markov-chain, markov-chain-monte-carlo, stochast
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Stochastic-Processes/main/images/cover.jpeg" alt="stochastic-processes-cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 

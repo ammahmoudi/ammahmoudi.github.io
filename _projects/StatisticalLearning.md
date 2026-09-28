@@ -13,7 +13,7 @@ tags: [data-visualization, feature-selection, logistic-regression, random-forest
 categories: ["Repository", HTML]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Homework Solutions for Statistical Learning Course as Computer Science B.Sc. Student at the Department of Mathematical Sciences, Sharif University of Technology
 

@@ -13,7 +13,7 @@ tags: [machine-learning, ml, mlp, nuralnetwork]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 An exploratory data analysis (EDA) and machine learning on the "Breast Cancer Gene Expression Profiles (METABRIC)" dataset.
 The primary goal is to gain insights and understanding from the dataset, especially regarding clinical information and its relationship with breast cancer survival.

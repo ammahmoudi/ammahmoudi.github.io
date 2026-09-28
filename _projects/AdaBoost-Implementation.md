@@ -13,7 +13,7 @@ tags: [adaboost, early-stopping, machine-learning, ml, scratch-implementation]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 The code demonstrates how to implement AdaBoost from scratch and compare it with Scikit-Learn's implementation. It also explores early stopping and weighted errors in boosting algorithms.
 

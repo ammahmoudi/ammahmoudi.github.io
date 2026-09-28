@@ -13,7 +13,7 @@ tags: [hibernate-orm, javafx, javafx-application, social-network, socket]
 categories: ["Repository", Java]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 A social app for posting and messaging using Java, JavaFX, hibernate ORM
 

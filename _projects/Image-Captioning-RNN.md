@@ -13,7 +13,7 @@ tags: [bert-embeddings, deep-learning, image-captioning, lstm, machine-learning,
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Image Captioning using Recurrent Neural Networks on Flickr images with pretrained ResNet50 model features.
 

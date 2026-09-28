@@ -13,7 +13,7 @@ tags: [chat-application, end-to-end-encryption, messanger, server-client]
 categories: ["Repository", Python]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 This is a simple chat application implemented in Python using a server-client architecture. The app allows users to create groups, join groups, leave groups, create channels, join channels, leave channels, and send messages to groups and channels.
 

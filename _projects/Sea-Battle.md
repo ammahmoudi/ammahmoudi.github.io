@@ -13,7 +13,7 @@ tags: [hibernate-orm, java, java-game, javafx, sea-battle, socket]
 categories: ["Repository", Java]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Sea Battle is a two-player strategy game where each player tries to sink the enemy's ships by bombing their grid. The game is implemented in Java, JavaFX, and Hibernate ORM, using sockets for network communication. It was a project for the Advanced Programming course with Java at Sharif University of Technology. the code may have bugs and some features may have not been implemented completely.
 

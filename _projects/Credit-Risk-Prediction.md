@@ -13,7 +13,7 @@ tags: [credit-risk, imbalanced-data, machine-learning, ml, random-forest]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Credit risk infers to the possibility of a loss emerging from a borrower's downfall to pay back a loan or meet contractual commitments. Conventionally, it pertains to the risk arising from lenders' inability to return the owed interest and principal, impacting the cash flows and increasing assemblage costs. We used German credit data using Random forest (along with over-sampling and under-sampling methods to fix imbalanced data).The aim is to predict credit risk when a person requests for loan.
 You have to build a model to predict whether the person, described by the attributes of this dataset, is a good (1) or a bad (0) credit risk?

@@ -13,7 +13,7 @@ tags: [cnn, deep-learning, machine-learning, ml, mnist, pytorch]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 A code that uses PyTorch to build and implement a residual CNN for solving a classification problem. The goal is to classify handwritten digits from 0 to 9 on the MNIST dataset.
 

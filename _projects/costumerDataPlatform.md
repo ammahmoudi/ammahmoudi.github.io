@@ -11,7 +11,7 @@ img: https://socialify.git.ci/ammahmoudi/costumerDataPlatform/image?&forks=1&iss
 categories: ["Repository", Shell]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 This image accompanies the Spark course [Applying the Lambda Architecture with Spark, Kafka, and Cassandra](https://www.pluralsight.com/courses/spark-kafka-cassandra-applying-lambda-architecture) on [Pluralsight.com by Ahmad Alkilani](https://www.pluralsight.com/authors/ahmad-alkilani)
 

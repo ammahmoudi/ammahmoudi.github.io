@@ -13,7 +13,7 @@ tags: [adams-bashforth-methods, adams-moulton, iterative-methods, numerical-meth
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 # Numerical Analysis
 

@@ -13,7 +13,7 @@ tags: [djnago, log, log-viewer]
 categories: ["Repository", Python]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 A powerful Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.
 

@@ -13,7 +13,7 @@ tags: [calculator, java, javafx, jfoenix, server-client, socket, tcp]
 categories: ["Repository", Java]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 This project is a simple calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The project consists of two parts: a client and a server. The client is a graphical user interface (GUI) that allows the user to enter numbers and operators and see the result. The server is a program that receives the calculation request from the client, performs the calculation, and sends back the result. The client and the server communicate using socket programming.
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}

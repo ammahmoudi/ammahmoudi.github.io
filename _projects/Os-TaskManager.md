@@ -13,7 +13,7 @@ tags: [context-switching, deadlock-avoidance, deadlock-detection, java]
 categories: ["Repository", Java]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 a context switching simulation of operation system supporting every context switching algorithms and deadlock prevention methods.
 

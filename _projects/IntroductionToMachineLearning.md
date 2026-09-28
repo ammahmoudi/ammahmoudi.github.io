@@ -13,7 +13,7 @@ tags: [deep-neural-networks, ensemble-learning, logistic-regression, machine-lea
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 This is the course material for Introduction to Machine Learning, for B.Sc. Students, Industrial Engineering Department, Sharif University of Technology
 

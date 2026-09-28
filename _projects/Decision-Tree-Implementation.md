@@ -13,7 +13,7 @@ tags: [breast-cancer-wisconsin, decision-tree-algorithms, decision-trees, machin
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Implementing Decision Tree Classifer from scrath and then train it on breast cancer dataset from the University of Wisconsin Hospitals.
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg" alt="tree" class="img-fluid rounded z-depth-1" zoomable=true %}

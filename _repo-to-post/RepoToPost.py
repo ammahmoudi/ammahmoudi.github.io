@@ -72,7 +72,7 @@ class RepoToPost:
                     f.write(f'tags: [{", ".join(repository.topics)}]\n')
                 f.write(f'categories: ["Repository", {repository.language}]\n')
                 f.write('---\n\n')
-                f.write('{% include repository_link.liquid url=page.repository_url %}\n\n')
+                f.write('<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>\n\n')
                 f.write(contents)
 
     @staticmethod

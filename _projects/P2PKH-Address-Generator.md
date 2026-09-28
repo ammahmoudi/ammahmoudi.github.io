@@ -13,7 +13,7 @@ tags: [bitcoin, blockchain, cryptography, p2pkh]
 categories: ["Repository", Python]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 

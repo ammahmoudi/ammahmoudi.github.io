@@ -13,7 +13,7 @@ tags: [bitcoin, blockchain, dapp, nextjs, swapper, token, wagmi, wagmi-v2-exampl
 categories: ["Repository", TypeScript]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 The Token Swap dApp makes it easy to trade tokens. Just connect your wallet, like MetaMask, and you're ready to swap tokens by entering their addresses and the amount you want to trade.It is an exercise to explore the web 3.0 world and smart contracts connections.
 

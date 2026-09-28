@@ -13,7 +13,7 @@ tags: [udp, udp-pinger]
 categories: ["Repository", Python]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 This is a simple UDP pinger using Python. It demonstrates how to send and receive UDP packets over the Internet. UDP is a transport layer protocol that is fast and lightweight, but unreliable and connectionless. It is suitable for real-time applications that can tolerate some data loss, such as video streaming, voice communication, and online gaming.
 

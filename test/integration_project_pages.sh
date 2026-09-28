@@ -13,7 +13,7 @@ bundle exec jekyll build \
   --config "_config.yml,test/fixtures/imagemagick-disabled.yml" \
   -d "${tmp_site}" >/dev/null
 
-expected_banners="$(grep -Rl '{% include repository_link.liquid url=page.repository_url %}' _projects --include='*.md' | wc -l)"
+expected_banners="$(grep -Rl 'class="project-repository-link"' _projects --include='*.md' | wc -l)"
 rendered_banners="$(grep -Rl 'class="project-repository-link"' "${tmp_site}/projects" --include='*.html' | wc -l)"
 
 if [ "${expected_banners}" -eq 0 ] || [ "${rendered_banners}" -ne "${expected_banners}" ]; then

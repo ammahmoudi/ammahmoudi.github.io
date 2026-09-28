@@ -13,7 +13,7 @@ tags: [bike-sharing, decision-trees, eda, linear-regression, machine-learning, m
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 With environmental issues and health becoming trending topics, usage of bicycles as a mode of transportation has gained traction. To encourage bike usage, cities across the world have successfully rolled out bike sharing programs. Under such schemes, riders can rent bicycles using manual/automated kiosks spread across the city for defined periods. In most cases, riders can pick up bikes from one location and return them to any other designated place. The bike sharing platforms from across the world are hotspots of all sorts of data, ranging from **travel time**, **start** and **end location**, demographics of riders, and so on. This data along with alternate sources of information such as **weather**, **traffic**, and so on makes it an attractive proposition for different research areas. The goal of this session is to predict the count of bike rental demand. To this end, we use bike sharing dataset with **weather information** using linear regression and decission tree.
 

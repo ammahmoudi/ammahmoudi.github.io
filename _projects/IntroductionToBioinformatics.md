@@ -13,7 +13,7 @@ tags: [alignments, bioinformatics, rosalind-exercises]
 categories: ["Repository", Python]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 Homework Solutions for Introduction To Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology
 

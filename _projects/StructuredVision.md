@@ -13,7 +13,7 @@ tags: [ocr, structured-output, text-extraction, vlm]
 categories: ["Repository", Python]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 A powerful toolkit for extracting structured JSON data from images using multiple AI-powered OCR and vision models. Specialized for game interfaces, documents, forms, and general text extraction with schema validation.
 

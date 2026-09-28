@@ -13,7 +13,7 @@ tags: [cache, java, multi-processing, process]
 categories: ["Repository", Java]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 AntsColonoy multi processing app.a simulation of multi proccessing and cache concpets.
 the full description of the problem is writen in problem.pdf

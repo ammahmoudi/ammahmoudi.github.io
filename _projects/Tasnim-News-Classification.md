@@ -13,7 +13,7 @@ tags: [knn, machine-learning, ml, mlp, neural-network, nlp, persian-nlp, random-
 categories: ["Repository", Jupyter Notebook]
 ---
 
-{% include repository_link.liquid url=page.repository_url %}
+<p class="project-repository-link"><a href="{{ page.repository_url }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> View the original repository on GitHub</a></p>
 
 This project represents a Machine Learning course's midterm exam which I designed as a teacher assistant, focusing on the task of text classification. The project specifically involved a case study related to an Iranian newspaper dataset ([dataset](https://www.kaggle.com/datasets/amirpourmand/tasnimdataset)). The primary objective was to build and evaluate text classification models to categorize newspaper articles into predefined topics accurately.
 

@@ -1,0 +1,4 @@
+collections_dir: test/fixtures/plugin-content
+
+imagemagick:
+  enabled: false

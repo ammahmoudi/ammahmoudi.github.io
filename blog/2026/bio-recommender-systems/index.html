@@ -247,7 +247,7 @@
     P1["Protein A"] --&gt; P2["Protein B"]
     P2 --&gt; P3["Protein C"]
     P1 --&gt; P3
-</code></pre> <h3 id="random-walk-with-restart-rwr">Random Walk with Restart (RWR)</h3> <p>RWR repeatedly mixes two behaviors:</p> <ol> <li>Walk to a neighboring node.</li> <li>Restart at the original node.</li> </ol> <p>Restart is useful because it keeps the ranking local. In disease-gene prediction, if the start node is a disease, high-scoring genes are those that remain close to the disease through many possible paths.</p> <h3 id="lmf-rlmf-and-nrlmf">LMF, RLMF, and NRLMF</h3> <p>Logistic Matrix Factorization (LMF) predicts a probability instead of a star rating. It is useful for binary data such as “drug binds target” vs. “drug does not bind target.”</p> <ul> <li> <strong>RLMF</strong> often refers to Regularized Logistic Matrix Factorization: LMF with regularization to avoid overfitting.</li> <li> <strong>NRLMF</strong> means Neighborhood Regularized Logistic Matrix Factorization. It adds the idea that similar drugs and similar targets should have similar latent vectors.</li> </ul> <h3 id="qed-score">QED Score</h3> <p>QED estimates how drug-like a molecule is. It combines properties such as molecular weight, polarity, aromatic rings, and other chemistry rules into one score.</p> <h3 id="toxicity">Toxicity</h3> <p>Toxicity is the chance that a molecule causes harmful biological effects. In drug design, high binding affinity alone is not enough; a molecule also needs acceptable toxicity, solubility, stability, and synthesizability.</p> <h3 id="drug-repurposing">Drug Repurposing</h3> <p>Drug repurposing means finding a new disease use for an existing drug. It is attractive because the safety profile of the drug may already be partially known.</p> <h3 id="de-novo-drug-design">De Novo Drug Design</h3> <p>De novo drug design means designing a new molecule from scratch instead of selecting from existing drugs.</p> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> <d-bibliography src="/assets/bibliography/"></d-bibliography> <d-article> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/red-black-trees/">Red–Black Trees: Structure, Height Guarantees, and Invariants</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/marimo/">marimo integration fixture</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2024/yerevan-trip/">Yerevan Adventure</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2023/toefl-notes/">TOEFL Notes</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2022/rtl/">RTL integration fixture</a> </li> </ul> <br> <br> <div id="giscus_thread"> <script>
+</code></pre> <h3 id="random-walk-with-restart-rwr">Random Walk with Restart (RWR)</h3> <p>RWR repeatedly mixes two behaviors:</p> <ol> <li>Walk to a neighboring node.</li> <li>Restart at the original node.</li> </ol> <p>Restart is useful because it keeps the ranking local. In disease-gene prediction, if the start node is a disease, high-scoring genes are those that remain close to the disease through many possible paths.</p> <h3 id="lmf-rlmf-and-nrlmf">LMF, RLMF, and NRLMF</h3> <p>Logistic Matrix Factorization (LMF) predicts a probability instead of a star rating. It is useful for binary data such as “drug binds target” vs. “drug does not bind target.”</p> <ul> <li> <strong>RLMF</strong> often refers to Regularized Logistic Matrix Factorization: LMF with regularization to avoid overfitting.</li> <li> <strong>NRLMF</strong> means Neighborhood Regularized Logistic Matrix Factorization. It adds the idea that similar drugs and similar targets should have similar latent vectors.</li> </ul> <h3 id="qed-score">QED Score</h3> <p>QED estimates how drug-like a molecule is. It combines properties such as molecular weight, polarity, aromatic rings, and other chemistry rules into one score.</p> <h3 id="toxicity">Toxicity</h3> <p>Toxicity is the chance that a molecule causes harmful biological effects. In drug design, high binding affinity alone is not enough; a molecule also needs acceptable toxicity, solubility, stability, and synthesizability.</p> <h3 id="drug-repurposing">Drug Repurposing</h3> <p>Drug repurposing means finding a new disease use for an existing drug. It is attractive because the safety profile of the drug may already be partially known.</p> <h3 id="de-novo-drug-design">De Novo Drug Design</h3> <p>De novo drug design means designing a new molecule from scratch instead of selecting from existing drugs.</p> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> <d-bibliography src="/assets/bibliography/"></d-bibliography> <d-article> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/red-black-trees/">Red–Black Trees: Structure, Height Guarantees, and Invariants</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2024/yerevan-trip/">Yerevan Adventure</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2023/toefl-notes/">TOEFL Notes</a> </li> </ul> <br> <br> <div id="giscus_thread"> <script>
     (function setupGiscus() {
       function determineGiscusTheme() {
         var theme = localStorage.getItem("theme") || document.documentElement.getAttribute("data-theme") || "system";
@@ -363,17 +363,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/red-black-trees/";
           
         },
-      },{id: "post-marimo-integration-fixture",
-        
-          title: "marimo integration fixture",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/marimo/";
-          
-        },
       },{id: "post-yerevan-adventure",
         
           title: "Yerevan Adventure",
@@ -394,17 +383,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/toefl-notes/";
-          
-        },
-      },{id: "post-rtl-integration-fixture",
-        
-          title: "RTL integration fixture",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/rtl/";
           
         },
       },{id: "books-the-godfather",

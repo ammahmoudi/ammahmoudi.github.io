@@ -563,7 +563,7 @@ pre-commit run --all-files
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Licensing terms are not currently published in the repository. Contact the author before reuse.
 
 ## 🙏 Acknowledgments
 

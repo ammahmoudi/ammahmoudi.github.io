@@ -9,7 +9,9 @@ cleanup() {
 }
 trap cleanup EXIT
 
-bundle exec jekyll build --config "_config.yml" -d "${tmp_site}" >/dev/null
+bundle exec jekyll build \
+  --config "_config.yml,test/fixtures/imagemagick-disabled.yml" \
+  -d "${tmp_site}" >/dev/null
 
 giscus_page="${tmp_site}/blog/2026/bio-recommender-systems/index.html"
 

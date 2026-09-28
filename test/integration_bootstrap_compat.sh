@@ -11,7 +11,9 @@ site_no_compat="${tmp_dir}/site-no-compat"
 site_with_compat="${tmp_dir}/site-with-compat"
 override_file="${tmp_dir}/compat-override.yml"
 
-bundle exec jekyll build -d "${site_no_compat}" >/dev/null
+bundle exec jekyll build \
+  --config "_config.yml,test/fixtures/imagemagick-disabled.yml" \
+  -d "${site_no_compat}" >/dev/null
 
 index_no_compat="${site_no_compat}/index.html"
 grep -q '/assets/css/tailwind.css' "${index_no_compat}"
@@ -31,7 +33,9 @@ al_folio:
       enabled: true
 YAML
 
-bundle exec jekyll build --config "_config.yml,${override_file}" -d "${site_with_compat}" >/dev/null
+bundle exec jekyll build \
+  --config "_config.yml,${override_file},test/fixtures/imagemagick-disabled.yml" \
+  -d "${site_with_compat}" >/dev/null
 
 index_with_compat="${site_with_compat}/index.html"
 grep -q '/assets/css/bootstrap-compat.css' "${index_with_compat}"

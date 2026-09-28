@@ -5,7 +5,7 @@ title: Galaxy Classifier
 description: Classifing galaxy images using a MLP Model with PyTorch
 date: 2023-10-30 12:25:16 +0000
 last_modified_at: 2023-10-30 13:01:53 +0000
-url: https://github.com/ammahmoudi/Galaxy-Classifier
+repository_url: https://github.com/ammahmoudi/Galaxy-Classifier
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Galaxy-Classifier/main/sam.png
@@ -13,7 +13,7 @@ tags: [cnn, deep-learning, machine-learning, ml, mlp, neural-network, pytorch]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Galaxy-Classifier" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 This code uses PyTorch to build and implement a MLP model with PyTorch for solving a classification problem. Our goal is to classify galaxy images into 4 classes: ellipticals, lenticulars, spirals, and irregulars.
 

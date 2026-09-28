@@ -5,7 +5,7 @@ title: Simple Calculator Server Clinet
 description: A simple calculator with clinet and server using socket and javafx gui with jfoenix beautiful design
 date: 2022-04-12 12:23:13 +0000
 last_modified_at: 2023-11-03 21:25:47 +0000
-url: https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet
+repository_url: https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png
@@ -13,7 +13,7 @@ tags: [calculator, java, javafx, jfoenix, server-client, socket, tcp]
 categories: ["Repository", Java]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Simple-Calculator-Server-Clinet" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 This project is a simple calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The project consists of two parts: a client and a server. The client is a graphical user interface (GUI) that allows the user to enter numbers and operators and see the result. The server is a program that receives the calculation request from the client, performs the calculation, and sends back the result. The client and the server communicate using socket programming.
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Simple-Calculator-Server-Clinet/master/cover.png" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}

@@ -5,7 +5,7 @@ title: Decision Tree Implementation
 description: Implementing Decision Tree Classifer from scrath and then train it on breast cancer dataset from the University of Wisconsin Hospitals
 date: 2023-10-29 20:38:20 +0000
 last_modified_at: 2023-10-29 21:10:47 +0000
-url: https://github.com/ammahmoudi/Decision-Tree-Implementation
+repository_url: https://github.com/ammahmoudi/Decision-Tree-Implementation
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg
 og_image: https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg
@@ -13,7 +13,7 @@ tags: [breast-cancer-wisconsin, decision-tree-algorithms, decision-trees, machin
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Decision-Tree-Implementation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Implementing Decision Tree Classifer from scrath and then train it on breast cancer dataset from the University of Wisconsin Hospitals.
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Decision-Tree-Implementation/main/concept.jpg" alt="tree" class="img-fluid rounded z-depth-1" zoomable=true %}

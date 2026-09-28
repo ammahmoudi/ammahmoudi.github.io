@@ -5,7 +5,7 @@ title: Breast Cancer Prediction
 description: Breast Cancer survival analysis using Machine Learning
 date: 2023-02-01 14:51:10 +0000
 last_modified_at: 2023-02-03 03:37:57 +0000
-url: https://github.com/ammahmoudi/Breast-Cancer-Prediction
+repository_url: https://github.com/ammahmoudi/Breast-Cancer-Prediction
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Breast-Cancer-Prediction/master/output.png
@@ -13,7 +13,7 @@ tags: [machine-learning, ml, mlp, nuralnetwork]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Breast-Cancer-Prediction" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 An exploratory data analysis (EDA) and machine learning on the "Breast Cancer Gene Expression Profiles (METABRIC)" dataset.
 The primary goal is to gain insights and understanding from the dataset, especially regarding clinical information and its relationship with breast cancer survival.

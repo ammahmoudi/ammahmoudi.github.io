@@ -5,7 +5,7 @@ title: DesignAlgorithms
 description: Homework Solutions for Design Algorithm Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
 date: 2023-08-31 12:37:17 +0000
 last_modified_at: 2024-12-24 06:10:07 +0000
-url: https://github.com/ammahmoudi/DesignAlgorithms
+repository_url: https://github.com/ammahmoudi/DesignAlgorithms
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/DesignAlgorithms/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 og_image: https://socialify.git.ci/ammahmoudi/DesignAlgorithms/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
@@ -13,7 +13,7 @@ tags: [algorithms, data-structures, dynamic-programming, graph-algorithms, greed
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/DesignAlgorithms" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Homework Solutions for Design Algorithm Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology.
 

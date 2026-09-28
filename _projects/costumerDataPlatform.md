@@ -5,13 +5,13 @@ title: costumerDataPlatform
 description: None
 date: 2022-08-25 18:54:31
 last_modified_at: 2022-08-25 18:54:41
-url: https://github.com/ammahmoudi/costumerDataPlatform
+repository_url: https://github.com/ammahmoudi/costumerDataPlatform
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/costumerDataPlatform/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 categories: ["Repository", Shell]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/costumerDataPlatform" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 This image accompanies the Spark course [Applying the Lambda Architecture with Spark, Kafka, and Cassandra](https://www.pluralsight.com/courses/spark-kafka-cassandra-applying-lambda-architecture) on [Pluralsight.com by Ahmad Alkilani](https://www.pluralsight.com/authors/ahmad-alkilani)
 

@@ -5,7 +5,7 @@ title: Agricultural Image Instance Segmentation
 description: PyTorch-based Mask R-CNN framework for high-precision instance segmentation of agricultural imagery. Supports custom datasets, advanced training workflows, and robust evaluation for crop and plant analysis.
 date: 2025-01-03 15:04:10 +0000
 last_modified_at: 2025-09-12 09:13:35 +0000
-url: https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation
+repository_url: https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/main/cover.jpg
 og_image: https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/main/cover.jpg
@@ -13,7 +13,7 @@ tags: [agriculture, crop-detection, instance-segmentation, r-cnn]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Agricultural-Image-Instance-Segmentation" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Agricultural-Image-Instance-Segmentation/main/cover.jpg" alt="Project Cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 

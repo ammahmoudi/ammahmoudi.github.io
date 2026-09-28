@@ -5,7 +5,7 @@ title: IntroductionToBioinformatics
 description: Homework Solutions for Introduction to Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology
 date: 2023-09-04 21:54:33 +0000
 last_modified_at: 2024-06-06 04:35:14 +0000
-url: https://github.com/ammahmoudi/IntroductionToBioinformatics
+repository_url: https://github.com/ammahmoudi/IntroductionToBioinformatics
 importance: 1
 img: https://socialify.git.ci/ammahmoudi/IntroductionToBioinformatics/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
 og_image: https://socialify.git.ci/ammahmoudi/IntroductionToBioinformatics/image?&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light
@@ -13,7 +13,7 @@ tags: [alignments, bioinformatics, rosalind-exercises]
 categories: ["Repository", Python]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/IntroductionToBioinformatics" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Homework Solutions for Introduction To Bioinformatics Course as Computer Science B.Sc. Student at Department of Computer Engineering, Sharif University of Technology
 

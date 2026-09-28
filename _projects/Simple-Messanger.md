@@ -5,7 +5,7 @@ title: Simple Messanger
 description: simple chat application implemented in Python using a server-client architecture with groups and channels
 date: 2024-03-03 15:12:00 +0000
 last_modified_at: 2024-03-08 16:35:31 +0000
-url: https://github.com/ammahmoudi/Simple-Messanger
+repository_url: https://github.com/ammahmoudi/Simple-Messanger
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Simple-Messanger/main/screenshots/sc_1.png
@@ -13,7 +13,7 @@ tags: [chat-application, end-to-end-encryption, messanger, server-client]
 categories: ["Repository", Python]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Simple-Messanger" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 This is a simple chat application implemented in Python using a server-client architecture. The app allows users to create groups, join groups, leave groups, create channels, join channels, leave channels, and send messages to groups and channels.
 

@@ -5,7 +5,7 @@ title: Stochastic Processes
 description: Homework Solutions for Stochastic Processes Course as Computer Science B.Sc. Student at Department of Mathematical Sciences, Sharif University of Technology
 date: 2024-06-19 12:03:29 +0000
 last_modified_at: 2024-09-06 05:24:24 +0000
-url: https://github.com/ammahmoudi/Stochastic-Processes
+repository_url: https://github.com/ammahmoudi/Stochastic-Processes
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Stochastic-Processes/main/images/cover.jpeg
 og_image: https://raw.githubusercontent.com/ammahmoudi/Stochastic-Processes/main/images/cover.jpeg
@@ -13,7 +13,7 @@ tags: [gaussian-mixture-models, markov-chain, markov-chain-monte-carlo, stochast
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Stochastic-Processes" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/Stochastic-Processes/main/images/cover.jpeg" alt="stochastic-processes-cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 

@@ -5,7 +5,7 @@ title: Image Captioning RNN
 description: Image Captioning using Recurrent Neural Networks on Flickr images with pretrained ResNet50 model features.
 date: 2023-10-30 18:16:15 +0000
 last_modified_at: 2023-10-30 18:32:18 +0000
-url: https://github.com/ammahmoudi/Image-Captioning-RNN
+repository_url: https://github.com/ammahmoudi/Image-Captioning-RNN
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main/output.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Image-Captioning-RNN/main/output.png
@@ -13,7 +13,7 @@ tags: [bert-embeddings, deep-learning, image-captioning, lstm, machine-learning,
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Image-Captioning-RNN" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Image Captioning using Recurrent Neural Networks on Flickr images with pretrained ResNet50 model features.
 

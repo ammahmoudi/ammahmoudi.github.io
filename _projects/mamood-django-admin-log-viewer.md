@@ -5,7 +5,7 @@ title: mamood django admin log viewer
 description: A Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.
 date: 2025-08-12 23:48:55 +0000
 last_modified_at: 2025-09-03 13:10:57 +0000
-url: https://github.com/ammahmoudi/mamood-django-admin-log-viewer
+repository_url: https://github.com/ammahmoudi/mamood-django-admin-log-viewer
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs.jpeg
 og_image: https://raw.githubusercontent.com/ammahmoudi/mamood-django-admin-log-viewer/main/images/logs.jpeg
@@ -13,7 +13,7 @@ tags: [djnago, log, log-viewer]
 categories: ["Repository", Python]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/mamood-django-admin-log-viewer" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 A powerful Django app that provides a comprehensive web interface to view and monitor log files directly in the Django admin panel.
 

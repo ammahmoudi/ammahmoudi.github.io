@@ -5,7 +5,7 @@ title: Bike Sharing Trends
 description: Predicting bike sharing trends using classic machine learning methods (linear regression, decision tree)
 date: 2023-10-29 09:32:06 +0000
 last_modified_at: 2023-10-29 13:53:11 +0000
-url: https://github.com/ammahmoudi/Bike-Sharing-Trends
+repository_url: https://github.com/ammahmoudi/Bike-Sharing-Trends
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Bike-Sharing-Trends/main/cmatrix.png
@@ -13,7 +13,7 @@ tags: [bike-sharing, decision-trees, eda, linear-regression, machine-learning, m
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Bike-Sharing-Trends" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 With environmental issues and health becoming trending topics, usage of bicycles as a mode of transportation has gained traction. To encourage bike usage, cities across the world have successfully rolled out bike sharing programs. Under such schemes, riders can rent bicycles using manual/automated kiosks spread across the city for defined periods. In most cases, riders can pick up bikes from one location and return them to any other designated place. The bike sharing platforms from across the world are hotspots of all sorts of data, ranging from **travel time**, **start** and **end location**, demographics of riders, and so on. This data along with alternate sources of information such as **weather**, **traffic**, and so on makes it an attractive proposition for different research areas. The goal of this session is to predict the count of bike rental demand. To this end, we use bike sharing dataset with **weather information** using linear regression and decission tree.
 

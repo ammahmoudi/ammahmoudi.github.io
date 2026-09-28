@@ -5,7 +5,7 @@ title: WE
 description: A social app for postint and messaging  using java , javafx,hibernate ORM
 date: 2021-11-25 08:46:16 +0000
 last_modified_at: 2024-12-30 08:24:09 +0000
-url: https://github.com/ammahmoudi/WE
+repository_url: https://github.com/ammahmoudi/WE
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/WE/main/screenshots/login.png
@@ -13,7 +13,7 @@ tags: [hibernate-orm, javafx, javafx-application, social-network, socket]
 categories: ["Repository", Java]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/WE" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 A social app for posting and messaging using Java, JavaFX, hibernate ORM
 

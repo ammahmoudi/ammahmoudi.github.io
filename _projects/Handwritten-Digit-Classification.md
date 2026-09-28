@@ -5,7 +5,7 @@ title: Handwritten Digit Classification
 description: Handwritten Digit Classification on MNIST dataset using Conventional Neural Network in PyTorch
 date: 2023-10-30 15:35:34 +0000
 last_modified_at: 2023-10-30 18:11:44 +0000
-url: https://github.com/ammahmoudi/Handwritten-Digit-Classification
+repository_url: https://github.com/ammahmoudi/Handwritten-Digit-Classification
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Handwritten-Digit-Classification/main/samples.png
@@ -13,7 +13,7 @@ tags: [cnn, deep-learning, machine-learning, ml, mnist, pytorch]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Handwritten-Digit-Classification" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 A code that uses PyTorch to build and implement a residual CNN for solving a classification problem. The goal is to classify handwritten digits from 0 to 9 on the MNIST dataset.
 

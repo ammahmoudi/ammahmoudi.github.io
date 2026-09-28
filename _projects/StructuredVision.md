@@ -5,7 +5,7 @@ title: StructuredVision
 description: A powerful toolkit for extracting structured JSON data from images using multiple AI-powered OCR and vision models. Specialized for game interfaces, documents, forms, and general text extraction with schema validation.
 date: 2025-06-03 11:11:29 +0000
 last_modified_at: 2025-09-12 10:21:28 +0000
-url: https://github.com/ammahmoudi/StructuredVision
+repository_url: https://github.com/ammahmoudi/StructuredVision
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/main/sample_easyocr_text_regions.jpg
 og_image: https://raw.githubusercontent.com/ammahmoudi/StructuredVision/main/sample_easyocr_text_regions.jpg
@@ -13,7 +13,7 @@ tags: [ocr, structured-output, text-extraction, vlm]
 categories: ["Repository", Python]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/StructuredVision" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 A powerful toolkit for extracting structured JSON data from images using multiple AI-powered OCR and vision models. Specialized for game interfaces, documents, forms, and general text extraction with schema validation.
 

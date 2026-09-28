@@ -5,7 +5,7 @@ title: Iterative Methods for Eigenvalue Problem
 description: Applying Diffrenet iterative methods to find some specific (smallest or largest) eigen values
 date: 2024-01-26 14:45:27 +0000
 last_modified_at: 2024-12-24 06:10:07 +0000
-url: https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem
+repository_url: https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg
 og_image: https://raw.githubusercontent.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem/main/smallest_real_diff.svg
@@ -13,7 +13,7 @@ tags: [arnoldi-algorithm, davidson-eigensolver, eigenvalue-solvers, eigenvaluepr
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Iterative-Methods-for-Eigenvalue-Problem" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Supervisior: Dr. Mohammadreza Razvan
 

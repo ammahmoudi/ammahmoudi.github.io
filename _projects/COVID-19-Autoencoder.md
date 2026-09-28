@@ -5,7 +5,7 @@ title: COVID 19 Autoencoder
 description: Using Autoencoder in keras as a nonlinear dimensionality reduction method to encode COVID-19 patients data
 date: 2023-10-30 18:02:07 +0000
 last_modified_at: 2023-10-30 18:11:54 +0000
-url: https://github.com/ammahmoudi/COVID-19-Autoencoder
+repository_url: https://github.com/ammahmoudi/COVID-19-Autoencoder
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/COVID-19-Autoencoder/main/output.png
@@ -13,7 +13,7 @@ tags: [autoencoder, covid-19, deep-learning, deep-neural-networks, dimension-red
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/COVID-19-Autoencoder" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Using Autoencoder in keras as a nonlinear dimensionality reduction method.The goal is to reduce and encode patients data in a 2d space which could be seperated easily.
 

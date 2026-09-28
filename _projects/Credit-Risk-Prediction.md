@@ -5,7 +5,7 @@ title: Credit Risk Prediction
 description: Predicting credit risk when a person requests for loan using random forest on south German dataset (fixing imbalanced data)
 date: 2023-10-29 14:34:10 +0000
 last_modified_at: 2023-10-29 14:42:59 +0000
-url: https://github.com/ammahmoudi/Credit-Risk-Prediction
+repository_url: https://github.com/ammahmoudi/Credit-Risk-Prediction
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Credit-Risk-Prediction/main/imb.png
@@ -13,7 +13,7 @@ tags: [credit-risk, imbalanced-data, machine-learning, ml, random-forest]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Credit-Risk-Prediction" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Credit risk infers to the possibility of a loss emerging from a borrower's downfall to pay back a loan or meet contractual commitments. Conventionally, it pertains to the risk arising from lenders' inability to return the owed interest and principal, impacting the cash flows and increasing assemblage costs. We used German credit data using Random forest (along with over-sampling and under-sampling methods to fix imbalanced data).The aim is to predict credit risk when a person requests for loan.
 You have to build a model to predict whether the person, described by the attributes of this dataset, is a good (1) or a bad (0) credit risk?

@@ -5,7 +5,7 @@ title: Water Treatment Plant
 description: Categorizing the plant's operation state using sensor data suing SVMs.
 date: 2023-10-29 13:39:24 +0000
 last_modified_at: 2023-10-29 13:54:28 +0000
-url: https://github.com/ammahmoudi/Water-Treatment-Plant
+repository_url: https://github.com/ammahmoudi/Water-Treatment-Plant
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Water-Treatment-Plant/main/input_sed-e.png
@@ -13,7 +13,7 @@ tags: [eda, knn, ml, svm, water-treatment, machine-learning]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Water-Treatment-Plant" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 This problem comes from the daily measures of sensors in an urban waste water treatment plant. The objective is to classify the operation state of the plant at each of the stages of the treatment process using SVMs and KNN.
 The plant is constituted by a primary settler, a biological reactor, and a secondary settler. After the biological reactor, where the level of substrate is reduced by the action of microorganisms, the water flows to the secondary settler where the biomass sludge settles. Clean water hence remains at the top of the settler and can be easily carried out of the plant. A portion of the sludge is returned to the bioreactor’s input to maintain an appropriate level of biomass, allowing the oxidation of organic matter, while the rest of the sludge is purged.

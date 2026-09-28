@@ -49,7 +49,7 @@ class RepoToPost:
                 f.write(f'description: {repository.repo.description}\n')
                 f.write(f'date: {creation_date}\n')
                 f.write(f'last_modified_at: {last_update_date}\n')
-                f.write(f'url: {repository.url}\n')
+                f.write(f'repository_url: {repository.url}\n')
                 f.write('importance: 1\n')
 
                 f.write(f'img: ')
@@ -71,9 +71,8 @@ class RepoToPost:
                 if repository.topics:
                     f.write(f'tags: [{", ".join(repository.topics)}]\n')
                 f.write(f'categories: ["Repository", {repository.language}]\n')
-                f.write('---\n')
-                f.write(f'<div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr>    <td class="list-group-name"><b>   <a href="{repository.url}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>\n')
-                f.write('---\n')
+                f.write('---\n\n')
+                f.write('{% include repository_link.liquid url=page.repository_url %}\n\n')
                 f.write(contents)
 
     @staticmethod

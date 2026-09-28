@@ -5,7 +5,7 @@ title: Data Visualization
 description: A curated collection of innovative data visualization projects
 date: 2024-03-05 12:18:29 +0000
 last_modified_at: 2025-04-14 12:58:23 +0000
-url: https://github.com/ammahmoudi/Data-Visualization
+repository_url: https://github.com/ammahmoudi/Data-Visualization
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg
 og_image: https://raw.githubusercontent.com/ammahmoudi/Data-Visualization/main/Nested-Tree-Map/nested_tree_map_2.svg
@@ -13,7 +13,7 @@ tags: [chart, custom-charts, sunburst-chart, tree-map-chart, visualization]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Data-Visualization" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 Welcome to the Data Visualization repository! This collection features projects that showcase different techniques and approaches to visualizing data.
 

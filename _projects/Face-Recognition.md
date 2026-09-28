@@ -5,7 +5,7 @@ title: Face Recognition
 description: Face recognition using Eigen faces, PCA and support vector machines
 date: 2023-10-29 21:23:54 +0000
 last_modified_at: 2023-10-29 21:35:07 +0000
-url: https://github.com/ammahmoudi/Face-Recognition
+repository_url: https://github.com/ammahmoudi/Face-Recognition
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/Face-Recognition/main/samples.png
@@ -13,7 +13,7 @@ tags: [eigenfaces, face-recognition, machine-learning, ml, pca, svm]
 categories: ["Repository", Jupyter Notebook]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/Face-Recognition" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 We are going to build a classifier (Face recognition using Eigen faces, PCA and support vector machines) to distinguish the faces of 40 people on a toy dataset. The dataset includes 400 pictures of 40 people faces, each by a 64\*64 pixel picture.
 

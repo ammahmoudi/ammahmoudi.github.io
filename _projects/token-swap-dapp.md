@@ -5,7 +5,7 @@ title: token swap dapp
 description: A simple dapp  to connect with wallets and swap tokens in blockchain networks.
 date: 2024-06-03 10:24:44 +0000
 last_modified_at: 2025-09-12 08:54:51 +0000
-url: https://github.com/ammahmoudi/token-swap-dapp
+repository_url: https://github.com/ammahmoudi/token-swap-dapp
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/token-swap-dapp/main/images/cover.jpg
 og_image: https://raw.githubusercontent.com/ammahmoudi/token-swap-dapp/main/images/cover.jpg
@@ -13,7 +13,7 @@ tags: [bitcoin, blockchain, dapp, nextjs, swapper, token, wagmi, wagmi-v2-exampl
 categories: ["Repository", TypeScript]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/token-swap-dapp" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 The Token Swap dApp makes it easy to trade tokens. Just connect your wallet, like MetaMask, and you're ready to swap tokens by entering their addresses and the amount you want to trade.It is an exercise to explore the web 3.0 world and smart contracts connections.
 

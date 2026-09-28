@@ -5,7 +5,7 @@ title: ComfyUI Legendary Nodes
 description: Set of useful nodes for comfyui
 date: 2025-01-20 06:19:31 +0000
 last_modified_at: 2025-09-12 08:44:33 +0000
-url: https://github.com/ammahmoudi/ComfyUI-Legendary-Nodes
+repository_url: https://github.com/ammahmoudi/ComfyUI-Legendary-Nodes
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_dataset_saver.png
 og_image: https://raw.githubusercontent.com/ammahmoudi/ComfyUI-Legendary-Nodes/main/images/legendary_dataset_saver.png
@@ -13,7 +13,7 @@ tags: [comfyui, comfyui-custom-node, comfyui-nodes]
 categories: ["Repository", Python]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/ComfyUI-Legendary-Nodes" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 ComfyUI-Legendary-Nodes is a collection of helpful ComfyUI nodes that extend and simplify common workflows in ComfyUI — from loading images and LoRA files by URL to saving and managing datasets. This repository provides implementation and utilities for nodes that make iterative design, data handling, and model adaptation easier whether you're running ComfyUI locally or in a cloud environment.
 

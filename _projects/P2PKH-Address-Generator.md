@@ -5,7 +5,7 @@ title: P2PKH Address Generator
 description: Generate custom P2PKH Bitcoin addresses with specified characters using Python. This project includes a robust algorithm for address generation with customizable options for developers and enthusiasts.
 date: 2024-05-26 12:22:41 +0000
 last_modified_at: 2025-08-11 00:36:11 +0000
-url: https://github.com/ammahmoudi/P2PKH-Address-Generator
+repository_url: https://github.com/ammahmoudi/P2PKH-Address-Generator
 importance: 1
 img: https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg
 og_image: https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg
@@ -13,7 +13,7 @@ tags: [bitcoin, blockchain, cryptography, p2pkh]
 categories: ["Repository", Python]
 ---
 
-## <div id="open-in-github" > <table class="table-cv list-group-table"> <tbody> <tr> <td class="list-group-name"><b> <a href="https://github.com/ammahmoudi/P2PKH-Address-Generator" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i> This page is auto-generated. For more info and materials take a look at the original repository.</a> </b></td></tr> </tbody> </table></div>
+{% include repository_link.liquid url=page.repository_url %}
 
 {% include figure.liquid path="https://raw.githubusercontent.com/ammahmoudi/P2PKH-Address-Generator/main/images/cover.jpg" alt="cover" class="img-fluid rounded z-depth-1" zoomable=true %}
 

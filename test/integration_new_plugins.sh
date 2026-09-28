@@ -8,10 +8,16 @@
 set -euo pipefail
 
 tmp_dir="$(mktemp -d)"
+rtl_fixture="_posts/2022-10-15-al-folio-integration-rtl.md"
+marimo_fixture="_posts/2025-04-28-al-folio-integration-marimo.md"
 cleanup() {
+  rm -f "${rtl_fixture}" "${marimo_fixture}"
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+cp test/fixtures/plugin-content/rtl.md.fixture "${rtl_fixture}"
+cp test/fixtures/plugin-content/marimo.md.fixture "${marimo_fixture}"
 
 build() {
   local name="$1"
@@ -34,7 +40,7 @@ fail() {
 
 default_site="$(build default)"
 
-rtl_page="${default_site}/blog/2022/rtl/index.html"
+rtl_page="${default_site}/blog/2022/al-folio-integration-rtl/index.html"
 [ -f "${rtl_page}" ] || fail "RTL demo post was not built"
 
 # dir must sit on <html>, not on a wrapper: that is what the browser's bidi
@@ -53,7 +59,7 @@ grep -q 'assets/al_rtl/css/rtl.css' "${default_site}/index.html" && fail "home p
 
 # --- al_marimo --------------------------------------------------------------
 
-marimo_page="${default_site}/blog/2025/marimo/index.html"
+marimo_page="${default_site}/blog/2025/al-folio-integration-marimo/index.html"
 [ -f "${marimo_page}" ] || fail "marimo demo post was not built"
 
 grep -q 'assets/al_marimo/js/marimo-snippets.js' "${marimo_page}" || fail "marimo post does not load the runtime"

@@ -1,3 +1,33 @@
----
----
+@article{mahmoudi2026diabllm,
+  title         = {{DiabLLM}: An {LLM}-Based Framework for Blood Glucose Prediction in Type 1 Diabetes},
+  author        = {Mahmoudi, Amirhossein and Farahani, Ghazal and Domanski, Peter and Farahani, Bahar J. and Firouzi, Farshad and Chakrabarty, Krishnendu},
+  journal       = {IEEE Journal of Biomedical and Health Informatics},
+  year          = {2026},
+  month         = aug,
+  volume        = {30},
+  number        = {8},
+  pages         = {6446--6459},
+  doi           = {10.1109/JBHI.2026.3658588},
+  pmid          = {41662556},
+  code          = {https://github.com/ammahmoudi/diab-llm},
+  bibtex_show   = {true},
+  selected      = {true},
+  abbr          = {IEEE JBHI},
+  abstract      = {Accurate blood glucose prediction is essential for enabling glycemic control in individuals with Type 1 Diabetes Mellitus, particularly within smart and connected health systems that integrate continuous glucose monitoring and automated insulin delivery. DiabLLM uses the Time-LLM and Chronos architectures for 30- and 45-minute forecasting. Evaluations on the OhioT1DM and D1NAMO datasets show improvements over established baselines, robustness to noisy and missing inputs through a denoising autoencoder, and substantial compression through knowledge distillation for deployment on resource-constrained edge devices.}
+}
+
+@inproceedings{mahmoudi2026fairteacher,
+  title         = {Fair Teacher, Fair Student? Fairness Transfer in Clinical {LLM}s},
+  author        = {Mahmoudi, Amirhossein and Farahani, Bahar},
+  booktitle     = {2026 IEEE International Conference on Omni-layer Intelligent Systems (COINS)},
+  year          = {2026},
+  month         = sep,
+  address       = {Bologna, Italy},
+  code          = {https://github.com/ammahmoudi/fair-teacher-fair-student},
+  website       = {https://coinsconf.com/},
+  bibtex_show   = {true},
+  selected      = {true},
+  abbr          = {IEEE COINS},
+  abstract      = {Knowledge distillation is widely used to compress large models into compact students, but its effect on fairness during teacher--student transfer remains insufficiently characterized for large-language-model-based clinical time-series models. This study introduces Exposure-Balanced Teacher Distillation and Group-Conditional Affine Output Adaptation, evaluating their utility--fairness trade-offs for blood-glucose forecasting on OhioT1DM and ectopic-beat classification on the MIT-BIH Arrhythmia Database. The results show that fairness effects under knowledge distillation are task dependent and that a smaller fairness gap does not necessarily indicate improved group-specific performance.}
+}
 

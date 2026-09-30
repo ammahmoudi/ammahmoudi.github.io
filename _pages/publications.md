@@ -11,7 +11,7 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
-As I am a bachelor's student I have not lots of publications. I hope I will add more items to this page.
+Peer-reviewed publications and their accompanying open-source implementations.
 
 {% include bib_search.liquid %}
 

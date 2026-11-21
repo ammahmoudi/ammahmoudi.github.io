@@ -32,7 +32,7 @@ or <a href="{{ '/assets/presentations/integer-partitions/fa.pdf' | relative_url 
 </blockquote>
 
 <figure>
-  <img src="{{ '/assets/img/posts/integer-partitions/cover.svg' | relative_url }}" class="img-fluid" width="960" height="640" alt="Minimal line illustration of a person making change for seven using coin values four, two and one, or three, three and one.">
+  <img src="{{ '/assets/img/posts/integer-partitions/cover.webp' | relative_url }}" class="img-fluid" width="1536" height="1024" alt="GPT-generated minimal line illustration of a person arranging coins into change at a table.">
 </figure>
 
 These notes accompany my MSc combinatorial-algorithms presentation on integer partitions. The main sequence follows Algorithms 3.1–3.4 in Kreher and Stinson: start with one recursive generator, change its initialization to fix the largest part, then use conjugation to fix the number of parts. The counting recurrence and complexity derivations below are supplementary explanations.

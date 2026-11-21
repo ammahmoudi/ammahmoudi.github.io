@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="change-title change-description">
+  <title id="change-title">One amount, different integer partitions</title>
+  <desc id="change-description">A person at a table considers changing an amount of seven into coins of four, two and one, or three, three and one. Minimal line illustration on a transparent background.</desc>
+  <g fill="none" stroke="#294447" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M109 527V339c0-29 21-51 47-51h17" opacity=".42"/>
+    <path d="M111 527h197m-176 0-14 59m165-59 16 59" opacity=".42"/>
+    <path d="M181 245c-33 12-53 40-56 81l-7 114c-1 31 18 51 47 51h119"/>
+    <path d="M190 227v29c13 18 31 20 47 4l5-32"/>
+    <path d="M244 235c-26 7-55-12-62-42l-6-31c-6-29 10-53 38-58 27-5 49 11 52 36l2 17 14 18-13 9-2 23c-1 13-9 23-23 28Z"/>
+    <path d="M178 165c17-1 30-12 36-30 12 10 28 14 50 11m-84 24-12-20c-9-18-6-39 8-52 13-13 36-16 53-7"/>
+    <path d="m249 159 6 1m-7 44 13-2" stroke-width="3"/>
+    <path d="M242 258c21 8 36 25 50 49l30 51 111 25"/>
+    <path d="M215 301l63 94c6 10 14 15 25 17l127 17"/>
+    <path d="m432 382 34-7c10-2 17 1 22 6l23 21c5 6 2 13-5 12l-27-14m-49 28 47-1c12 0 21-4 28-12"/>
+    <path d="m426 382-5 44m-248 9 8-62m-16 118 122 1 37 96m-84-96 30 96"/>
+    <path d="M357 457h502m-469 0-12 131m439-131 12 131"/>
+    <path d="M690 171v26m0 0c-61 0-109 12-133 34m133-34c55 0 99 16 125 44" stroke="#19756b" stroke-width="3"/>
+    <path d="m550 222 7 10 13-1m236 4 9 7 1-13" stroke="#19756b" stroke-width="3"/>
+    <path d="M546 328c-2 23 3 42 17 57m-6-2 7 4 3-8" stroke="#19756b" stroke-width="3" stroke-dasharray="6 9" opacity=".65"/>
+  </g>
+  <g stroke="#19756b" stroke-width="3" fill="none">
+    <circle cx="690" cy="117" r="48"/>
+    <circle cx="690" cy="117" r="38" stroke-width="1.5" opacity=".45"/>
+  </g>
+  <g stroke="#aa8435" stroke-width="3" fill="#f3dfaa" fill-opacity=".28">
+    <circle cx="553" cy="284" r="31"/><circle cx="625" cy="284" r="31"/><circle cx="697" cy="284" r="31"/>
+    <circle cx="756" cy="284" r="22" fill="none" stroke="#19756b" opacity=".4"/>
+    <circle cx="810" cy="284" r="22" fill="none" stroke="#19756b" opacity=".4"/>
+    <circle cx="864" cy="284" r="22" fill="none" stroke="#19756b" opacity=".4"/>
+    <circle cx="565" cy="420" r="35"/><circle cx="655" cy="420" r="35"/><circle cx="745" cy="420" r="35"/>
+  </g>
+  <g fill="#705520" font-family="sans-serif" font-size="29" text-anchor="middle" dominant-baseline="central">
+    <text x="553" y="284">4</text><text x="625" y="284">2</text><text x="697" y="284">1</text>
+    <text x="565" y="420">4</text><text x="655" y="420">2</text><text x="745" y="420">1</text>
+  </g>
+  <g fill="#19756b" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">
+    <text x="690" y="117" font-size="43">7</text>
+    <text x="756" y="284" font-size="22">3</text><text x="810" y="284" font-size="22">3</text><text x="864" y="284" font-size="22">1</text>
+  </g>
+  <g fill="none" stroke="#19756b" stroke-width="2" opacity=".5" stroke-linecap="round">
+    <path d="M531 342h188m16-9h150"/>
+    <path d="m687 500 8 8 16-19"/>
+  </g>
+</svg>
